@@ -6195,3 +6195,20 @@ html body .bt-sec .bt-tile .bt-tag{display:inline-flex;align-items:center;gap:8p
 html body .bt-sec .bt-tile .bt-ai-h{letter-spacing:-.025em}
 /* <<< v49.3 bento */
 html body .pc .pc-pname{color:transparent!important;-webkit-text-fill-color:transparent!important}
+
+/* >>> v49.4 products: bigger open panel, calmer text rhythm */
+@media (min-width:900px){
+  html body .pc .pc-row{height:clamp(620px,82vh,760px)}
+  html body .pc .pc-body{top:92px;bottom:28px;left:30px;width:calc((100cqw - 24px) * 4.8 / 6.8 - 58px);grid-template-columns:minmax(340px,1fr) minmax(0,1fr);gap:clamp(28px,3vw,44px)}
+  html body .pc .pc-info{justify-content:center;padding:0 0 8px}
+}
+html body .pc .pc-tag{margin-bottom:20px}
+html body .pc .pc-pname{margin-bottom:12px}
+html body .pc .pc-t{line-height:1.32;margin-bottom:20px}
+html body .pc .pc-p{font-size:14.5px;line-height:1.7;margin-bottom:24px;color:rgba(255,255,255,.7)}
+html body .pc .pc-list{gap:14px;margin-bottom:30px}
+html body .pc .pc-list li{align-items:flex-start;line-height:1.45}
+html body .pc .pc-list .pc-ck{margin-top:-1px}
+html body .pc .pc-cta{gap:12px}
+@media (max-width:899px){html body .pc .pc-body{padding:84px 20px 22px;gap:24px}}
+/* <<< v49.4 products */
