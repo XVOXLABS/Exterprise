@@ -1245,7 +1245,7 @@ void main(){vec2 uv=gl_FragCoord.xy/R;vec2 q=uv;q.y=1.-q.y;
 (() => {
   const ids = ['moveworks', 'employeeworks', 'utternow'];
   const secs = ids.map(i => document.getElementById(i)).filter(Boolean); if (secs.length < 2) return;
-  if (document.querySelector('.pshow, .pv')) return;  // v37/v40: replaced by the products showcase
+  if (document.querySelector('.pshow, .pv, section.pc')) return;  // v37/v40/v49: replaced by the products showcase / panels
   const calm = matchMedia('(prefers-reduced-motion: reduce)').matches || window.__CALM;
   const stickers = secs.slice(0, -1);
   stickers.forEach(s => { s.classList.add('stk3'); if (!s.querySelector(':scope > .stk3-veil')) { const v = document.createElement('div'); v.className = 'stk3-veil'; v.setAttribute('aria-hidden', 'true'); s.appendChild(v); } });
@@ -1507,52 +1507,39 @@ document.querySelectorAll('.hc-card .hc-tog').forEach(b => b.addEventListener('c
 })();
 
 
-/* ===================== v48 products stack: sticky cards push back, film panels open over each other, names slide, stage blurs under a card ===================== */
+
+/* ===================== v49 products: expanding panels (hover or tap opens one; section colour + giant name follow it) ===================== */
 (() => {
-  const root = document.querySelector('.pvx'); if (!root || !root.querySelector('.pvx-stack')) return;
-  const stage = root.querySelector('.pvx-stage'), layers = [...root.querySelectorAll('.pvx-layer')], items = [...root.querySelectorAll('.pvx-item')], tabs = [...root.querySelectorAll('.pv-tab')];
-  const words = layers.map(l => l.querySelector('.pvx-word')), films = layers.map(l => l.querySelector('.pvx-film')), cards = items.map(it => it.firstElementChild);
+  const sec = document.querySelector('section.pc'); if (!sec) return;
+  const cards = [...sec.querySelectorAll('.pc-card')], films = cards.map(c => c.querySelector('.pc-film')), words = [...sec.querySelectorAll('.pc-giant span')];
   const calm = matchMedia('(prefers-reduced-motion: reduce)').matches || window.__CALM;
-  const cl = v => v < 0 ? 0 : v > 1 ? 1 : v, ss = v => { v = cl(v); return v * v * (3 - 2 * v); };
-  let tk = 0, inView = false, st = [], nat = [], hs = [], ww = [];
-  const layout = () => { const H = innerHeight;
-    items.forEach(it => it.style.position = 'static');                                   // natural (un-stuck) positions
-    const r0 = root.getBoundingClientRect().top; nat = items.map(it => it.getBoundingClientRect().top - r0);
-    items.forEach(it => it.style.position = '');
-    hs = items.map((it, i) => (nat[i + 1] ?? nat[i] + it.offsetHeight + H * .8) - nat[i]);
-    const TOP = innerWidth >= 900 ? 146 : 124;                                            // just under the header + product tabs
-    st = items.map(it => { const h = it.firstElementChild.offsetHeight;                     // fits: stick under the tabs; too tall: stick once its bottom is in view
-      const t = Math.round(h <= H - TOP - 16 ? TOP : H - h - 16); it.style.setProperty('--st', t + 'px'); return t; });
-    ww = words.map(w => w.firstElementChild.getBoundingClientRect().width); };
-  const run = () => { tk = 0; const H = innerHeight, W = innerWidth, R = root.getBoundingClientRect(); if (R.bottom < -H * .2 || R.top > H * 1.2) return;
-    stage.style.setProperty('--bgo', Math.min(cl((H * .95 - R.top) / (H * .8)), cl((R.bottom - H * .3) / (H * .6))).toFixed(3));
-    const tops = items.map(it => it.getBoundingClientRect().top);
-    const arrive = items.map((it, i) => ss((H - tops[i]) / (H - st[i] + 1)));            // 0: card at the bottom edge, 1: card stuck
-    let cf = 0, act = 0;
-    items.forEach((it, i) => { const nx = calm ? 0 : arrive[i + 1] || 0; it.style.setProperty('--pb', nx.toFixed(4));
-      it.style.setProperty('--pbo', ss(nx * 1.6).toFixed(4));                                // the card beneath is gone by the time the next one settles
-      cards[i].style.filter = nx > .005 ? `brightness(${(1 - nx * .45).toFixed(3)}) blur(${(nx * 7).toFixed(2)}px)` : '';   // only while pushed back
-      const cr = cards[i].getBoundingClientRect();
-      cards[i].style.setProperty('--cin', calm ? 1 : ss((H - cr.top) / (H * .5)).toFixed(4));
-      cf = Math.max(cf, ss((H * .9 - cr.top) / (H * .45)) * cl((cr.bottom - H * .15) / (H * .35)));
-      if (arrive[i] > .5) act = i; });
-    stage.style.setProperty('--cf', calm ? 0 : cf.toFixed(4));
-    const opens = layers.map((l, i) => i === 0 ? ss((H - R.top) / H) : ss(arrive[i] * 1.4));
-    layers.forEach((l, i) => { l.style.setProperty('--open', calm ? (opens[i] > .01 ? 1 : 0) : opens[i].toFixed(4));
-      const q = cl((H * 1.2 - (R.top + nat[i])) / (hs[i] + H * 1.2));
-      const x0 = W * .04, x1 = Math.min(W * .94 - ww[i], -W * .3);
-      if (!calm) words[i].style.setProperty('--wx', (x0 + (x1 - x0) * ss(q)).toFixed(1) + 'px'); });
-    tabs.forEach((t, i) => { t.classList.toggle('on', i === act); if (i === act) t.setAttribute('aria-current', 'true'); else t.removeAttribute('aria-current'); });
-    if (inView && !calm) films.forEach((v, i) => { const show = opens[i] > .01 && (opens[i + 1] || 0) < .999;
-      if (show) { if (v.preload !== 'auto') v.preload = 'auto'; if (v.paused) v.play().catch(() => {}); } else if (!v.paused) v.pause(); }); };
-  const q = () => { if (!tk) tk = requestAnimationFrame(run); };
-  const relayout = () => { layout(); q(); };
-  layout(); run();
-  addEventListener('resize', relayout); addEventListener('load', relayout); document.fonts && document.fonts.ready.then(relayout);
-  addEventListener('scroll', q, { passive: true }); if (window.__lenis) window.__lenis.on('scroll', q);
-  new IntersectionObserver(es => es.forEach(en => { inView = en.isIntersecting; if (!inView) films.forEach(v => v.pause()); q(); }), { rootMargin: '10% 0px' }).observe(root);
-  tabs.forEach((t, i) => t.addEventListener('click', e => { e.preventDefault(); const y = root.getBoundingClientRect().top + scrollY + nat[i] - st[i] + 2;
-    if (window.__lenis) window.__lenis.scrollTo(y, { duration: 1.3 }); else scrollTo({ top: y, behavior: calm ? 'auto' : 'smooth' }); }));
-  const uf = root.querySelector('.ut-film'); if (uf && 'IntersectionObserver' in window) new IntersectionObserver(es => es.forEach(en => { if (en.isIntersecting && !calm) { uf.preload = 'auto'; uf.play().catch(() => {}); } else uf.pause(); })).observe(uf);
-  root.querySelectorAll('.pv-card').forEach(c => c.addEventListener('pointermove', e => { const r = c.getBoundingClientRect(); c.style.setProperty('--gx', ((e.clientX - r.left) / r.width).toFixed(3)); }));
+  let act = 0, vis = false, hov = 0;
+  const uts = cards.map(c => c.querySelector('.ut-film'));
+  const play = () => [films, uts].forEach(list => list.forEach((v, k) => { if (!v) return; if (k === act && vis && !calm) { if (v.preload !== 'auto') v.preload = 'auto'; v.play().catch(() => {}); } else v.pause(); }));
+  const apply = i => { act = i; sec.dataset.act = i;
+    cards.forEach((c, k) => { const on = k === i; c.classList.toggle('on', on); c.querySelector('.pc-name').setAttribute('aria-expanded', String(on));
+      const b = c.querySelector('.pc-body'); if (on) b.removeAttribute('inert'); else b.setAttribute('inert', ''); });
+    play(); requestAnimationFrame(fitDemos); if (typeof sizeGiant === 'function') sizeGiant(); };
+  const set = i => { if (i !== act) apply(i); };
+  const fitDemos = () => cards.forEach(c => { const m = c.querySelector('.pc-media'), d = m && m.querySelector('.pc-demo'); if (!d) return;
+    d.style.width = (d.dataset.w || 560) + 'px'; const w = d.offsetWidth, h = d.offsetHeight; if (!w || !h) return;
+    const small = innerWidth < 900, k = Math.min(1, m.clientWidth / w, small ? 1 : m.clientHeight / h);
+    d.style.setProperty('--ds', k.toFixed(4)); m.style.height = small ? Math.ceil(h * k) + 'px' : ''; });
+  const giant = sec.querySelector('.pc-giant');
+  const sizeGiant = () => { const w = words[act]; if (giant && w) giant.style.setProperty('--gh', (parseFloat(w.style.fontSize || getComputedStyle(w).fontSize) * .84).toFixed(1) + 'px'); };
+  const fit = () => { const W = giant ? giant.clientWidth : innerWidth * .94;                       // each name spans the full content width
+    words.forEach(w => { w.style.fontSize = '200px'; const r = w.getBoundingClientRect().width; if (r) w.style.fontSize = (200 * W / r).toFixed(1) + 'px'; }); sizeGiant(); };
+  const fine = () => matchMedia('(hover: hover) and (pointer: fine)').matches && innerWidth >= 900;
+  cards.forEach((c, i) => {
+    c.addEventListener('pointerenter', () => { if (!fine()) return; clearTimeout(hov); hov = setTimeout(() => set(i), 90); });
+    c.addEventListener('pointerleave', () => clearTimeout(hov));
+    c.addEventListener('click', e => { if (!c.classList.contains('on')) { e.preventDefault(); set(i); } });
+  });
+  sec.querySelector('.pc-row').addEventListener('keydown', e => { const d = { ArrowRight: 1, ArrowDown: 1, ArrowLeft: -1, ArrowUp: -1 }[e.key];
+    if (d && e.target.classList.contains('pc-name')) { e.preventDefault(); const n = (act + d + cards.length) % cards.length; set(n); cards[n].querySelector('.pc-name').focus(); } });
+  const fromHash = () => { const k = cards.findIndex(c => '#' + c.id === location.hash); if (k >= 0) set(k); };
+  addEventListener('hashchange', fromHash);
+  if ('IntersectionObserver' in window) new IntersectionObserver(es => es.forEach(en => { vis = en.isIntersecting; play(); }), { rootMargin: '10% 0px' }).observe(sec);
+  apply(0); fromHash(); fit(); fitDemos(); addEventListener('resize', () => { fit(); fitDemos(); }); addEventListener('load', fitDemos);
+  document.fonts && document.fonts.ready.then(() => { fit(); fitDemos(); });
 })();

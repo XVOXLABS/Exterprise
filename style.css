@@ -6025,49 +6025,143 @@ html body .footer .wordmark .wm-b{font-family:'Instrument Serif',Georgia,serif;f
 @media (min-width:901px){html body .mg-cols.mg-cols-sn{grid-template-columns:minmax(0,1fr) minmax(0,2fr)}}
 /* <<< v47 servicenow menu order */
 
-/* >>> v48 products stack */
-/* v48 — Moveworks / EmployeeWorks / UtterNow: one sticky stage behind a stack of glass cards. Each product's film opens
-   as a rounded panel over the last; its name (15%) slides across. Cards scroll up and stick; the next card slides over
-   and pushes the previous one back. While a card is in view the film and name blur and dim so the glass reads. */
-.pvx{position:relative}
-.pvx-stage{position:sticky;top:0;height:100vh;height:100svh;margin-bottom:-100vh;margin-bottom:-100svh;overflow:hidden;z-index:0;pointer-events:none;opacity:var(--bgo,1);--cf:0}
-.pvx-layer{position:absolute;inset:0;--open:0;opacity:min(1,calc(var(--open) * 6));visibility:visible}
-.pvx-layer[style*="--open: 0.0000"],.pvx-layer:not([style]){visibility:hidden}
-.pvx-panel{position:absolute;inset:0;overflow:hidden;background:#07070B;will-change:clip-path;
-  clip-path:inset(calc(10px + (1 - var(--open)) * 18vh) calc(10px + (1 - var(--open)) * 14vw) round calc(26px + (1 - var(--open)) * 22px))}
-.pvx-film{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;will-change:transform,filter;
-  transform:scale(calc(1.16 - var(--open) * .12 + var(--cf) * .03));
-  filter:brightness(calc(.55 + var(--open) * .3 - var(--cf) * .06)) saturate(calc(.95 + var(--cf) * .2)) blur(calc(var(--cf) * 12px))}
-.pvx-grade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(5,5,8,.5),rgba(5,5,8,.08) 34%,rgba(5,5,8,.12) 60%,rgba(5,5,8,.7))}
-.pvx-grade::after{content:"";position:absolute;inset:0;mix-blend-mode:soft-light;opacity:.85}
-.pv-mw .pvx-grade::after{background:radial-gradient(70% 70% at 70% 40%,#7C5CFF,transparent 70%)}
-.pv-ew .pvx-grade::after{background:radial-gradient(60% 60% at 25% 30%,#7C5CFF,transparent 70%),radial-gradient(60% 60% at 80% 70%,#62D84E,transparent 70%)}
-.pv-un .pvx-grade::after{background:radial-gradient(70% 70% at 70% 40%,#3ECDC6,transparent 70%)}
-.pvx-grain{position:absolute;inset:0;opacity:.12;mix-blend-mode:overlay;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
-.pvx-word{position:absolute;left:0;top:50%;white-space:nowrap;line-height:.84;will-change:transform,opacity,filter;
-  transform:translate3d(var(--wx,4vw),-50%,0);opacity:calc(var(--open) * .15 * (1 - var(--cf) * .6));filter:blur(calc(var(--cf) * 10px))}
-.pvx-word span{display:block;font-weight:800;letter-spacing:-.05em;font-size:clamp(120px,22vw,400px);color:#fff}
-.pvx-veil{position:absolute;inset:0;pointer-events:none;background:linear-gradient(180deg,#050508 0%,rgba(5,5,8,0) 16%,rgba(5,5,8,0) 84%,#050508 100%)}
-.pvx-stack{position:relative;z-index:2;padding:76vh 0 12vh}
-.pvx-item{position:sticky;top:var(--st,110px);margin-bottom:80vh;--pb:0}
-.pvx-item:last-child{margin-bottom:60vh}
-.pvx-item[data-i="1"]{z-index:2}.pvx-item[data-i="2"]{z-index:3}
-html body .pv .pvx .pvx-item>.pv-card{transform-origin:50% 0;will-change:transform;
-  transform:translate3d(0,calc((1 - var(--cin,1)) * 80px - var(--pb) * 44px),0) scale(calc(.97 + var(--cin,1) * .03 - var(--pb) * .07));
-  opacity:calc(1 - var(--pbo,0))}
-/* v48.1 — tighter cards so each one fits under the header + tabs while it is stuck (no filter at rest: it would kill the glass) */
-html body .pv .pvx .pv-card{padding:clamp(22px,2.6vw,38px)!important}
-@media (min-width:900px){html body .pv .pvx #moveworks .mw3-feats{margin-top:26px!important}
-  html body .pv .pvx #moveworks .mw3-f{padding-top:16px!important;padding-bottom:16px!important}}
+
+/* >>> v49 products: expanding panels */
+/* v49 — Moveworks / EmployeeWorks / UtterNow as one full-width section of expanding glass panels. Hover (or tap) a
+   panel to open it: info on the left, its film on the right. The whole section follows the open product: colour wash,
+   accent colour and a huge product name behind the panels. */
+@property --acc{syntax:'<color>';inherits:true;initial-value:#9A7CFF}
+.pc{position:relative;isolation:isolate;overflow:hidden;padding:clamp(84px,9vw,132px) 0 clamp(84px,9vw,124px);background:#06060A;--acc:#9A7CFF;transition:--acc .8s ease}
+.pc[data-act="1"]{--acc:#8EDB7C}.pc[data-act="2"]{--acc:#5ED8E0}
+.pc-card.pv-mw{--ca:#A88EFF}.pc-card.pv-ew{--ca:#8EDB7C}.pc-card.pv-un{--ca:#5ED8E0}
+.pc-bg{position:absolute;inset:0;z-index:-1;pointer-events:none}
+.pc-wash{position:absolute;inset:0;opacity:0;transition:opacity .9s ease}
+.pc-wash.pv-mw{background:radial-gradient(52% 62% at 76% 52%,rgba(124,92,255,.55),transparent 70%),radial-gradient(42% 52% at 10% 88%,rgba(228,24,120,.2),transparent 70%),linear-gradient(180deg,#0B0820,#07060E)}
+.pc-wash.pv-ew{background:radial-gradient(52% 62% at 76% 52%,rgba(98,216,78,.36),transparent 70%),radial-gradient(42% 52% at 12% 85%,rgba(124,92,255,.38),transparent 70%),linear-gradient(180deg,#07130C,#060A08)}
+.pc-wash.pv-un{background:radial-gradient(52% 62% at 76% 52%,rgba(62,205,198,.44),transparent 70%),radial-gradient(42% 52% at 10% 88%,rgba(61,139,255,.26),transparent 70%),linear-gradient(180deg,#051316,#050A0C)}
+.pc[data-act="0"] .pc-wash.pv-mw,.pc[data-act="1"] .pc-wash.pv-ew,.pc[data-act="2"] .pc-wash.pv-un{opacity:1}
+.pc-bg::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,#050508 0%,rgba(5,5,8,0) 14%,rgba(5,5,8,0) 86%,#050508 100%)}
+.pc-giant span{position:absolute;left:50%;top:58%;white-space:nowrap;font-weight:800;letter-spacing:-.055em;line-height:.86;font-size:clamp(120px,21vw,380px);
+  -webkit-background-clip:text;background-clip:text;color:transparent;opacity:0;transform:translate(-46%,-50%);transition:opacity .7s ease,transform 1.1s cubic-bezier(.2,.8,.2,1)}
+.pc-giant span[data-i="0"]{background-image:linear-gradient(180deg,rgba(214,200,255,.55),rgba(124,92,255,.12))}
+.pc-giant span[data-i="1"]{background-image:linear-gradient(180deg,rgba(214,245,205,.5),rgba(98,216,78,.1))}
+.pc-giant span[data-i="2"]{background-image:linear-gradient(180deg,rgba(205,248,246,.55),rgba(62,205,198,.12))}
+.pc[data-act="0"] .pc-giant span[data-i="0"],.pc[data-act="1"] .pc-giant span[data-i="1"],.pc[data-act="2"] .pc-giant span[data-i="2"]{opacity:1;transform:translate(-50%,-50%)}
+.pc-grain{position:absolute;inset:0;opacity:.1;mix-blend-mode:overlay;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+.pc-in{position:relative}
+.pc-head{display:flex;justify-content:space-between;align-items:flex-end;gap:32px;margin-bottom:clamp(28px,3.4vw,44px)}
+.pc-eb{display:inline-flex;align-items:center;gap:9px;margin:0 0 14px;font-family:var(--mono);font-size:12px;letter-spacing:.04em;color:rgba(255,255,255,.7)}
+.pc .dot{width:7px;height:7px;border-radius:50%;flex:none;background:var(--acc);box-shadow:0 0 12px var(--acc)}
+.pc-card .dot{background:var(--ca);box-shadow:0 0 12px var(--ca)}
+.pc h2{margin:0;max-width:17ch;font-size:clamp(32px,3.6vw,54px);line-height:1.04;letter-spacing:-.03em;font-weight:600;color:#fff}
+.pc-lede{margin:0;max-width:40ch;font-size:15px;line-height:1.55;color:rgba(255,255,255,.66)}
+.pc-row{display:flex;gap:12px;height:clamp(560px,74vh,660px);container-type:inline-size}
+.pc-card{position:relative;flex:1 1 0;min-width:0;border-radius:28px;overflow:hidden;isolation:isolate;cursor:pointer;
+  background:var(--fg-bg);background-color:rgba(18,18,26,.3);-webkit-backdrop-filter:blur(22px) saturate(170%);backdrop-filter:blur(22px) saturate(170%);
+  border:1px solid rgba(255,255,255,.12);box-shadow:var(--fg-rim),0 30px 70px -40px rgba(0,0,0,.8);
+  transition:flex-grow .75s cubic-bezier(.2,.8,.2,1),background-color .5s,border-color .5s}
+.pc-card.on{flex-grow:4.8;cursor:default;background-color:rgba(12,12,20,.42);border-color:color-mix(in srgb,var(--ca) 38%,rgba(255,255,255,.12))}
+.pc-card:not(.on):hover{background-color:rgba(255,255,255,.08);border-color:rgba(255,255,255,.22)}
+.pc-sheen{position:absolute;inset:0;z-index:-1;pointer-events:none;opacity:0;transition:opacity .7s;background:radial-gradient(70% 55% at 0% 0%,color-mix(in srgb,var(--ca) 24%,transparent),transparent 62%)}
+.pc-card.on .pc-sheen,.pc-card:hover .pc-sheen{opacity:1}
+.pc-top{position:absolute;top:22px;left:22px;right:22px;z-index:2;display:flex;justify-content:space-between;align-items:center}
+.pc-ic{width:40px;height:40px;border-radius:12px;display:grid;place-items:center;color:#fff;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.14);transition:background .5s,color .5s,border-color .5s}
+.pc-ic svg{width:20px;height:20px}
+.pc-card.on .pc-ic,.pc-card:hover .pc-ic{background:var(--ca);color:#0B0B12;border-color:transparent}
+.pc-n{font-family:var(--mono);font-size:12px;color:rgba(255,255,255,.45)}
+.pc-mini{position:absolute;left:50%;top:46%;width:min(118px,62%);aspect-ratio:3/4;border-radius:14px;overflow:hidden;transform:translate(-50%,-50%) rotate(-6deg);
+  border:1px solid rgba(255,255,255,.22);box-shadow:0 22px 44px -16px rgba(0,0,0,.75);transition:opacity .35s,transform .6s cubic-bezier(.2,.8,.2,1)}
+.pc-mini img{width:100%;height:100%;object-fit:cover;display:block}
+.pc-card:not(.on):hover .pc-mini{transform:translate(-50%,-53%) rotate(-1deg) scale(1.05)}
+.pc-card.on .pc-mini{opacity:0;transform:translate(-50%,-50%) rotate(-14deg) scale(.8)}
+.pc-name{position:absolute;left:22px;right:18px;bottom:20px;z-index:2;display:flex;flex-direction:column;align-items:flex-start;gap:6px;padding:0;border:0;background:none;color:#fff;
+  font:inherit;font-size:clamp(15px,1.15vw,18px);font-weight:600;letter-spacing:-.01em;text-align:left;cursor:pointer;transition:opacity .3s}
+.pc-name i{font-style:normal;font-family:var(--mono);font-size:11px;color:rgba(255,255,255,.45)}
+.pc-name i::before{content:"+ "}
+.pc-card.on .pc-name{opacity:0}
+.pc-name:focus-visible{outline:2px solid var(--ca);outline-offset:6px;border-radius:6px}
+.pc-body{position:absolute;top:84px;left:26px;bottom:24px;width:calc((100cqw - 24px) * 4.8 / 6.8 - 50px);display:grid;grid-template-columns:minmax(320px,.94fr) minmax(0,1.06fr);gap:clamp(22px,2.4vw,36px);
+  opacity:0;visibility:hidden;transform:translateX(18px);transition:opacity .2s,transform .2s,visibility 0s .2s}
+.pc-card.on .pc-body{opacity:1;visibility:visible;transform:none;transition:opacity .5s .3s,transform .7s .3s cubic-bezier(.2,.8,.2,1),visibility 0s}
+.pc-info{display:flex;flex-direction:column;justify-content:flex-end;min-width:0;padding-bottom:4px}
+.pc-tag{align-self:flex-start;display:inline-flex;align-items:center;gap:8px;margin:0 0 18px;padding:6px 12px;border-radius:999px;font-size:12px;color:#fff;
+  background:color-mix(in srgb,var(--ca) 16%,transparent);border:1px solid color-mix(in srgb,var(--ca) 36%,transparent)}
+.pc-t{margin:0 0 12px;font-size:clamp(24px,1.95vw,32px);line-height:1.04;letter-spacing:-.03em;font-weight:600;color:#fff}
+.pc-t .b{display:block;color:var(--ca)}
+.pc-p{margin:0 0 16px;max-width:46ch;font-size:14px;line-height:1.55;color:rgba(255,255,255,.72)}
+.pc-list{list-style:none;margin:0 0 24px;padding:0;display:grid;gap:10px}
+.pc-list li{display:flex;align-items:center;gap:10px;font-size:14px;color:rgba(255,255,255,.9)}
+.pc-ck{width:22px;height:22px;flex:none;border-radius:7px;display:grid;place-items:center;color:var(--ca);background:color-mix(in srgb,var(--ca) 20%,transparent)}
+.pc-ck svg{width:13px;height:13px}
+.pc-cta{display:flex;flex-wrap:wrap;gap:10px}
+.pc-media{position:relative;min-height:0;border-radius:20px;overflow:hidden;background:#0B0B10;border:1px solid rgba(255,255,255,.1);box-shadow:0 30px 60px -30px rgba(0,0,0,.8)}
+.pc-film{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transform:scale(1.08);transition:transform 1.4s cubic-bezier(.2,.8,.2,1)}
+.pc-card.on .pc-film{transform:scale(1)}
+.pc-shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,0) 55%,rgba(0,0,0,.5))}
+.pc-chip{position:absolute;left:16px;bottom:16px;display:inline-flex;align-items:center;gap:8px;padding:7px 12px;border-radius:999px;font-size:12px;color:#fff;
+  background:rgba(10,10,16,.45);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);border:1px solid rgba(255,255,255,.16)}
+@media (max-width:1100px) and (min-width:900px){.pc-body{grid-template-columns:minmax(250px,1fr) minmax(0,1fr)}.pc-p{font-size:14px}}
 @media (max-width:899px){
-  .pvx-panel{clip-path:inset(calc(6px + (1 - var(--open)) * 14vh) calc(6px + (1 - var(--open)) * 8vw) round calc(20px + (1 - var(--open)) * 14px))}
-  .pvx-word{top:38%}.pvx-word span{font-size:clamp(96px,30vw,220px)}
-  .pvx-stack{padding:62vh 0 10vh}.pvx-item{margin-bottom:60vh}
+  .pc-head{flex-direction:column;align-items:flex-start;gap:14px}
+  .pc-row{flex-direction:column;height:auto;gap:10px}
+  .pc-card{flex:none;min-height:80px;border-radius:22px;transition:background-color .5s,border-color .5s}
+  .pc-mini{display:none}
+  .pc-top{top:20px;left:18px;right:18px}
+  .pc-name{top:20px;bottom:auto;left:72px;right:56px;height:40px;flex-direction:row;align-items:center;justify-content:space-between}
+  .pc-body{position:relative;top:auto;left:auto;bottom:auto;width:auto;display:none;grid-template-columns:1fr;gap:18px;padding:80px 18px 18px;transform:none}
+  .pc-card.on .pc-body{display:grid}
+  .pc-media{aspect-ratio:16/10}
+  .pc-giant span{top:auto;bottom:4%;font-size:clamp(80px,26vw,200px)}
 }
-@media (prefers-reduced-motion:reduce){.pvx-panel{clip-path:none}.pvx-film{transform:none}.pvx-word{transform:translate3d(4vw,-50%,0)}
-  html body .pv .pvx .pvx-item>.pv-card{transform:none;filter:none;opacity:1}}
-/* <<< v48 products stack */
-/* v48.1 — product tabs: text colour flips quickly so the label never vanishes mid-switch */
-html body .pv .pv-tab{transition:background-color .3s ease,color .12s linear}
-/* v48.2 — short desktop screens: drop the Moveworks feature tiles (they repeat the paragraph) so the card fits under the tabs */
-@media (min-width:900px) and (max-height:860px){html body .pv .pvx #moveworks .mw3-feats{display:none!important}}
+@media (prefers-reduced-motion:reduce){.pc-card,.pc-body,.pc-mini,.pc-film,.pc-giant span,.pc-wash{transition:none!important}}
+/* <<< v49 products: expanding panels */
+/* v49 — the panels carry the old product ids (#moveworks…) for deep links; undo the old full-bleed section styling on them */
+html body .pc #moveworks.pc-card,html body .pc #employeeworks.pc-card,html body .pc #utternow.pc-card{border-radius:28px!important;z-index:auto!important;
+  background:var(--fg-bg)!important;box-shadow:var(--fg-rim),0 30px 70px -40px rgba(0,0,0,.8)!important;transform:none!important;filter:none!important}
+html body .pc #moveworks.pc-card:not(.on),html body .pc #employeeworks.pc-card:not(.on),html body .pc #utternow.pc-card:not(.on){background-color:rgba(18,18,26,.3)!important}
+html body .pc #moveworks.pc-card.on,html body .pc #employeeworks.pc-card.on,html body .pc #utternow.pc-card.on{background-color:rgba(12,12,20,.42)!important}
+html body .pc #moveworks.pc-card:not(.on):hover,html body .pc #employeeworks.pc-card:not(.on):hover,html body .pc #utternow.pc-card:not(.on):hover{background-color:rgba(255,255,255,.08)!important}
+@media (max-width:899px){html body .pc #moveworks.pc-card,html body .pc #employeeworks.pc-card,html body .pc #utternow.pc-card{border-radius:22px!important}}
+/* v49.1 — right column shows the product's how-it-works graphic; the film sits behind the whole open panel, blurred */
+.pc-bgfilm{position:absolute;inset:0;z-index:-2;overflow:hidden;opacity:0;transition:opacity .9s ease;pointer-events:none}
+.pc-card.on .pc-bgfilm{opacity:1}
+.pc-bgfilm .pc-film{position:absolute;inset:-48px;width:calc(100% + 96px);height:calc(100% + 96px);object-fit:cover;transform:none!important;filter:blur(24px) brightness(.5) saturate(1.25)}
+.pc-bgfilm::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(8,8,14,.55),rgba(8,8,14,.2) 55%,rgba(8,8,14,.35))}
+html body .pc .pc-media{background:none;border:0;box-shadow:none;border-radius:0;overflow:visible}
+.pc-demo{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%) scale(var(--ds,1));transform-origin:50% 50%}
+html body .pc .pc-demo.mw,html body .pc .pc-demo.ew,html body .pc .pc-demo.un{background:transparent!important;padding:0!important;margin:0!important;min-height:0!important}
+@media (max-width:899px){.pc-demo{left:50%;top:0;transform:translateX(-50%) scale(var(--ds,1));transform-origin:50% 0}html body .pc .pc-media{aspect-ratio:auto}}
+/* >>> v49.2 products: giant name on top, merging into the panels; cover-image strips */
+html body .pc{padding-top:clamp(64px,7vw,104px)}
+.pc-in>.pc-eb{position:relative;z-index:2;margin-bottom:4px}
+.pc-giant{position:relative;z-index:0;pointer-events:none;height:var(--gh,180px);margin-bottom:calc(var(--gh,180px) * -.34);
+  transition:height .6s cubic-bezier(.2,.8,.2,1),margin-bottom .6s cubic-bezier(.2,.8,.2,1)}
+html body .pc .pc-giant span{position:absolute;left:-.02em;top:0;white-space:nowrap;font-weight:800;letter-spacing:-.06em;line-height:.84;color:transparent;
+  -webkit-background-clip:text;background-clip:text;opacity:0;transform:translate3d(4%,0,0);filter:blur(6px);
+  transition:opacity .6s ease,transform 1s cubic-bezier(.2,.8,.2,1),filter .6s ease}
+html body .pc .pc-giant span[data-i="0"]{background-image:linear-gradient(180deg,#FFFFFF 4%,#DCD0FF 30%,#9A7CFF 56%,rgba(124,92,255,.25) 74%,rgba(124,92,255,0) 92%)}
+html body .pc .pc-giant span[data-i="1"]{background-image:linear-gradient(180deg,#FFFFFF 4%,#DDF6D4 30%,#7FD86C 56%,rgba(98,216,78,.22) 74%,rgba(98,216,78,0) 92%)}
+html body .pc .pc-giant span[data-i="2"]{background-image:linear-gradient(180deg,#FFFFFF 4%,#D2FAF7 30%,#4FD3D8 56%,rgba(62,205,198,.24) 74%,rgba(62,205,198,0) 92%)}
+html body .pc[data-act="0"] .pc-giant span[data-i="0"],html body .pc[data-act="1"] .pc-giant span[data-i="1"],html body .pc[data-act="2"] .pc-giant span[data-i="2"]{opacity:1;transform:none;filter:none}
+.pc-row{position:relative;z-index:1}
+.pc-foot{display:flex;justify-content:space-between;align-items:flex-end;gap:32px;margin-top:clamp(28px,3vw,40px)}
+html body .pc .pc-foot h2{font-size:clamp(24px,2.2vw,34px);max-width:22ch}
+/* collapsed strips: the picture covers the whole strip, big name runs up the left edge */
+html body .pc .pc-mini{left:0;top:0;width:100%;height:100%;aspect-ratio:auto;border-radius:0;border:0;box-shadow:none;transform:none;z-index:-1}
+html body .pc .pc-mini::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(6,6,10,.45),rgba(6,6,10,.08) 34%,rgba(6,6,10,.25) 60%,rgba(6,6,10,.82))}
+html body .pc .pc-mini img{transition:transform 1.1s cubic-bezier(.2,.8,.2,1),filter .5s;filter:saturate(.9) brightness(.85)}
+html body .pc .pc-card:not(.on):hover .pc-mini{transform:none}
+html body .pc .pc-card:not(.on):hover .pc-mini img{transform:scale(1.07);filter:saturate(1.05) brightness(1)}
+html body .pc .pc-card.on .pc-mini{opacity:0;transform:none}
+@media (min-width:900px){
+  html body .pc .pc-name{left:16px;right:auto;bottom:22px;writing-mode:vertical-rl;transform:rotate(180deg);flex-direction:row;align-items:center;gap:12px;
+    font-size:clamp(26px,2.3vw,38px);font-weight:600;letter-spacing:-.02em;line-height:1;text-shadow:0 2px 18px rgba(0,0,0,.45)}
+  html body .pc .pc-name i{font-size:11px;letter-spacing:.06em;opacity:.8}
+}
+@media (max-width:899px){
+  html body .pc .pc-mini{display:block}
+  html body .pc .pc-name{font-size:20px}
+  .pc-foot{flex-direction:column;align-items:flex-start;gap:12px}
+  .pc-giant{margin-bottom:calc(var(--gh,120px) * -.3)}
+}
+/* <<< v49.2 products */
