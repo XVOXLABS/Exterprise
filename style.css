@@ -6053,8 +6053,8 @@ html body .footer .wordmark .wm-b{font-family:'Instrument Serif',Georgia,serif;f
 .pvx-item:last-child{margin-bottom:60vh}
 .pvx-item[data-i="1"]{z-index:2}.pvx-item[data-i="2"]{z-index:3}
 html body .pv .pvx .pvx-item>.pv-card{transform-origin:50% 0;will-change:transform;
-  transform:translate3d(0,calc((1 - var(--cin,1)) * 70px - var(--pb) * 34px),0) scale(calc((.96 + var(--cin,1) * .04 - var(--pb) * .08) * var(--fit,1)));
-  opacity:calc((.4 + var(--cin,1) * .6) * (1 - var(--pb) * .3))}
+  transform:translate3d(0,calc((1 - var(--cin,1)) * 80px - var(--pb) * 44px),0) scale(calc(.97 + var(--cin,1) * .03 - var(--pb) * .07));
+  opacity:calc(1 - var(--pbo,0))}
 /* v48.1 — tighter cards so each one fits under the header + tabs while it is stuck (no filter at rest: it would kill the glass) */
 html body .pv .pvx .pv-card{padding:clamp(22px,2.6vw,38px)!important}
 @media (min-width:900px){html body .pv .pvx #moveworks .mw3-feats{margin-top:26px!important}
@@ -6069,3 +6069,5 @@ html body .pv .pvx .pv-card{padding:clamp(22px,2.6vw,38px)!important}
 /* <<< v48 products stack */
 /* v48.1 — product tabs: text colour flips quickly so the label never vanishes mid-switch */
 html body .pv .pv-tab{transition:background-color .3s ease,color .12s linear}
+/* v48.2 — short desktop screens: drop the Moveworks feature tiles (they repeat the paragraph) so the card fits under the tabs */
+@media (min-width:900px) and (max-height:860px){html body .pv .pvx #moveworks .mw3-feats{display:none!important}}
