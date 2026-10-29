@@ -1057,7 +1057,7 @@ void main(){vec2 uv=gl_FragCoord.xy/R;vec2 q=uv;q.y=1.-q.y;
       'main .mw2-stage', 'main .mw3-feats > *', 'main .ew-copy > *', 'main .un .ut-h', 'main .px-final', 'main .sv-card', 'main .inr-cards .gx-card',
       'main .prose p', 'main .steps .step', 'main .sec-head .lede', 'main .ibt-sec .bt-tile', 'main .kpis .kpi', 'main .page-hero .sub', 'main .hero-actions',
       'main .wb', 'main .pager', 'main .ss-tile', 'main .ss-strip', 'main .ss-cta', 'main .ss-eb', 'main .xp-card', 'main .xp-kid', 'main .mx-card', 'main .wx-card', 'main .hc-card', 'main .xp-loc', 'main .xp-person', 'main .xp-list .sot-item', 'main .xp-trust', '.footer .footer-top > *'].join(',');
-    const skip = el => el.closest('.stk, .p2-stick, .wd-list, .mega, .lx-hero, [aria-hidden="true"], .ma-app, .ea-app');
+    const skip = el => el.closest('.stk, .p2-stick, .wd-list, .mega, .lx-hero, [aria-hidden="true"], .ma-app, .ea-app, .pvx-stack');  // v48: stacked product cards stay readable while stuck
     const els = [...document.querySelectorAll(SEL)].filter(el => !skip(el));
     const io = new IntersectionObserver(es => es.forEach(en => { const el = en.target;
       if (en.isIntersecting) { el.classList.remove('rv-up'); el.classList.add('rv-in'); }
@@ -1506,36 +1506,49 @@ document.querySelectorAll('.hc-card .hc-tog').forEach(b => b.addEventListener('c
   const uf = pv.querySelector('.ut-film'); if (uf && 'IntersectionObserver' in window) new IntersectionObserver(es => es.forEach(en => { if (en.isIntersecting && !calm) { uf.preload = 'auto'; uf.play().catch(() => {}); } else uf.pause(); })).observe(uf);
 })();
 
-/* ===================== v47 products chapters: panel opens/closes, name slides across the chapter, tabs, films play in view ===================== */
+
+/* ===================== v48 products stack: sticky cards push back, film panels open over each other, names slide, stage blurs under a card ===================== */
 (() => {
-  const root = document.querySelector('.pvx'); if (!root) return;
-  const chs = [...root.querySelectorAll('.pvx-ch')], tabs = [...root.querySelectorAll('.pv-tab')];
-  const words = chs.map(c => c.querySelector('.pvx-word')), cards = chs.map(c => c.querySelector('.pv-card')), films = chs.map(c => c.querySelector('.pvx-film'));
+  const root = document.querySelector('.pvx'); if (!root || !root.querySelector('.pvx-stack')) return;
+  const stage = root.querySelector('.pvx-stage'), layers = [...root.querySelectorAll('.pvx-layer')], items = [...root.querySelectorAll('.pvx-item')], tabs = [...root.querySelectorAll('.pv-tab')];
+  const words = layers.map(l => l.querySelector('.pvx-word')), films = layers.map(l => l.querySelector('.pvx-film')), cards = items.map(it => it.firstElementChild);
   const calm = matchMedia('(prefers-reduced-motion: reduce)').matches || window.__CALM;
-  const cl = v => v < 0 ? 0 : v > 1 ? 1 : v, ss = v => v * v * (3 - 2 * v);
-  let tk = 0, ww = [];
-  const measure = () => { ww = words.map(w => w.firstElementChild.getBoundingClientRect().width); };
-  const run = () => { tk = 0; const H = innerHeight, W = innerWidth; let act = 0, best = -1;
-    chs.forEach((ch, i) => { const r = ch.getBoundingClientRect(); if (r.bottom < -H || r.top > H * 1.5) return;
-      const open = calm ? 1 : ss(Math.min(cl((H - r.top) / H), cl(r.bottom / H)));          // opens as it arrives, closes as it leaves
-      ch.style.setProperty('--open', open.toFixed(4));
-      const p = ss(cl((H * .1 - r.top) / (r.height - H * .5)));                           // starts once the panel is open, ends as the chapter leaves
+  const cl = v => v < 0 ? 0 : v > 1 ? 1 : v, ss = v => { v = cl(v); return v * v * (3 - 2 * v); };
+  let tk = 0, inView = false, st = [], nat = [], hs = [], ww = [];
+  const layout = () => { const H = innerHeight;
+    items.forEach(it => it.style.position = 'static');                                   // natural (un-stuck) positions
+    const r0 = root.getBoundingClientRect().top; nat = items.map(it => it.getBoundingClientRect().top - r0);
+    items.forEach(it => it.style.position = '');
+    hs = items.map((it, i) => (nat[i + 1] ?? nat[i] + it.offsetHeight + H * .8) - nat[i]);
+    st = items.map(it => { const h = it.firstElementChild.offsetHeight; const t = Math.round(Math.min(Math.max(96, H * .12), H - h - 24)); it.style.setProperty('--st', t + 'px'); return t; });
+    ww = words.map(w => w.firstElementChild.getBoundingClientRect().width); };
+  const run = () => { tk = 0; const H = innerHeight, W = innerWidth, R = root.getBoundingClientRect(); if (R.bottom < -H * .2 || R.top > H * 1.2) return;
+    stage.style.setProperty('--bgo', Math.min(cl((H * .95 - R.top) / (H * .8)), cl((R.bottom - H * .3) / (H * .6))).toFixed(3));
+    const tops = items.map(it => it.getBoundingClientRect().top);
+    const arrive = items.map((it, i) => ss((H - tops[i]) / (H - st[i] + 1)));            // 0: card at the bottom edge, 1: card stuck
+    let cf = 0, act = 0;
+    items.forEach((it, i) => { const nx = arrive[i + 1] || 0; it.style.setProperty('--pb', calm ? 0 : nx.toFixed(4));
+      const cr = cards[i].getBoundingClientRect();
+      cards[i].style.setProperty('--cin', calm ? 1 : ss((H - cr.top) / (H * .5)).toFixed(4));
+      cf = Math.max(cf, ss((H * .9 - cr.top) / (H * .45)) * cl((cr.bottom - H * .15) / (H * .35)));
+      if (arrive[i] > .5) act = i; });
+    stage.style.setProperty('--cf', calm ? 0 : cf.toFixed(4));
+    const opens = layers.map((l, i) => i === 0 ? ss((H - R.top) / H) : ss(arrive[i] * 1.4));
+    layers.forEach((l, i) => { l.style.setProperty('--open', calm ? (opens[i] > .01 ? 1 : 0) : opens[i].toFixed(4));
+      const q = cl((H * 1.2 - (R.top + nat[i])) / (hs[i] + H * 1.2));
       const x0 = W * .04, x1 = Math.min(W * .94 - ww[i], -W * .3);
-      if (!calm) words[i].style.setProperty('--wx', (x0 + (x1 - x0) * p).toFixed(1) + 'px');
-      const c = cards[i]; if (c) { const cr = c.getBoundingClientRect(); c.style.setProperty('--cin', calm ? 1 : ss(cl((H - cr.top) / (H * .5))).toFixed(4)); }
-      const seen = Math.min(r.bottom, H) - Math.max(r.top, 0); if (seen > best) { best = seen; act = i; } });
-    tabs.forEach((t, i) => { t.classList.toggle('on', i === act); if (i === act) t.setAttribute('aria-current', 'true'); else t.removeAttribute('aria-current'); }); };
+      if (!calm) words[i].style.setProperty('--wx', (x0 + (x1 - x0) * ss(q)).toFixed(1) + 'px'); });
+    tabs.forEach((t, i) => { t.classList.toggle('on', i === act); if (i === act) t.setAttribute('aria-current', 'true'); else t.removeAttribute('aria-current'); });
+    if (inView && !calm) films.forEach((v, i) => { const show = opens[i] > .01 && (opens[i + 1] || 0) < .999;
+      if (show) { if (v.preload !== 'auto') v.preload = 'auto'; if (v.paused) v.play().catch(() => {}); } else if (!v.paused) v.pause(); }); };
   const q = () => { if (!tk) tk = requestAnimationFrame(run); };
-  measure(); run();
+  const relayout = () => { layout(); q(); };
+  layout(); run();
+  addEventListener('resize', relayout); addEventListener('load', relayout); document.fonts && document.fonts.ready.then(relayout);
   addEventListener('scroll', q, { passive: true }); if (window.__lenis) window.__lenis.on('scroll', q);
-  addEventListener('resize', () => { measure(); q(); }); addEventListener('load', () => { measure(); q(); }); document.fonts && document.fonts.ready.then(() => { measure(); q(); });
-  tabs.forEach((t, i) => t.addEventListener('click', e => { e.preventDefault(); const y = chs[i].getBoundingClientRect().top + scrollY + innerHeight * .02;
-    if (window.__lenis) window.__lenis.scrollTo(y, { duration: 1.2 }); else scrollTo({ top: y, behavior: calm ? 'auto' : 'smooth' }); }));
-  if ('IntersectionObserver' in window) {
-    const io = new IntersectionObserver(es => es.forEach(en => { const v = films[chs.indexOf(en.target)]; if (!v) return;
-      if (en.isIntersecting && !calm) { if (v.preload !== 'auto') v.preload = 'auto'; v.play().catch(() => {}); } else v.pause(); }), { rootMargin: '15% 0px' });
-    chs.forEach(c => io.observe(c));
-    const uf = root.querySelector('.ut-film'); if (uf) new IntersectionObserver(es => es.forEach(en => { if (en.isIntersecting && !calm) { uf.preload = 'auto'; uf.play().catch(() => {}); } else uf.pause(); })).observe(uf);
-  }
+  new IntersectionObserver(es => es.forEach(en => { inView = en.isIntersecting; if (!inView) films.forEach(v => v.pause()); q(); }), { rootMargin: '10% 0px' }).observe(root);
+  tabs.forEach((t, i) => t.addEventListener('click', e => { e.preventDefault(); const y = root.getBoundingClientRect().top + scrollY + nat[i] - st[i] + 2;
+    if (window.__lenis) window.__lenis.scrollTo(y, { duration: 1.3 }); else scrollTo({ top: y, behavior: calm ? 'auto' : 'smooth' }); }));
+  const uf = root.querySelector('.ut-film'); if (uf && 'IntersectionObserver' in window) new IntersectionObserver(es => es.forEach(en => { if (en.isIntersecting && !calm) { uf.preload = 'auto'; uf.play().catch(() => {}); } else uf.pause(); })).observe(uf);
   root.querySelectorAll('.pv-card').forEach(c => c.addEventListener('pointermove', e => { const r = c.getBoundingClientRect(); c.style.setProperty('--gx', ((e.clientX - r.left) / r.width).toFixed(3)); }));
 })();
