@@ -6165,3 +6165,33 @@ html body .pc .pc-card.on .pc-mini{opacity:0;transform:none}
   .pc-giant{margin-bottom:calc(var(--gh,120px) * -.3)}
 }
 /* <<< v49.2 products */
+
+/* >>> v49.3 products: heading on top, full-bleed 15% name under it, coloured product title inside the open panel */
+html body .pc .pc-head{position:relative;z-index:2;margin-bottom:clamp(8px,1.2vw,16px)}
+html body .pc .pc-head h2{font-size:clamp(32px,3.6vw,54px);max-width:17ch}
+html body .pc .pc-giant{width:100vw;margin-left:calc(50% - 50vw);padding:0 2vw;box-sizing:border-box;margin-bottom:calc(var(--gh,180px) * -.22)}
+html body .pc .pc-giant span{left:2vw;background-image:linear-gradient(180deg,#fff 10%,var(--acc) 70%,transparent 100%)!important}
+html body .pc[data-act="0"] .pc-giant span[data-i="0"],html body .pc[data-act="1"] .pc-giant span[data-i="1"],html body .pc[data-act="2"] .pc-giant span[data-i="2"]{opacity:.15}
+.pc-pname{margin:0 0 6px;font-size:clamp(30px,2.75vw,46px);line-height:1;font-weight:700;letter-spacing:-.045em;color:transparent;
+  -webkit-background-clip:text;background-clip:text;background-image:linear-gradient(180deg,color-mix(in srgb,var(--ca) 45%,#fff) 0%,var(--ca) 60%,color-mix(in srgb,var(--ca) 80%,#000) 100%)}
+html body .pc .pc-t{font-size:clamp(17px,1.35vw,21px);line-height:1.25;letter-spacing:-.01em;font-weight:500;color:rgba(255,255,255,.92);margin:0 0 12px}
+html body .pc .pc-t .b{display:inline;color:rgba(255,255,255,.92)}
+html body .pc .pc-tag{margin-bottom:14px}
+@media (max-width:899px){html body .pc .pc-giant{margin-bottom:calc(var(--gh,100px) * -.15)}}
+/* <<< v49.3 products */
+
+/* >>> v49.3 ServiceNow AI bento matches the product panels */
+/* same clear frosted glass, radius, rim and corner glow as the product panels; tags become tinted pills */
+html body .bt-sec .gx-card.bt-tile,html body .ibt-sec .gx-card.ibt-tile{--ca:#62D84E;border-radius:28px!important;
+  background:radial-gradient(70% 55% at 0% 0%,color-mix(in srgb,var(--ca) 16%,transparent),transparent 62%),var(--fg-bg)!important;background-color:rgba(14,18,22,.34)!important;
+  -webkit-backdrop-filter:blur(22px) saturate(170%)!important;backdrop-filter:blur(22px) saturate(170%)!important;
+  border:1px solid rgba(255,255,255,.12)!important;box-shadow:var(--fg-rim),0 30px 70px -40px rgba(0,0,0,.8)!important}
+html body .bt-sec .gx-card.bt-tile:hover,html body .ibt-sec .gx-card.ibt-tile:hover{border-color:color-mix(in srgb,var(--ca) 38%,rgba(255,255,255,.12))!important}
+html body .bt-sec .gx-card.bt-tile.bt-assist,html body .bt-sec .gx-card.bt-tile.bt-sup{--ca:#5ED8E0}
+html body .bt-sec .gx-card.bt-tile.bt-tower{--ca:#8EDB7C}
+html body .bt-sec .gx-card.bt-tile::after,html body .ibt-sec .gx-card.ibt-tile::after{opacity:0!important;animation:none!important}
+html body .bt-sec .bt-tile .bt-tag{display:inline-flex;align-items:center;gap:8px;padding:6px 12px!important;border-radius:999px!important;font-size:12px!important;color:#fff!important;
+  background:color-mix(in srgb,var(--ca) 16%,transparent)!important;border:1px solid color-mix(in srgb,var(--ca) 36%,transparent)!important;box-shadow:none!important}
+html body .bt-sec .bt-tile .bt-ai-h{letter-spacing:-.025em}
+/* <<< v49.3 bento */
+html body .pc .pc-pname{color:transparent!important;-webkit-text-fill-color:transparent!important}
