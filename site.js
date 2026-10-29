@@ -1516,7 +1516,10 @@ document.querySelectorAll('.hc-card .hc-tog').forEach(b => b.addEventListener('c
   let act = 0, vis = false, hov = 0;
   const uts = cards.map(c => c.querySelector('.ut-film'));
   const play = () => [films, uts].forEach(list => list.forEach((v, k) => { if (!v) return; if (k === act && vis && !calm) { if (v.preload !== 'auto') v.preload = 'auto'; v.play().catch(() => {}); } else v.pause(); }));
+  const ptabs = [...sec.querySelectorAll('.pc-tab')];
+  ptabs.forEach((t, i) => t.addEventListener('click', () => set(i)));
   const apply = i => { act = i; sec.dataset.act = i;
+    ptabs.forEach((t, k) => { t.classList.toggle('on', k === i); t.setAttribute('aria-selected', String(k === i)); });
     cards.forEach((c, k) => { const on = k === i; c.classList.toggle('on', on); c.querySelector('.pc-name').setAttribute('aria-expanded', String(on));
       const b = c.querySelector('.pc-body'); if (on) b.removeAttribute('inert'); else b.setAttribute('inert', ''); });
     play(); requestAnimationFrame(fitDemos); if (typeof sizeGiant === 'function') sizeGiant(); };
