@@ -96,7 +96,7 @@
           if (ep) { await fetch(ep, { method: 'POST', headers: { Accept: 'application/json' }, body: d }); }
           else {
             const body = `Name: ${d.get('name')}\nEmail: ${d.get('email')}\nCompany: ${d.get('company') || '-'}\nPhone: ${d.get('phone') || '-'}\nTopics: ${topics || '-'}\nPage: ${d.get('source')}\n\n${d.get('message') || ''}`;
-            const a = document.createElement('a'); a.href = `mailto:${EMAIL}?subject=${encodeURIComponent('Website enquiry — ' + (d.get('company') || d.get('name')))}&body=${encodeURIComponent(body)}`;
+            const a = document.createElement('a'); a.href = `mailto:${EMAIL}?subject=${encodeURIComponent('Website enquiry from ' + (d.get('company') || d.get('name')))}&body=${encodeURIComponent(body)}`;
             if (!window.__PREVIEW) a.click();
             await new Promise(r => setTimeout(r, 700));
           }
@@ -381,7 +381,7 @@ void main(){vec2 uv=gl_FragCoord.xy/R;vec2 p=(gl_FragCoord.xy-.5*R)/R.y;
     const upd = () => { raf = 0;
       const r = sec.getBoundingClientRect(), vh = innerHeight;
       let p;
-      if (getComputedStyle(stick).position === 'sticky') p = -r.top / Math.max(1, sec.offsetHeight - vh) / .8;   // split completes at 80% of the pinned scroll, then holds
+      if (getComputedStyle(stick).position === 'sticky') p = -r.top / Math.max(1, sec.offsetHeight - vh) / .75;  // v47: short pin, split completes at 75% of it, then holds
       else p = (vh * .8 - r.top) / (vh * .7);                                                               // unpinned (phones): split as the section passes
       p = Math.min(1, Math.max(0, p));
       const e = p * p * (3 - 2 * p);
@@ -1504,4 +1504,38 @@ document.querySelectorAll('.hc-card .hc-tog').forEach(b => b.addEventListener('c
   tabs.forEach((t, i) => t.addEventListener('click', e => { e.preventDefault(); const it = items[i]; const y = it.offsetTop + pv.getBoundingClientRect().top + scrollY - st[i];
     if (window.__lenis) window.__lenis.scrollTo(y, { duration: 1.4 }); else scrollTo({ top: y, behavior: 'smooth' }); }));
   const uf = pv.querySelector('.ut-film'); if (uf && 'IntersectionObserver' in window) new IntersectionObserver(es => es.forEach(en => { if (en.isIntersecting && !calm) { uf.preload = 'auto'; uf.play().catch(() => {}); } else uf.pause(); })).observe(uf);
+})();
+
+/* ===================== v47 products chapters: panel opens/closes, name slides across the chapter, tabs, films play in view ===================== */
+(() => {
+  const root = document.querySelector('.pvx'); if (!root) return;
+  const chs = [...root.querySelectorAll('.pvx-ch')], tabs = [...root.querySelectorAll('.pv-tab')];
+  const words = chs.map(c => c.querySelector('.pvx-word')), cards = chs.map(c => c.querySelector('.pv-card')), films = chs.map(c => c.querySelector('.pvx-film'));
+  const calm = matchMedia('(prefers-reduced-motion: reduce)').matches || window.__CALM;
+  const cl = v => v < 0 ? 0 : v > 1 ? 1 : v, ss = v => v * v * (3 - 2 * v);
+  let tk = 0, ww = [];
+  const measure = () => { ww = words.map(w => w.firstElementChild.getBoundingClientRect().width); };
+  const run = () => { tk = 0; const H = innerHeight, W = innerWidth; let act = 0, best = -1;
+    chs.forEach((ch, i) => { const r = ch.getBoundingClientRect(); if (r.bottom < -H || r.top > H * 1.5) return;
+      const open = calm ? 1 : ss(Math.min(cl((H - r.top) / H), cl(r.bottom / H)));          // opens as it arrives, closes as it leaves
+      ch.style.setProperty('--open', open.toFixed(4));
+      const p = ss(cl((H * .1 - r.top) / (r.height - H * .5)));                           // starts once the panel is open, ends as the chapter leaves
+      const x0 = W * .04, x1 = Math.min(W * .94 - ww[i], -W * .3);
+      if (!calm) words[i].style.setProperty('--wx', (x0 + (x1 - x0) * p).toFixed(1) + 'px');
+      const c = cards[i]; if (c) { const cr = c.getBoundingClientRect(); c.style.setProperty('--cin', calm ? 1 : ss(cl((H - cr.top) / (H * .5))).toFixed(4)); }
+      const seen = Math.min(r.bottom, H) - Math.max(r.top, 0); if (seen > best) { best = seen; act = i; } });
+    tabs.forEach((t, i) => { t.classList.toggle('on', i === act); if (i === act) t.setAttribute('aria-current', 'true'); else t.removeAttribute('aria-current'); }); };
+  const q = () => { if (!tk) tk = requestAnimationFrame(run); };
+  measure(); run();
+  addEventListener('scroll', q, { passive: true }); if (window.__lenis) window.__lenis.on('scroll', q);
+  addEventListener('resize', () => { measure(); q(); }); addEventListener('load', () => { measure(); q(); }); document.fonts && document.fonts.ready.then(() => { measure(); q(); });
+  tabs.forEach((t, i) => t.addEventListener('click', e => { e.preventDefault(); const y = chs[i].getBoundingClientRect().top + scrollY + innerHeight * .02;
+    if (window.__lenis) window.__lenis.scrollTo(y, { duration: 1.2 }); else scrollTo({ top: y, behavior: calm ? 'auto' : 'smooth' }); }));
+  if ('IntersectionObserver' in window) {
+    const io = new IntersectionObserver(es => es.forEach(en => { const v = films[chs.indexOf(en.target)]; if (!v) return;
+      if (en.isIntersecting && !calm) { if (v.preload !== 'auto') v.preload = 'auto'; v.play().catch(() => {}); } else v.pause(); }), { rootMargin: '15% 0px' });
+    chs.forEach(c => io.observe(c));
+    const uf = root.querySelector('.ut-film'); if (uf) new IntersectionObserver(es => es.forEach(en => { if (en.isIntersecting && !calm) { uf.preload = 'auto'; uf.play().catch(() => {}); } else uf.pause(); })).observe(uf);
+  }
+  root.querySelectorAll('.pv-card').forEach(c => c.addEventListener('pointermove', e => { const r = c.getBoundingClientRect(); c.style.setProperty('--gx', ((e.clientX - r.left) / r.width).toFixed(3)); }));
 })();
