@@ -6430,3 +6430,26 @@ html body .ss .nb-card .nb-svc{font-size:14px;line-height:1.3;flex:1;min-width:0
   html body .bt-ai-sec .bta .bt-st .bt-big,html body .bt-ai-sec .bta .bt-st .px-cred-l{text-align:left!important;margin-left:0!important}
   html body .bt-ai-sec .bta .bt-sup .ck-live{bottom:8px!important}
 }
+
+/* >>> v54 calmer bento graphics */
+/* Smartsourcing: muted warm gold instead of bright amber, softer glow */
+html body .ss .nbb-screen{background:radial-gradient(60% 75% at 50% 45%,rgba(207,162,102,.08),transparent 72%),#0E0C0A}
+html body .ss .nbb-eb i{background:#CFA266;box-shadow:0 0 8px rgba(207,162,102,.45)}
+html body .ss .nbb-chips li{background:rgba(207,162,102,.08);border-color:rgba(207,162,102,.24)}
+html body .ss .nbb:hover{border-color:rgba(207,162,102,.34)}
+html body .ss .nbb:hover .nbb-ar{background:#CFA266;color:#1A1206}
+html body .ss .nbb-badges img{opacity:.8}
+/* ServiceNow AI: LIVE badge in the screen's top-right corner; graphics clear the corner labels; slightly softer greens */
+html body .bt-ai-sec .bta .bt-sup .ck-live{top:12px!important;right:12px!important;left:auto!important;bottom:auto!important;transform:none!important}
+@media (min-width:900px){html body .bt-ai-sec .bta :is(.bt-st,.bt-assist,.bt-tower)>.bt-vis{padding:40px 14px 12px!important}}
+@media (max-width:899px){html body .bt-ai-sec .bta .bt-st>.bt-vis{padding-top:38px!important;height:170px}}
+html body :is(.bt-ai-sec .bta .bt-vis,.ibt-sec .ibt .ibt-vis)>svg{filter:saturate(.82)}
+html body :is(.bt-ai-sec .bta .bt-vis,.ibt-sec .ibt .ibt-vis){background:radial-gradient(60% 75% at 50% 45%,rgba(98,216,78,.09),transparent 72%),#0B0F0D!important}
+/* <<< v54 */
+/* v54.1 — graphics sit inside the padded area of their screen, below the corner label */
+html body .bt-ai-sec .bta :is(.bt-st,.bt-assist,.bt-tower)>.bt-vis>svg{position:absolute!important;left:14px!important;right:14px!important;top:40px!important;bottom:12px!important;
+  width:calc(100% - 28px)!important;height:calc(100% - 52px)!important;max-width:none!important;max-height:none!important}
+/* v54.2 — Smartsourcing bento: certifications live at the top of the page, so three tiles: tall Records + two stacked */
+.nb-bento{grid-template-columns:1fr 1.25fr!important;grid-template-areas:"rec clm" "rec time"!important}
+@media (max-width:620px){.nb-bento{grid-template-columns:1fr!important;grid-template-areas:"rec" "clm" "time"!important}}
+@media (min-width:900px){html body .ss .nbb:is(.nbb-clm,.nbb-time) .nbb-screen{flex-basis:30%}}
