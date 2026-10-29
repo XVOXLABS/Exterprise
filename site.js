@@ -1520,14 +1520,18 @@ document.querySelectorAll('.hc-card .hc-tog').forEach(b => b.addEventListener('c
     const r0 = root.getBoundingClientRect().top; nat = items.map(it => it.getBoundingClientRect().top - r0);
     items.forEach(it => it.style.position = '');
     hs = items.map((it, i) => (nat[i + 1] ?? nat[i] + it.offsetHeight + H * .8) - nat[i]);
-    st = items.map(it => { const h = it.firstElementChild.offsetHeight; const t = Math.round(Math.min(Math.max(96, H * .12), H - h - 24)); it.style.setProperty('--st', t + 'px'); return t; });
+    const TOP = innerWidth >= 900 ? 146 : 124;                                            // just under the header + product tabs
+    st = items.map(it => { const h = it.firstElementChild.offsetHeight, room = H - TOP - 16;
+      const fit = innerWidth >= 900 && h > room ? Math.max(.78, room / h) : 1; it.style.setProperty('--fit', fit.toFixed(4));
+      const t = Math.round(h * fit <= room ? TOP : Math.min(TOP, H - h * fit - 16)); it.style.setProperty('--st', t + 'px'); return t; });
     ww = words.map(w => w.firstElementChild.getBoundingClientRect().width); };
   const run = () => { tk = 0; const H = innerHeight, W = innerWidth, R = root.getBoundingClientRect(); if (R.bottom < -H * .2 || R.top > H * 1.2) return;
     stage.style.setProperty('--bgo', Math.min(cl((H * .95 - R.top) / (H * .8)), cl((R.bottom - H * .3) / (H * .6))).toFixed(3));
     const tops = items.map(it => it.getBoundingClientRect().top);
     const arrive = items.map((it, i) => ss((H - tops[i]) / (H - st[i] + 1)));            // 0: card at the bottom edge, 1: card stuck
     let cf = 0, act = 0;
-    items.forEach((it, i) => { const nx = arrive[i + 1] || 0; it.style.setProperty('--pb', calm ? 0 : nx.toFixed(4));
+    items.forEach((it, i) => { const nx = calm ? 0 : arrive[i + 1] || 0; it.style.setProperty('--pb', nx.toFixed(4));
+      cards[i].style.filter = nx > .005 ? `brightness(${(1 - nx * .5).toFixed(3)}) blur(${(nx * 2.5).toFixed(2)}px)` : '';   // only while pushed back
       const cr = cards[i].getBoundingClientRect();
       cards[i].style.setProperty('--cin', calm ? 1 : ss((H - cr.top) / (H * .5)).toFixed(4));
       cf = Math.max(cf, ss((H * .9 - cr.top) / (H * .45)) * cl((cr.bottom - H * .15) / (H * .35)));

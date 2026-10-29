@@ -6031,12 +6031,13 @@ html body .footer .wordmark .wm-b{font-family:'Instrument Serif',Georgia,serif;f
    and pushes the previous one back. While a card is in view the film and name blur and dim so the glass reads. */
 .pvx{position:relative}
 .pvx-stage{position:sticky;top:0;height:100vh;height:100svh;margin-bottom:-100vh;margin-bottom:-100svh;overflow:hidden;z-index:0;pointer-events:none;opacity:var(--bgo,1);--cf:0}
-.pvx-layer{position:absolute;inset:0;--open:0}
+.pvx-layer{position:absolute;inset:0;--open:0;opacity:min(1,calc(var(--open) * 6));visibility:visible}
+.pvx-layer[style*="--open: 0.0000"],.pvx-layer:not([style]){visibility:hidden}
 .pvx-panel{position:absolute;inset:0;overflow:hidden;background:#07070B;will-change:clip-path;
   clip-path:inset(calc(10px + (1 - var(--open)) * 18vh) calc(10px + (1 - var(--open)) * 14vw) round calc(26px + (1 - var(--open)) * 22px))}
 .pvx-film{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;will-change:transform,filter;
-  transform:scale(calc(1.16 - var(--open) * .12 + var(--cf) * .04));
-  filter:brightness(calc(.55 + var(--open) * .3 - var(--cf) * .3)) saturate(calc(.95 - var(--cf) * .3)) blur(calc(var(--cf) * 18px))}
+  transform:scale(calc(1.16 - var(--open) * .12 + var(--cf) * .03));
+  filter:brightness(calc(.55 + var(--open) * .3 - var(--cf) * .06)) saturate(calc(.95 + var(--cf) * .2)) blur(calc(var(--cf) * 12px))}
 .pvx-grade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(5,5,8,.5),rgba(5,5,8,.08) 34%,rgba(5,5,8,.12) 60%,rgba(5,5,8,.7))}
 .pvx-grade::after{content:"";position:absolute;inset:0;mix-blend-mode:soft-light;opacity:.85}
 .pv-mw .pvx-grade::after{background:radial-gradient(70% 70% at 70% 40%,#7C5CFF,transparent 70%)}
@@ -6051,9 +6052,13 @@ html body .footer .wordmark .wm-b{font-family:'Instrument Serif',Georgia,serif;f
 .pvx-item{position:sticky;top:var(--st,110px);margin-bottom:80vh;--pb:0}
 .pvx-item:last-child{margin-bottom:60vh}
 .pvx-item[data-i="1"]{z-index:2}.pvx-item[data-i="2"]{z-index:3}
-html body .pv .pvx .pvx-item>.pv-card{transform-origin:50% 0;will-change:transform,filter;
-  transform:translate3d(0,calc((1 - var(--cin,1)) * 70px - var(--pb) * 34px),0) scale(calc(.96 + var(--cin,1) * .04 - var(--pb) * .08));
-  filter:brightness(calc(1 - var(--pb) * .55)) blur(calc(var(--pb) * 2.5px));opacity:calc((.4 + var(--cin,1) * .6) * (1 - var(--pb) * .3))}
+html body .pv .pvx .pvx-item>.pv-card{transform-origin:50% 0;will-change:transform;
+  transform:translate3d(0,calc((1 - var(--cin,1)) * 70px - var(--pb) * 34px),0) scale(calc((.96 + var(--cin,1) * .04 - var(--pb) * .08) * var(--fit,1)));
+  opacity:calc((.4 + var(--cin,1) * .6) * (1 - var(--pb) * .3))}
+/* v48.1 — tighter cards so each one fits under the header + tabs while it is stuck (no filter at rest: it would kill the glass) */
+html body .pv .pvx .pv-card{padding:clamp(22px,2.6vw,38px)!important}
+@media (min-width:900px){html body .pv .pvx #moveworks .mw3-feats{margin-top:26px!important}
+  html body .pv .pvx #moveworks .mw3-f{padding-top:16px!important;padding-bottom:16px!important}}
 @media (max-width:899px){
   .pvx-panel{clip-path:inset(calc(6px + (1 - var(--open)) * 14vh) calc(6px + (1 - var(--open)) * 8vw) round calc(20px + (1 - var(--open)) * 14px))}
   .pvx-word{top:38%}.pvx-word span{font-size:clamp(96px,30vw,220px)}
@@ -6062,3 +6067,5 @@ html body .pv .pvx .pvx-item>.pv-card{transform-origin:50% 0;will-change:transfo
 @media (prefers-reduced-motion:reduce){.pvx-panel{clip-path:none}.pvx-film{transform:none}.pvx-word{transform:translate3d(4vw,-50%,0)}
   html body .pv .pvx .pvx-item>.pv-card{transform:none;filter:none;opacity:1}}
 /* <<< v48 products stack */
+/* v48.1 — product tabs: text colour flips quickly so the label never vanishes mid-switch */
+html body .pv .pv-tab{transition:background-color .3s ease,color .12s linear}
