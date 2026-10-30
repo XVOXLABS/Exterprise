@@ -657,7 +657,8 @@ void main(){vec2 uv=gl_FragCoord.xy/R;vec2 q=uv;q.y=1.-q.y;
   const lx = document.querySelector('.lx-hero');
   if (lx) {
     gsap.from(splitWords(lx.querySelector('h1')), { yPercent: 110, duration: 1.2, ease: 'power4.out', stagger: .07, delay: .2 });
-    gsap.from(['.lx-side p', '.lx-btns', '.lx-logos'], { y: 26, opacity: 0, duration: 1, ease: 'power3.out', stagger: .12, delay: .55 });
+    gsap.from(['.lx-side p', '.lx-btns'], { y: 26, opacity: 0, duration: 1, ease: 'power3.out', stagger: .12, delay: .55 });
+    gsap.from('.lx-logos', { opacity: 0, duration: .9, ease: 'power2.out', delay: .8 });   // v63: fade only - its border line no longer travels through the progress bars
     gsap.from('.lx-canvas', { opacity: 0, scale: 1.08, duration: 2.2, ease: 'power2.out' });
     gsap.to('.lx-canvas', { yPercent: 14, scale: 1.06, ease: 'none', scrollTrigger: { trigger: lx, start: 'top top', end: 'bottom top', scrub: true } });
     gsap.to('.lx-hero-in', { y: -60, opacity: .2, ease: 'none', scrollTrigger: { trigger: lx, start: '30% top', end: 'bottom top', scrub: true } });
