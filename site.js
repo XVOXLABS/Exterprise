@@ -629,8 +629,8 @@ void main(){vec2 uv=gl_FragCoord.xy/R;vec2 q=uv;q.y=1.-q.y;
   if (!window.gsap || !window.ScrollTrigger || reduce) { document.documentElement.classList.add('no-motion'); return; }
   gsap.registerPlugin(ScrollTrigger);
   ScrollTrigger.getAll().forEach(t => t.kill());
-  if (window.Lenis && !window.__lenis) {
-    const lenis = new Lenis({ lerp: 0.11 });
+  if (window.Lenis && !window.__lenis && !matchMedia('(pointer: coarse)').matches) {   // v61: touch devices keep native scrolling
+    const lenis = new Lenis({ lerp: 0.11, prevent: n => !!(n.closest && n.closest('dialog, [role="dialog"], .wxm-sheet, .xm, .qv, .mega, [data-lenis-prevent]')) });   // pop-ups scroll on their own
     window.__lenis = lenis;
     lenis.on('scroll', ScrollTrigger.update);
     gsap.ticker.add(t => lenis.raf(t * 1000));
@@ -1201,7 +1201,7 @@ void main(){vec2 uv=gl_FragCoord.xy/R;vec2 q=uv;q.y=1.-q.y;
   let cur = 0, t0 = performance.now(), vis = true, hold = false, played = 0;
   const vid = i => media[i] && media[i].querySelector('video');
   const fitRate = v => { v.playbackRate = 1; };  // v43: natural speed
-  const DURf = () => { const v = vid(cur); return v && v.duration ? Math.max(3200, v.duration * 1000 - 150) : DUR0; };
+  const DURf = () => 4000;                                                              // v62: every slide holds exactly 4 seconds
   if (vid(0)) fitRate(vid(0));
   const show = i => { const prev = cur; cur = (i + slides.length) % slides.length; if (prev === cur) return;
     slides.forEach((s, k) => { s.classList.toggle('on', k === cur); s.classList.toggle('out', k === prev); if (k === cur) s.removeAttribute('aria-hidden'); else s.setAttribute('aria-hidden', 'true'); });
@@ -1214,7 +1214,7 @@ void main(){vec2 uv=gl_FragCoord.xy/R;vec2 q=uv;q.y=1.-q.y;
     t0 = performance.now(); };
   dots.forEach((d, k) => d.addEventListener('click', () => { show(k); played = 1; }));
   hero.querySelector('.lx-nav').addEventListener('keydown', e => { const d = { ArrowRight: 1, ArrowLeft: -1 }[e.key]; if (d) { e.preventDefault(); show(cur + d); dots[cur].focus(); } });
-  hero.addEventListener('pointerenter', () => hold = true); hero.addEventListener('pointerleave', () => { hold = false; t0 = performance.now() - (parseFloat(dots[cur].style.getPropertyValue('--p')) || 0) * DURf(); });
+  hero.addEventListener('pointerenter', e => { if (e.pointerType === 'mouse') hold = true; }); hero.addEventListener('pointerleave', () => { hold = false; t0 = performance.now() - (parseFloat(dots[cur].style.getPropertyValue('--p')) || 0) * DURf(); });
   new IntersectionObserver(es => es.forEach(en => { vis = en.isIntersecting; const v = vid(cur); if (v) vis ? v.play().catch(() => {}) : v.pause(); }), { threshold: .2 }).observe(hero);
   if (calm) return;
   const loop = now => { if (vis && !hold && !document.hidden) { const p = (now - t0) / DURf(); if (p >= 1) show(cur + 1); else dots[cur].style.setProperty('--p', p.toFixed(4)); } else t0 = now - (parseFloat(dots[cur].style.getPropertyValue('--p')) || 0) * DURf(); requestAnimationFrame(loop); };
@@ -1529,7 +1529,8 @@ document.querySelectorAll('.hc-card .hc-tog').forEach(b => b.addEventListener('c
     const small = innerWidth < 900, k = Math.min(1, m.clientWidth / w, small ? 1 : m.clientHeight / h);
     d.style.setProperty('--ds', k.toFixed(4)); m.style.height = small ? Math.ceil(h * k) + 'px' : ''; });
   const giant = sec.querySelector('.pc-giant');
-  const sizeGiant = () => { const w = words[act]; if (giant && w) giant.style.setProperty('--gh', (parseFloat(w.style.fontSize || getComputedStyle(w).fontSize) * .84).toFixed(1) + 'px'); };
+  const sizeGiant = () => { if (!giant || !words.length) return;                        // one fixed height (the tallest name) so switching products never moves the panels
+    const h = Math.max(...words.map(w => parseFloat(w.style.fontSize || getComputedStyle(w).fontSize))) * .84; giant.style.setProperty('--gh', h.toFixed(1) + 'px'); };
   const fit = () => { const W = giant ? giant.clientWidth : innerWidth * .94;                       // each name spans the full content width
     words.forEach(w => { w.style.fontSize = '200px'; const r = w.getBoundingClientRect().width; if (r) w.style.fontSize = (200 * W / r).toFixed(1) + 'px'; }); sizeGiant(); };
   const fine = () => matchMedia('(hover: hover) and (pointer: fine)').matches && innerWidth >= 900;
@@ -1561,4 +1562,20 @@ document.querySelectorAll('.hc-card .hc-tog').forEach(b => b.addEventListener('c
     c.addEventListener('focusin', () => set(i));
     c.addEventListener('click', e => { if (innerWidth >= 1000 && !c.classList.contains('on')) { e.preventDefault(); set(i); } });
   });
+})();
+
+/* ===================== v62 footer wordmark: fit the word to the footer width ===================== */
+(() => {
+  const wm = document.querySelector('.footer .wordmark'); if (!wm) return;
+  const fit = () => { const box = wm.parentElement.clientWidth; wm.style.fontSize = '200px'; const w = wm.getBoundingClientRect().width;
+    if (w) wm.style.fontSize = (200 * box * .98 / w).toFixed(1) + 'px'; };
+  fit(); addEventListener('resize', fit); addEventListener('load', fit); document.fonts && document.fonts.ready.then(fit);
+})();
+
+/* ===================== v62 buttons: one line on phones - shrink the label until it fits ===================== */
+(() => {
+  const fit = () => document.querySelectorAll('main .neo .neo-t').forEach(t => { t.style.removeProperty('font-size'); if (innerWidth > 600) return;
+    let fs = parseFloat(getComputedStyle(t).fontSize), n = 0; while (t.scrollWidth > t.clientWidth + 1 && fs > 11.5 && n++ < 12) { fs -= .5; t.style.setProperty('font-size', fs + 'px', 'important'); } });
+  addEventListener('load', fit); addEventListener('resize', fit); document.fonts && document.fonts.ready.then(fit);
+  document.addEventListener('click', () => setTimeout(fit, 450));                         // cards that open (e.g. View Services) reveal more buttons
 })();

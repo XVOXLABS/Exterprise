@@ -6645,3 +6645,57 @@ html body main :is(.xp-kick,.lx-eb,.nb-chip,.pc-eb){display:none!important}
   html body section.ra .hc-card.on .hc-body{margin:0!important;height:100%;box-sizing:border-box}
 }
 @media (min-width:1000px){html body section.ra .hc-card.on[data-i="2"] .hc-media img{object-position:78% 30%}html body section.ra .hc-card.on[data-i="0"] .hc-media img{object-position:62% 30%}}
+/* v60.2 — open Revenue Cycle cards: crop each photo on its person */
+@media (min-width:1000px){
+  html body section.ra .hc-card.on[data-i="0"] .hc-media img{object-position:70% 20%!important}
+  html body section.ra .hc-card.on[data-i="1"] .hc-media img{object-position:73% 0%!important}
+  html body section.ra .hc-card.on[data-i="2"] .hc-media img{object-position:80% 30%!important}
+}
+
+/* >>> v61 readability */
+/* link cards that turn cream on hover/tap keep the cream (their text turns navy) - the glass rule was hiding it */
+html body .gx-card:is(.xp-card,.xp-kid,.xp-ic-card):is(a):hover,html body .gx-card:is(.xp-card,.xp-kid,.xp-ic-card):is(a):focus-visible{background:#F6F4EF!important;background-color:#F6F4EF!important;border-color:rgba(255,255,255,.9)!important}
+html body .gx-card:is(.xp-card,.xp-kid,.xp-ic-card):is(a):hover>:is(.gx-frost,.gx-fill,.gx-glow){opacity:0!important}
+/* stat strips on phones: one stat per row, number and label side by side - nothing clipped */
+@media (max-width:640px){
+  html body .xp-stats,html body .ss-strip.xp-stats{grid-template-columns:1fr!important;gap:0!important}
+  html body .xp-stats .ss-s{display:flex!important;align-items:center;gap:16px;padding:14px 4px!important;border-left:0!important;border-top:1px solid rgba(255,255,255,.08)!important;min-width:0}
+  html body .xp-stats .ss-s:first-child{border-top:0!important}
+  html body .xp-stats .ss-s strong{flex:0 0 auto;font-size:30px!important;white-space:nowrap}
+  html body .xp-stats .ss-s span{flex:1;min-width:0;font-size:14px;line-height:1.4;color:rgba(255,255,255,.72)}
+}
+/* <<< v61 */
+/* v61.1 — minimum readable sizes for small labels */
+html body .footer .fc-h{font-size:12.5px!important;letter-spacing:.04em}
+html body .lx-nav .lx-dn{font-size:12px!important}
+html body .sot-n{font-size:12px!important}
+html body .ss-strip .ss-s span,html body .xp-stats .ss-s span{font-size:13px!important;color:rgba(245,243,239,.74)!important;line-height:1.4}
+html body .pc-name i{font-size:12px!important}
+html body main :is(.ma,.mw2-stage) em{font-size:11px!important}
+
+/* >>> v62 buttons, tabs, footer wordmark */
+/* buttons: always one line; text shrinks a little on narrow phones; roomy padding and gap */
+html body main .neo-btn .neo-t{white-space:nowrap!important;text-align:left}
+@media (max-width:600px){
+  html body main .neo-btn{gap:12px!important;padding-left:20px!important;padding-right:8px!important;min-height:50px;max-width:100%}
+  html body main .neo-btn .neo-t{font-size:clamp(12.5px,3.9vw,15px)!important;overflow:hidden;text-overflow:ellipsis}
+}
+/* product tabs on phones: comfortable pills */
+@media (max-width:899px){
+  html body .pc .pc-tabs{gap:6px!important;padding:5px!important}
+  html body .pc .pc-tab{padding:10px 14px!important;font-size:12px!important;line-height:1}
+}
+/* footer wordmark: one heavy face, fitted to the footer width, brand gradient that melts into the footer */
+html body .footer .wordmark,html body.px .footer .wordmark{font-family:'Plus Jakarta Sans',system-ui,sans-serif!important;font-weight:800!important;letter-spacing:-.06em!important;line-height:.82!important;
+  text-align:center;opacity:.5!important;margin:clamp(28px,4vw,56px) auto -.12em!important;white-space:nowrap;
+  background:linear-gradient(180deg,#FFFFFF 0%,#FFE2B0 22%,#F7A23B 48%,#E8452A 72%,rgba(228,24,36,0) 100%) 0 0/100% 100% no-repeat!important;
+  -webkit-background-clip:text!important;background-clip:text!important;color:transparent!important;-webkit-text-fill-color:transparent!important;
+  -webkit-mask-image:linear-gradient(180deg,#000 30%,rgba(0,0,0,.55) 62%,transparent 96%)!important;mask-image:linear-gradient(180deg,#000 30%,rgba(0,0,0,.55) 62%,transparent 96%)!important;animation:none!important}
+html body .footer .wordmark .wm-b{font-family:inherit!important;font-style:normal!important;font-weight:inherit!important;letter-spacing:inherit!important;padding:0!important}
+/* <<< v62 */
+html body .footer .wordmark{display:block!important;width:max-content!important;max-width:none!important;margin-left:auto!important;margin-right:auto!important}
+/* v62.1 — hover cards: background and text change together, so there is never a dark-on-dark moment */
+html body :is(a.xp-card,a.xp-kid,a.xp-ic-card,a.sv-card,.pager a,a.nb-card,a.wx-card),html body :is(a.xp-card,a.xp-kid,a.xp-ic-card,a.sv-card,.pager a,a.nb-card,a.wx-card) *{transition-property:color,background-color,border-color,box-shadow,opacity,transform,-webkit-text-fill-color!important;transition-duration:.22s!important;transition-timing-function:ease!important}
+@media (max-width:600px){html body main .neo .neo-t{text-overflow:clip!important;min-width:0}html body main .neo{max-width:100%}}
+@media (max-width:360px){html body main .neo-btn{padding-left:14px!important;padding-right:6px!important;gap:8px!important}html body section.ra .hc-body{padding-left:16px!important;padding-right:16px!important}}
+@media (max-width:360px){html body main .neo-btn .neo-ic{width:30px!important;height:30px!important;flex:0 0 30px!important}html body section.ra .hc-card .hc-more-in{padding-left:0!important;padding-right:0!important}}
