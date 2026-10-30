@@ -1214,7 +1214,7 @@ void main(){vec2 uv=gl_FragCoord.xy/R;vec2 q=uv;q.y=1.-q.y;
     t0 = performance.now(); };
   dots.forEach((d, k) => d.addEventListener('click', () => { show(k); played = 1; }));
   hero.querySelector('.lx-nav').addEventListener('keydown', e => { const d = { ArrowRight: 1, ArrowLeft: -1 }[e.key]; if (d) { e.preventDefault(); show(cur + d); dots[cur].focus(); } });
-  hero.addEventListener('pointerenter', e => { if (e.pointerType === 'mouse') hold = true; }); hero.addEventListener('pointerleave', () => { hold = false; t0 = performance.now() - (parseFloat(dots[cur].style.getPropertyValue('--p')) || 0) * DURf(); });
+  // v63: no hover pause - the hero fills the screen, so the pointer is almost always over it and the slider would never move
   new IntersectionObserver(es => es.forEach(en => { vis = en.isIntersecting; const v = vid(cur); if (v) vis ? v.play().catch(() => {}) : v.pause(); }), { threshold: .2 }).observe(hero);
   if (calm) return;
   const loop = now => { if (vis && !hold && !document.hidden) { const p = (now - t0) / DURf(); if (p >= 1) show(cur + 1); else dots[cur].style.setProperty('--p', p.toFixed(4)); } else t0 = now - (parseFloat(dots[cur].style.getPropertyValue('--p')) || 0) * DURf(); requestAnimationFrame(loop); };
