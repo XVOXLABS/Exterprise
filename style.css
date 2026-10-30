@@ -6543,3 +6543,49 @@ html body .px-final .px-actions .neo-btn{min-height:52px;box-sizing:border-box;a
   html body .bt-ai-sec .bta :is(.bt-assist,.bt-tower) .px-cred-l{font-size:13px!important;line-height:1.45!important}
 }
 /* <<< v57 */
+
+/* >>> v58 mobile safety: nothing wider than the screen, consistent side padding on every page */
+@media (max-width:600px){
+  html body main .wrap{box-sizing:border-box;max-width:100%;padding-left:16px!important;padding-right:16px!important}
+  html body main :is(.ph-grid,.prose-grid,.nb-head,.nv-head,.sec-head,.gx-head,.p2-row,.ih-grid,.page-hero .wrap)>*{min-width:0;max-width:100%}
+  html body main .neo-btn{max-width:100%;box-sizing:border-box}
+  html body main .neo-btn .neo-t{white-space:normal;text-align:left;line-height:1.25}
+  html body main :is(h1,h2,h3){overflow-wrap:break-word}
+  html body main .page-hero :is(.hero-actions,.ph-actions){display:flex;flex-direction:column;align-items:flex-start;gap:10px}
+  html body main .page-hero :is(.sv-hero-cards,.p2-cards){max-width:100%;overflow:hidden}
+  html body main img{max-width:100%}
+}
+/* <<< v58 */
+/* v58.1 — pager: three equal, aligned cards (no tilt, no lift, no stagger); contact buttons wrap on small phones */
+html body.inr .pager{align-items:stretch!important}
+html body.inr .pager>*{transform:none!important;translate:none!important;rotate:none!important;opacity:1!important;margin:0!important;transition:background .3s,box-shadow .3s,border-color .3s!important}
+html body.inr .pager a{min-height:104px;height:100%;box-sizing:border-box}
+html body.inr .pager a:hover{transform:none!important}
+html body.inr .pager .next{text-align:right;align-items:flex-end}
+html body.inr .pager .mid{text-align:center;align-items:center}
+html body main .wb-btns{flex-wrap:wrap}
+@media (max-width:600px){html body main .wb-btns{flex-direction:column;align-items:stretch}html body main .wb-btns .neo-btn{justify-content:center}}
+/* v58.2 — ServiceNow Solutions & Services on phones: two-column cards (graphic, title, one-line summary, arrow) */
+@media (max-width:899px){
+  html body .sv-sol .sv-grid{display:grid!important;grid-template-columns:1fr 1fr!important;gap:10px!important;overflow:visible!important}
+  html body .sv-sol .sv-grid .sv-card.sgl{display:flex!important;flex-direction:column;min-height:0!important;width:auto!important;padding:8px 8px 14px!important;border-radius:20px!important;gap:10px}
+  html body .sv-sol .sv-grid .sv-art{height:96px!important;min-height:0!important;border-radius:14px!important;margin:0!important}
+  html body .sv-sol .sv-grid .sv-art svg{width:100%;height:100%}
+  html body .sv-sol .sv-grid .sv-badge{transform:scale(.85);transform-origin:0 0}
+  html body .sv-sol .sv-grid .sv-body{padding:0 6px!important;flex:1}
+  html body .sv-sol .sv-grid h3{font-size:15px!important;line-height:1.2!important;margin:0 0 6px!important}
+  html body .sv-sol .sv-grid .sv-pts{margin:0!important;padding:0!important;list-style:none}
+  html body .sv-sol .sv-grid .sv-pts li{font-size:12.5px!important;line-height:1.4!important;padding:0!important;margin:0!important}
+  html body .sv-sol .sv-grid .sv-pts li::before{display:none!important}
+  html body .sv-sol .sv-grid .sv-pts li:not(:first-child){display:none!important}
+  html body .sv-sol .sv-grid .sv-btn{align-self:flex-end;margin:0 4px 0 0!important;padding:0!important;width:32px!important;height:32px!important;min-height:0!important;border-radius:50%!important;display:grid!important;place-items:center;background:#19184C!important}
+  html body .sv-sol .sv-grid .sv-btn>span{display:none!important}
+  html body .sv-sol .sv-grid .sv-btn i{position:static!important;width:auto!important;height:auto!important;background:none!important;margin:0!important;color:#F7B23B}
+}
+
+/* >>> v59 Revenue Cycle: three cards (RCM, Claims, Records) */
+@media (min-width:900px){html body section.ra .hc-grid{grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:16px!important}}
+/* <<< v59 */
+/* v59.1 — Smartsourcing now ends on its stat row: tighter join into Revenue Cycle */
+html body section#smartsourcing{padding-bottom:clamp(40px,4.5vw,64px)!important}
+html body section#rcm{padding-top:clamp(56px,6vw,84px)!important}
