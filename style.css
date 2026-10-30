@@ -6610,11 +6610,6 @@ html body section#rcm{padding-top:clamp(56px,6vw,84px)!important}
   html body section.ra .hc-card.on .hc-more>.hc-more-in{display:grid!important;gap:10px;overflow:visible}
   html body section.ra .hc-card.on .hc-subs{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;grid-auto-rows:1fr;gap:8px!important}
   html body section.ra .hc-card.on .hc-subs a{height:100%;min-height:50px;box-sizing:border-box;padding:10px 14px!important;font-size:13.5px!important;line-height:1.3;border-radius:14px!important}
-  /* Explore ... as a matching full-width box */
-  html body section.ra .hc-card.on .hc-cta{justify-self:stretch!important;width:100%;min-height:50px;box-sizing:border-box;border-radius:14px!important;padding:10px 10px 10px 16px!important;
-    justify-content:space-between;background:#F49F1F!important;color:#1A0F04!important;box-shadow:none!important;margin:0!important}
-  html body section.ra .hc-card.on .hc-cta .neo-t{color:#1A0F04!important;font-weight:600;font-size:14px}
-  html body section.ra .hc-card.on .hc-cta .neo-ic{background:#1A0F04!important;color:#F7B23B!important}
   html body section.ra .hc-card:not(.on):hover{box-shadow:inset 0 0 0 1px rgba(244,159,31,.35)}
 }
 /* <<< v60 */
@@ -6699,3 +6694,6 @@ html body :is(a.xp-card,a.xp-kid,a.xp-ic-card,a.sv-card,.pager a,a.nb-card,a.wx-
 @media (max-width:600px){html body main .neo .neo-t{text-overflow:clip!important;min-width:0}html body main .neo{max-width:100%}}
 @media (max-width:360px){html body main .neo-btn{padding-left:14px!important;padding-right:6px!important;gap:8px!important}html body section.ra .hc-body{padding-left:16px!important;padding-right:16px!important}}
 @media (max-width:360px){html body main .neo-btn .neo-ic{width:30px!important;height:30px!important;flex:0 0 30px!important}html body section.ra .hc-card .hc-more-in{padding-left:0!important;padding-right:0!important}}
+
+/* v63 — Revenue Cycle "View More" uses the standard brand button (white pill, dark arrow), like every other section */
+@media (min-width:1000px){html body section.ra .hc-card.on .hc-cta{justify-self:start!important;width:auto!important;margin:4px 0 0!important}}
