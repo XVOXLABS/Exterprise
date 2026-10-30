@@ -6697,3 +6697,45 @@ html body :is(a.xp-card,a.xp-kid,a.xp-ic-card,a.sv-card,.pager a,a.nb-card,a.wx-
 
 /* v63 — Revenue Cycle "View More" uses the standard brand button (white pill, dark arrow), like every other section */
 @media (min-width:1000px){html body section.ra .hc-card.on .hc-cta{justify-self:start!important;width:auto!important;margin:4px 0 0!important}}
+
+/* >>> v64 Smartsourcing stat cards: bigger now that they are the whole section */
+@media (min-width:900px){
+  html body .ss .nb-stats{gap:14px!important}
+  html body .ss .nb-card{min-height:clamp(300px,38vh,360px)!important;padding:clamp(26px,2.4vw,34px)!important;gap:0!important;justify-content:space-between}
+  html body .ss .nb-card .nb-top{gap:12px}
+  html body .ss .nb-card .nb-ic{transform:scale(1.12);transform-origin:0 50%}
+  html body .ss .nb-card .nb-lab{font-size:17px!important}
+  html body .ss .nb-card .nb-num{font-size:clamp(44px,3.5vw,60px)!important;margin:auto 0 18px!important;line-height:.95}
+  html body .ss .nb-card .nb-svc{font-size:16.5px!important}
+  html body .ss .nb-card .nb-act{width:62%!important;height:88%!important}
+}
+/* readable labels: sans instead of tiny mono, near-white, all viewports */
+html body .ss .nb-card .nb-lab{font-family:inherit!important;font-weight:600!important;letter-spacing:0!important;text-transform:none!important;color:#fff!important;line-height:1.25;font-size:max(16px,var(--nb-lab-fs,16px))!important}
+html body .ss .nb-card .nb-svc{font-weight:500!important;color:rgba(255,255,255,.92)!important;font-size:max(15.5px,var(--nb-svc-fs,15.5px))!important}
+html body .ss .nb-card .nb-ar{width:36px;height:36px}
+html body .ss .nb-card .nb-ar svg{width:15px;height:15px}
+@media (min-width:900px){html body .ss .nb-card{--nb-lab-fs:17px;--nb-svc-fs:16.5px}
+  html body .ss .nb-card .nb-top{min-height:46px}
+  html body .ss .nb-card .nb-foot{min-height:66px;align-items:flex-end!important}}
+/* hover turns the card cream, so the labels must go navy with it */
+@media (hover:hover){html body .ss .nb-card:hover :is(.nb-lab,.nb-svc){color:#19184C!important}}
+/* <<< v64 */
+
+/* >>> v65 ServiceNow Service Offerings: readable sizes, list fills its panel */
+html body .sot-meta{font-family:inherit!important;font-size:15px!important;font-weight:600;letter-spacing:0;color:#8BEA7A}
+html body .sot-tab{font-size:16px}
+html body .sot-tab .sot-n{font-size:13px!important;opacity:.7}
+html body .sot-tab .sot-c{font-size:12.5px;min-width:24px;height:24px}
+html body .sot-panel .sot-item .sof-t{font-size:17px;line-height:1.4}
+html body .sot-panel .sot-item .sof-ic{width:40px!important;height:40px!important;border-radius:12px!important}
+html body .sot-panel .sot-item .sof-ic svg{width:19px!important;height:19px!important}
+@media (min-width:900px){
+  html body .sot-panel{gap:20px}
+  html body .sot-panel .sot-items{align-content:stretch!important;grid-auto-rows:1fr;padding:14px 32px!important;column-gap:40px}
+  html body .sot-panel .sot-item{gap:18px!important;padding:20px 2px!important}
+  html body .sot-panel .sot-item .sof-t{font-size:clamp(17px,1.35vw,20px)}
+  html body .sot-panel .sot-item .sof-ic{width:46px!important;height:46px!important;border-radius:14px!important}
+  html body .sot-panel .sot-item .sof-ic svg{width:21px!important;height:21px!important}
+  html body .sot-cap h3{font-size:clamp(28px,2.6vw,40px)}
+}
+/* <<< v65 */
