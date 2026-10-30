@@ -1546,3 +1546,19 @@ document.querySelectorAll('.hc-card .hc-tog').forEach(b => b.addEventListener('c
   apply(0); fromHash(); fit(); fitDemos(); addEventListener('resize', () => { fit(); fitDemos(); }); addEventListener('load', fitDemos);
   document.fonts && document.fonts.ready.then(() => { fit(); fitDemos(); });
 })();
+
+/* ===================== v60 Revenue Cycle (desktop): hover opens a card sideways; the first starts open ===================== */
+(() => {
+  const grid = document.querySelector('section.ra .hc-grid'); if (!grid) return;
+  const cards = [...grid.querySelectorAll('.hc-card')]; if (!cards.length) return;
+  const set = i => cards.forEach((c, k) => c.classList.toggle('on', k === i));
+  set(0);
+  const fine = () => matchMedia('(hover: hover) and (pointer: fine)').matches && innerWidth >= 1000;
+  let t = 0;
+  cards.forEach((c, i) => {
+    c.addEventListener('pointerenter', () => { if (!fine()) return; clearTimeout(t); t = setTimeout(() => set(i), 80); });
+    c.addEventListener('pointerleave', () => clearTimeout(t));
+    c.addEventListener('focusin', () => set(i));
+    c.addEventListener('click', e => { if (innerWidth >= 1000 && !c.classList.contains('on')) { e.preventDefault(); set(i); } });
+  });
+})();
