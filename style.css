@@ -6739,3 +6739,20 @@ html body .sot-panel .sot-item .sof-ic svg{width:19px!important;height:19px!impo
   html body .sot-cap h3{font-size:clamp(28px,2.6vw,40px)}
 }
 /* <<< v65 */
+
+/* >>> v66 footer content: 3 link columns, locations, tagline + copyright row (same look as before) */
+html body .footer-links.footer-cols{grid-template-columns:repeat(3,minmax(0,1fr))}
+html body .footer-cols span{font-size:14px;color:#fff;font-weight:450}
+html body .footer-brand .fb-loc{line-height:1.7}
+html body .footer-bottom{justify-content:flex-start;align-items:center;gap:24px;flex-wrap:wrap}
+html body .footer-bottom .fb-tag,html body .footer-bottom .fb-copy{font-size:14px;color:rgba(245,243,239,.72)}
+html body .footer-bottom .fb-copy{margin-left:auto}
+@media (max-width:900px){html body .footer-links.footer-cols{grid-template-columns:repeat(2,minmax(0,1fr))}}
+/* <<< v66 */
+
+/* >>> v67 footer readability: column headings in the sans face, bigger, heavier; body text 15.5px */
+html body .footer .fc-h{font-family:inherit!important;font-size:17px!important;font-weight:650!important;letter-spacing:-.005em!important;text-transform:none!important;color:#F7B23B!important;margin:0 0 8px!important}
+html body .footer-cols a,html body .footer-cols span{font-size:15.5px!important}
+html body .footer-cols>div{gap:11px}
+html body .footer-bottom .fb-tag,html body .footer-bottom .fb-copy{font-size:15px;color:rgba(245,243,239,.82)}
+/* <<< v67 */
