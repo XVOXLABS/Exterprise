@@ -6815,3 +6815,7 @@ html body section.ra .hc-grid.hc-row2{margin-top:16px}
 /* tablet: 3 + 3 */
 @media (min-width:900px) and (max-width:999px){html body section.ra .hc-grid{grid-template-columns:repeat(3,minmax(0,1fr))!important}}
 /* <<< v70 */
+
+/* >>> v71 What We Do > Products: three products only; the odd last tile spans the row on two-column layouts */
+@media (max-width:899px){html body .wxm-grid[data-panel="prd"] .wxm-tile:last-child:nth-child(odd){grid-column:1/-1}}
+/* <<< v71 */
