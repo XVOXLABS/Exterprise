@@ -3969,3 +3969,23 @@ html body.inr main .gx-card.gx-card .xp-ic{background:rgba(244,159,31,.10)!impor
 html body.inr main .gx-card.gx-card .xp-country{font-family:inherit!important;font-size:14px!important;font-weight:600!important;letter-spacing:0!important;text-transform:none!important;color:#F7B23B!important}
 html body.inr main .xp-kid-top>:last-child{margin-left:auto}
 /* <<< v73 */
+
+/* >>> v74 FAQ sections (tools/faq.py): flat frosted accordion, same surface as the sub-page cards */
+html body .faq-sec .faq{display:grid;gap:12px;max-width:920px}
+html body .faq-sec .faq-i{border-radius:22px;background:rgba(24,24,30,.52);-webkit-backdrop-filter:blur(26px) saturate(1.15);backdrop-filter:blur(26px) saturate(1.15);
+  box-shadow:inset 0 0 0 1px rgba(255,255,255,.10),inset 0 1px 0 rgba(255,255,255,.06);transition:box-shadow .3s}
+html body .faq-sec .faq-i[open],html body .faq-sec .faq-i:hover{box-shadow:inset 0 0 0 1px rgba(244,159,31,.42)}
+html body .faq-sec .faq-i summary{list-style:none;display:flex;align-items:center;justify-content:space-between;gap:18px;padding:22px 24px;cursor:pointer}
+html body .faq-sec .faq-i summary::-webkit-details-marker{display:none}
+html body .faq-sec .faq-i summary:focus-visible{outline:2px solid #F49F1F;outline-offset:3px;border-radius:22px}
+html body .faq-sec .faq-i h3{margin:0;font-size:clamp(17px,1.4vw,20px);line-height:1.35;font-weight:600;letter-spacing:-.01em;color:#fff}
+html body .faq-sec .faq-ic{position:relative;flex:none;width:34px;height:34px;border-radius:50%;background:rgba(244,159,31,.12);box-shadow:inset 0 0 0 1px rgba(244,159,31,.36);transition:transform .35s,background .3s}
+html body .faq-sec .faq-ic::before,html body .faq-sec .faq-ic::after{content:"";position:absolute;left:50%;top:50%;width:12px;height:2px;border-radius:2px;background:#F7B23B;translate:-50% -50%}
+html body .faq-sec .faq-ic::after{rotate:90deg;transition:rotate .35s}
+html body .faq-sec .faq-i[open] .faq-ic{background:#F49F1F}
+html body .faq-sec .faq-i[open] .faq-ic::before,html body .faq-sec .faq-i[open] .faq-ic::after{background:#1A0F04}
+html body .faq-sec .faq-i[open] .faq-ic::after{rotate:0deg}
+html body .faq-sec .faq-a{padding:0 24px 22px}
+html body .faq-sec .faq-a p{margin:0;max-width:70ch;font-size:16px;line-height:1.65;color:rgba(255,255,255,.86)!important}
+@media (max-width:600px){html body .faq-sec .faq-i summary{padding:18px 18px}html body .faq-sec .faq-a{padding:0 18px 18px}}
+/* <<< v74 */

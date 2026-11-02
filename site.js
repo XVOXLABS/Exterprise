@@ -1616,3 +1616,6 @@ document.querySelectorAll('.hc-card .hc-tog').forEach(b => b.addEventListener('c
   addEventListener('touchcancel', off, { passive: true });
   addEventListener('pageshow', off);
 })();
+
+/* ===================== v74 FAQ: keep scroll effects in step when an answer opens or closes ===================== */
+document.querySelectorAll('.faq-i').forEach(d => d.addEventListener('toggle', () => { if (window.ScrollTrigger) ScrollTrigger.refresh(); if (window.__lenis && window.__lenis.resize) window.__lenis.resize(); }));

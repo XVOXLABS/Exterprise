@@ -1,0 +1,1659 @@
+# Exterprise: full site text
+
+Source: https://www.exterprise.us/ (generated 2026-11-02). Cite the page URL when quoting.
+
+---
+
+URL: https://www.exterprise.us/
+Title: ServiceNow Implementation Partner & BPO Services | Exterprise
+Summary: Exterprise is a ServiceNow Premier Partner for consulting and implementation and a smartsourcing (BPO) provider, with 275+ professionals in Dallas, India and Honduras.
+
+Exterprise
+# Modernize How You Work
+We pair AI with people who know operations inside out, so the work gets done right and stays secure and compliant.
+What We Do
+## Enabling Customer Trust
+## What We Do
+Every business has its own challenges. Find the service that fits yours, and see how we can help.
+### ServiceNow
+Efficient enterprise service management with ServiceNow solutions
+### Smartsourcing
+Outsourced processes that extend your enterprise, delivered by teams in the US, India and Central America.
+### Contact Center
+Level 1 and Level 2 support, staffed around the clock with a 99.99% adherence rate to SLAs.
+### Claims Processing
+Claims Processing solutions for managing patient claims, end to end.
+### Records Processing
+Technical services for records digitization, indexing, search and retrieval
+### Enterprise Data Management
+End to end data management solutions, with our partnership with Snowflake.
+### Enterprise Mobility
+Bridging the gap between enterprise needs and ease of access via Mobile
+### Design Services
+Easy-to-use digital products for your customers, on any device
+### Digital Marketing
+360° marketing services to grow your business, across digital platforms
+More Services
+- Revenue Cycle Management
+- County Government Services
+- Property Preservation
+- Custom AI Solutions
+- SAP Solutions
+- IT Support & Maintenance
+- AI Agents & Now Assist
+## ServiceNow Premier Partner Consulting & Implementation
+### From Licenses to Go-Live
+Buy, build, and grow on ServiceNow with one team. We're a Premier Partner for consulting and implementation, and a licensed reseller, so you get expert guidance from day one.
+ServiceNow
+- 60+ServiceNow-Accredited Professionals
+- CTACertified Technical Architect on Staff
+- 5Focus Industries: Financial Services, Government, Healthcare, Insurance, Manufacturing
+## ServiceNow AI, Put to Work.
+We set up ServiceNow AI and keep it in check, so it fits the way your teams already work.
+### AI That Gets the Work Done
+### We build AI agents that sort, resolve, and hand off requests on their own, with the guardrails your business needs.
+### Faster Answers for Every Team
+### We set up Now Assist across IT, HR, and customer service to draft responses, summarize cases, and surface the right information.
+### All Your AI, Governed in One Place
+### As AI spreads across departments, we use AI Control Tower to track, manage, and secure every agent. 10+Years helping enterprises around the world modernize the way they work 24x7Global operational support Talk to a ServiceNow Architect
+Exterprise Outsourced Process
+## Smartsourcing
+Exterprise offers a full suite of solutions centered around data accuracy and data reliability.
+Explore Smartsourcing Data Accuracy99.995%County Government ServicesAdherence to SLAs99.99%Contact CenterProperties Every Month400K+Property PreservationProfessionals, Globally275+About Exterprise
+## Optimise Your Business
+From healthcare billing to marketing, design and back-office work, we take on the processes that slow your teams down.
+6 Solutions
+### Revenue Cycle Management
+Effectively manage the entire medical billing cycle, from payments to accounts receivable.
+- EOB Digitization
+- Process Patient Payments
+- ERA Processing
+- Reconciliation
+- Correspondence
+- Healthcare Lockbox
+- View MoreHCFA · UB-92 · ADA
+### Claims Processing
+Claims Processing solutions for managing patient claims, end to end.
+- Round the Clock Schedule
+- Complete Processing
+- Automated Workflow
+- Precise Data Entry
+- Digital Repository
+- Reports & Graphs
+- View More99.995% Accuracy
+### Records Processing
+Technical services for records digitization, indexing, search and retrieval.
+- County Government Services
+- Data Capture Services
+- Data Entry Solutions
+- Indexing, Search & Retrieval
+- View MoreMeasurable Reach
+### Digital Marketing
+Campaigns on every digital channel that you can measure and adjust in real time.
+- Mobile Reach
+- Real-Time Flexibility
+- Influencer Engagement
+- Direct Communication
+- Digital Branding
+- Visual Storytelling
+- View MoreResearch to UI
+### Design Services
+Intuitive digital products for your customers, across devices and technologies.
+- User Research & Personas
+- Information Architecture
+- Interactive Prototyping
+- Visual & Graphic Design
+- Front-End Development
+- Solution Design
+- View MoreGlobal Teams
+### Business Process Outsourcing
+Outsourced processes run by our teams in the US, India and Central America.
+- Contact Center
+- Property Preservation
+- Bid Processing
+- Inspection Services
+- Vendor Management
+- Data Capture Services
+AI for your employees
+## Three ways to help your people get things done
+Moveworks, EmployeeWorks and UtterNow. We partner on all three, so one team sets them up and keeps them running.
+Moveworks Partner
+### Help for Every Employee, Across Every System
+Moveworks gives your employees one AI assistant in Teams, Slack, or your portal. It finds answers across your company’s documents and handles everyday requests in the tools you already use. We set it up, connect it, and help it improve over time.
+- Finds answers in your policies and documents
+- Handles access, tickets, meetings and time off
+- Works in Teams, Slack or your portal
+- Book a Moveworks demo SlackMicrosoft TeamsGoogle WorkspaceJiraWorkdayServiceNowSharePoint YouLog a bug: login page won’t loadAssistant AppJira ticket createdYouBook 30 min with Priya tomorrowAssistant AppBooked for 2:00 PMYouHow do I submit an expense?Assistant AppHere are the 3 steps. View guide
+ServiceNow · Powered by Moveworks
+### Your Employees Just Ask. We Make Sure It Gets Done.
+EmployeeWorks gives every employee one place to ask for help, in Teams, Slack, or on their phone. Otto, the AI assistant, handles it in ServiceNow. As a ServiceNow Premier Partner and Moveworks partner, we set up both sides.
+- Employees ask in Teams, Slack or on their phone
+- Otto handles the request in ServiceNow
+- One team sets up ServiceNow and Moveworks
+- Explore EmployeeWorks Employees Ask Otto
+- “I can’t get into my laptop”
+- “I need to update my benefits”
+- “Where’s my purchase request?”
+- “I’m going on leave next month”
+- What Happens in ServiceNow
+Created
+Leave case
+Routed to
+HRpayrollmanager
+HR, payroll, manager
+Employee sees
+Policypay detailsnext steps
+Policy, pay details, next steps
+Voice for ServiceNow
+### Your ServiceNow, Now Voice-Activated
+Run your ServiceNow workflows by voice. Create tickets, look up answers and start processes without touching a keyboard.
+- Create tickets by voice
+- Look up answers hands-free
+- Start processes without a keyboard
+- Explore UtterNowWatch on YouTube
+## Frequently Asked Questions
+### What does Exterprise do?
+Exterprise is a ServiceNow Premier Partner for consulting and implementation and a smartsourcing (business process outsourcing) company. We implement and support ServiceNow, including AI Agents and Now Assist, and run business processes such as contact center, healthcare revenue cycle, claims and records processing for clients in the US and around the world.
+### Is Exterprise a ServiceNow partner?
+Yes. Exterprise is a ServiceNow Premier Partner for Consulting & Implementation and a licensed ServiceNow reseller, with 60+ ServiceNow-accredited professionals and Now Assist certifications for IT Service Management, HR Service Delivery and Creator.
+### Where is Exterprise located?
+Exterprise is headquartered in Dallas, Texas, with offshore delivery centers in Chennai and Coimbatore, India, and a near-shore center in Altia Smart City, San Pedro Sula, Honduras. More than 275 professionals work across these locations, so work can run around the clock.
+### Which industries does Exterprise work with?
+Exterprise works with healthcare providers, county governments, property preservation companies, nonprofits and enterprises in government, oil and gas, retail and real estate, delivering ServiceNow, outsourcing and custom technology solutions.
+### How do I start a project with Exterprise?
+Email contact@exterprise.us or send a message from the Contact page. A consultant or ServiceNow architect will review your goals and suggest the right next step, whether that is an assessment, an implementation plan or a dedicated team.
+## Let's Talk!
+Tell us what you’re working on, whether that’s ServiceNow, AI or running a business process, and we’ll point you to the right team.
+Send a Messagecontact@exterprise.us
+
+---
+
+URL: https://www.exterprise.us/about.html
+Title: About Exterprise | ServiceNow Partner & BPO, Dallas TX
+Summary: Founded in 2015 in Dallas, Texas, Exterprise is a ServiceNow Premier Partner and global smartsourcing provider with 275+ professionals across the US, India and Honduras.
+
+The Company
+# About Us
+Extend your Enterprise, with Exterprise.
+Talk to UsOur Team2015Founded in Dallas, TX275+Professionals, globally3Continents99.99%Adherence to SLAs
+## Extend Your Enterprise, With Exterprise
+Exterprise was founded in 2015 by Prabhu [PK] Karunakaran with one goal: help US-based organizations run more efficiently and cost-effectively by extending their operations and service delivery to teams in India and Central America.
+That idea, extending your enterprise, gave us our name and our tagline. We opened our main offshore delivery center in Chennai, India, with a small team, and have grown to over 275 professionals, globally.
+Today we combine offshore and near-shore delivery with ServiceNow, enterprise and technical expertise, always designed to reduce cost, increase efficiency and stay compliant.
+## Accuracy & Efficiency
+Built on new ways of doing business.
+### x7 Round-the-Clock Processing
+Multi-shift operations deliver service around the clock to help you meet your SLAs.
+### 99.99% Adherence to SLAs
+A business model built to maximize efficiency and accuracy.
+### FTE / Hourly / Per Unit
+Flexible pricing, including FTE-based, hourly, fixed project fee and per-unit transactional, so budgets are transparent.
+## Global Delivery
+Headquartered in Dallas, with delivery centers in India and Central America.
+### Dallas, TX
+United States
+Headquarters
+### Chennai
+India
+Main offshore delivery center
+### Coimbatore
+India
+Offshore delivery center
+### San Pedro Sula
+Honduras
+Near-shore center, Altia Smart City
+## Enabling Customer Trust
+Certifications and compliance, verified every year by an independent Certified Public Accountant.
+Texas Department of Information Resources
+ISO 27001 · Intertek UKAS
+SSAE 18 SOC 2 Type II
+HIPAA Compliance
+- SOC 2 Type II
+- ISO 27001
+- HIPAA
+- ServiceNow Premier Partner
+- Licensed ServiceNow Reseller
+Industries We Serve
+- Healthcare
+- Financial Services
+- Government
+- Insurance
+- Oil & Gas
+- Retail
+- Real Estate
+- Nonprofits
+## Our Team
+### Prabhu [PK] Karunakaran
+Founder & Chief Executive Officer
+Founded Exterprise and led its growth across the US, India and Central America, with about 20 years in software, technology and BPO services.
+### Ejoumale [Ejo] Bhaktavatchalam
+Managing Director, India
+Leads the Indian operations and oversees legal and financial transactions, with more than 25 years in business and general management.
+### Reena Prabhu
+Chief Administrative Officer
+Leads administration, including Human Resources, Facilities Management and Regulatory Compliance, and supports budget planning.
+### Muthukumaran Elangovan
+Chief Solutions Officer
+Heads technology and solutioning services globally, with 21+ years across delivery, solutioning and government tenders.
+## V2E: Virtual Employee Empowerment
+When the pandemic moved work home, we built the V2E program to keep client services running continuously while keeping our teams safe.
+24-Hour TurnaroundOperations across three continents
+### Secure Work From Home Infrastructure
+Every employee works from home on top-tier software and hardware.
+### Remote Work Product Management
+Technology monitors productivity, efficiency and adherence to security policies.
+### Potentially Infinite Scalability
+The model lets us expand without building physical space.
+### 24/7 Operations
+A 24-hour turnaround on all work, with operations across three continents.
+### Industry Specific, Professional Workforce
+Experience in healthcare, government, oil and gas, insurance, retail and more.
+### Flexibility
+Flexible engagement models: FTE, hourly and transactional (pay-as-you-go) pricing.
+## What We Do
+### ServiceNow
+Enterprise service management, AI Agents and Now Assist from a ServiceNow Premier Partner.
+### Smartsourcing
+Outsourced processes that extend your enterprise, delivered by teams in the US, India and Central America.
+### Enterprise Solutions
+Custom or off-the-shelf solutions, from implementation and migration to upgrades and ongoing support.
+### Technical
+Custom technical work: we design it, build it, deploy it and look after it.
+### Custom AI Solutions
+AI solutions designed around your business needs.
+### Digital Branding & Marketing
+Websites, apps, marketing and stories that bring your brand to life.
+Create Opportunities Together!
+## Built Around Your Success Factors
+We start by understanding your critical success factors, then build the delivery strategy around them.
+Contact Us TodayTalk to Us
+## Let's Talk!
+Don’t wait until tomorrow. Talk to one of our consultants today to start extending your enterprise.
+Send a Messagecontact@exterprise.us
+
+---
+
+URL: https://www.exterprise.us/contact.html
+Title: Contact Exterprise | ServiceNow & Outsourcing Experts
+Summary: Talk to an Exterprise consultant or ServiceNow architect about implementation, AI Agents, outsourcing or support. Email contact@exterprise.us.
+
+Let’s Talk!
+# Contact Us
+Don’t wait until tomorrow. Talk to one of our consultants today to start extending your enterprise.
+Talk to Us
+## Get in Touch
+## NameWork EmailCompanyPhoneI’m Interested InServiceNowAI Agents & Now AssistSmartsourcingContact CenterHealthcare (RCM & Claims)Property PreservationRecords ProcessingDigital Branding & MarketingEnterprise SolutionsTechnical ServicesSomething elseMessage
+Emailcontact@exterprise.usLinkedInExterpriseOfficesDallas, TX, United States · HeadquartersChennai, India · Main offshore delivery centerCoimbatore, India · Offshore delivery centerSan Pedro Sula, Honduras · Near-shore center
+
+---
+
+URL: https://www.exterprise.us/servicenow.html
+Title: ServiceNow Implementation & Consulting Partner | Exterprise
+Summary: ServiceNow Premier Partner for Consulting & Implementation: ITSM, ITOM, CSM, HRSD, FSM, SPM, GRC, CMDB, AI Agents and Now Assist, from advisory to 24x7 support.
+
+# ServiceNow
+Enterprise service management, AI Agents, and Now Assist. Designed, deployed, and governed by a ServiceNow Premier Partner for Consulting & Implementation.
+ServiceNow Solutions & ServicesTalk to Us
+Advisory, implementation, integration, migration, and ongoing support, covering everything from core ITSM and CSM to AI Agents and Now Assist.
+## ServiceNow Solutions & Services
+We design, build, integrate, and support ServiceNow from start to finish, from core ITSM and CSM to AI Agents and Now Assist.
+### AI Agents & Now Assist
+- Put AI to work on real tasks.
+- AI Agents triage and resolve routine work, and AI Agent Orchestrator coordinates them so they hand off cleanly.
+- Now Assist helps with the work that still needs a person.
+### AI Control Tower
+- See and govern every AI in your business from one place.
+- AI Control Tower tracks every AI agent, Now Assist skill, and third-party model you run.
+- We set up the full governance lifecycle for you, from intake and risk assessment to approval and ongoing monitoring, with clear owners and stewards assigned to each AI asset.
+### ServiceNow Otto
+- One conversational front door for employees and customers.
+- As a Moveworks implementation partner, we help you bring Now Assist, Moveworks, and AI Experience together in Otto so requests get resolved from start to finish.
+### Customer Service Management (CSM)
+- Get every case to the right person, fast.
+- Predictive Intelligence sorts incoming cases, and Advanced Work Assignment routes each one by skill and availability across front, middle, and back office.
+### Field Service Management (FSM)
+- Fix it on the first visit.
+- Schedule Optimization sends the right technician with the right parts, and Predictive Intelligence flags equipment failures before they happen.
+### IT Service Management (ITSM)
+- Resolve incidents faster.
+- Predictive Intelligence routes incidents to the right team automatically, and Now Assist summarizes each case and drafts the resolution notes.
+### IT Operations Management (ITOM)
+- Catch problems before they become outages, and before the 2am page.
+- Predictive AIOps spots unusual behavior early, while Discovery and Service Mapping keep your CMDB accurate as your systems change.
+### HR Service Delivery (HRSD)
+- Give employees one place to get help.
+- Employee Center, HR Virtual Agent, and Now Assist handle routine HR requests around the clock, and guided journeys make onboarding smooth from day one.
+### Strategic Portfolio Management (SPM)
+- Fund the work that matters most.
+- Portfolio Planning and Demand Management give leaders a live view of every investment, and Now Assist for SPM keeps that view up to date.
+### Now Platform
+- Build the apps your teams need, faster.
+- App Engine, Flow Designer, and IntegrationHub cover low-code and no-code building, and Build Agent turns a plain-language description into a governed, ready-to-deploy app.
+### Governance, Risk & Compliance (GRC / IRM)
+- Manage risk in the same place the work happens.
+- Policy, risk, and audit workflows connect directly to your IT and business processes, so compliance isn't a separate spreadsheet exercise.
+### CMDB & Data Foundations
+- Trust your data before you automate on it.
+- We build and clean up your CMDB with Discovery, Service Graph Connectors, and the CSDM data model, so AI Agents and workflows run on accurate information.
+## Service Offerings
+### ServiceNow AI, Put to Work
+6 Capabilities
+- AI Agents that triage, resolve, and escalate work with full case context
+- Now Assist implementation across ITSM, HR Service Delivery, and Creator
+- AI Agent Orchestrator coordinating a multi-agent Autonomous Workforce
+- AI Control Tower and Now Assist Guardian for enterprise-wide governance
+- Predictive Intelligence classification and routing
+- Process Mining to identify automation opportunities
+## Credentials
+## ServiceNow Premier PartnerConsulting & Implementation4.5/5Customer satisfaction score3Now Assist certifications (ITSM, HRSD, Creator)
+## Frequently Asked Questions
+### What ServiceNow services does Exterprise offer?
+Exterprise covers ServiceNow from start to finish: advisory, implementation, integration, migration, upgrades and ongoing support. That includes ITSM, ITOM, CSM, HR Service Delivery, Field Service Management, SPM, GRC / IRM, CMDB, Now Platform app development, AI Agents, Now Assist, AI Control Tower and ServiceNow Otto.
+### What does ServiceNow Premier Partner status mean for my project?
+It means ServiceNow recognizes Exterprise at the Premier level for consulting and implementation. Because we are also a licensed ServiceNow reseller, you can buy licenses, implement and get ongoing support from one team.
+### Can Exterprise implement ServiceNow AI Agents and Now Assist?
+Yes. Exterprise is certified to implement Now Assist for IT Service Management, HR Service Delivery and Creator, and sets up AI Agents with guardrails and human review points. AI Control Tower keeps every agent visible and accountable.
+### Can you improve a ServiceNow instance we already have?
+Yes. We assess existing implementations, clean up the CMDB with Discovery and the CSDM data model, handle platform and version upgrades, and build a roadmap showing where Predictive Intelligence, Now Assist and AI Agents add the most value.
+### Does Exterprise provide ServiceNow support after go-live?
+Yes. Exterprise offers L1 to L4 managed support with 24x7 monitoring across the full ticket lifecycle, plus certified ServiceNow developers, administrators and consultants at onshore, near-shore or offshore rates.
+## Put AI to Work on Real Tasks. ServiceNow.
+Enterprise service management, AI Agents, and Now Assist. Designed, deployed, and governed by a ServiceNow Premier Partner for Consulting & Implementation.
+Talk to Uscontact@exterprise.us
+
+---
+
+URL: https://www.exterprise.us/smartsourcing.html
+Title: Business Process Outsourcing (BPO) Services | Exterprise
+Summary: Smartsourcing from Exterprise: contact center, healthcare revenue cycle, claims, records and property preservation outsourcing, 24x7 from the US, India and Honduras.
+
+Smartsourcing
+# Smartsourcing
+Outsourced processes that extend your enterprise, delivered by teams in the US, India and Central America.
+Talk to UsExplore Services275+Professionals, globally24x7Round-the-clock processing99.99%Adherence to SLAs4Delivery centers on 3 continents
+## Exterprise Outsourced Process
+We take on the processes that keep a business running, from revenue cycle work in healthcare to county records, property preservation and round-the-clock contact centers.
+A technology platform built for faster implementation and advanced customization sits behind every engagement, so each process is shaped around how you already work.
+## Services
+### Contact Center
+Level 1 and Level 2 support, staffed around the clock from onshore, offshore and near-shore teams.
+### Healthcare
+The broadest suite of patient-centric solutions and services for healthcare providers.
+### Property Preservation
+Services and complete accountability across inspection, quality control, bidding and preservation order management.
+### Records Processing
+Technical services for records digitization, indexing, search and retrieval.
+### Digital Branding & Marketing
+Websites, apps, marketing and stories that bring your brand to life.
+## Frequently Asked Questions
+### What is smartsourcing?
+Smartsourcing is Exterprise's approach to business process outsourcing: onshore, offshore and near-shore teams backed by a technology platform, taking on processes such as contact center support, healthcare revenue cycle and claims work, records and county records processing, property preservation and data capture.
+### Where are Exterprise's outsourcing teams?
+Exterprise is headquartered in Dallas, Texas, with delivery centers in Chennai and Coimbatore, India, and San Pedro Sula, Honduras: four delivery centers on three continents, running 24x7.
+### How accurate and reliable is the work?
+Exterprise holds a 99.99% adherence rate to SLAs and reaches 99.995% data accuracy in county records and data capture work.
+### Is outsourced work secure and compliant?
+Yes. Exterprise operates under SOC 2 Type II, ISO 27001 and HIPAA, with control activities validated every year by an independent Certified Public Accountant.
+←Custom AI SolutionsAbout Us→Enterprise Solutions
+## Let's Talk!
+Talk to a consultant about the processes you want to extend.
+Send a Messagecontact@exterprise.us
+
+---
+
+URL: https://www.exterprise.us/ai-agents-now-assist.html
+Title: ServiceNow AI Agents & Now Assist Implementation | Exterprise
+Summary: Deploy ServiceNow AI Agents and Now Assist with a certified Premier Partner: Now Assist certified for ITSM, HRSD and Creator, with guardrails and governance.
+
+# AI Agents & Now Assist
+Agentic and generative AI, deployed on the Now Platform.
+Talk to Us
+## From Chat to Action
+ServiceNow's AI Agents take the next step on their own. They triage a ticket, close out a routine request, or pass it to a person with the full history attached. AI Agent Orchestrator keeps several agents working together so handoffs stay clean. Now Assist adds generative AI to the tools your teams already use, summarizing cases and drafting resolutions in ITSM, HR Service Delivery and Creator.
+Exterprise is certified to implement Now Assist for IT Service Management, HR Service Delivery and Creator. We set up AI Agents with the guardrails and human review points your business needs, rather than leaving the defaults in place.
+3Now Assist certifications held (ITSM, HRSD, Creator)PremierPartner, Consulting & Implementation4.5/5Customer satisfaction score60+ServiceNow-accredited professionals
+## Key Services
+## ADVISORY
+### AI Readiness Assessment
+Process Mining shows where your workflows create real bottlenecks, so agent deployment targets actual friction instead of guesses.
+DEPLOYMENT
+### Agent & Now Assist Deployment
+Design and deploy AI Agents and Now Assist tuned to your specific workflows, with clear guardrails on what an agent can and can't do on its own.
+STAFFING
+### Certified AI Specialists
+Now Assist and AI Agent-certified consultants available to augment your team, onshore, nearshore, or offshore.
+MANAGED SERVICES
+### Ongoing AI Governance
+AI Control Tower configuration and monitoring keeps every agent's activity visible, auditable, and accountable to your leadership.
+## Frequently Asked Questions
+### What do ServiceNow AI Agents do?
+ServiceNow AI Agents take the next step on their own: they triage a ticket, close out a routine request, or pass it to a person with the full history attached. AI Agent Orchestrator coordinates several agents so they hand off work cleanly.
+### Is Exterprise certified to implement Now Assist?
+Yes. Exterprise is certified to implement Now Assist for IT Service Management, HR Service Delivery and Creator, and is a ServiceNow Premier Partner for Consulting & Implementation with 60+ ServiceNow-accredited professionals.
+### How do you keep AI Agents safe and accountable?
+Every agent is set up with clear guardrails on what it can and cannot do on its own, plus human review points. AI Control Tower configuration and monitoring keeps each agent's activity visible and auditable.
+### Where should we start with ServiceNow AI?
+Start with an AI Readiness Assessment. Process Mining shows where your workflows create real bottlenecks, so AI Agents target actual friction instead of guesses.
+←CMDB & Data Foundations ServiceNow →AI Control Tower
+## Let's Talk!
+Talk to a ServiceNow architect about your AI Agents & Now Assist initiative.
+Send a Message contact@exterprise.us
+
+---
+
+URL: https://www.exterprise.us/ai-control-tower.html
+Title: ServiceNow AI Control Tower Implementation | Exterprise
+Summary: Govern every AI agent, Now Assist skill and third-party model from one place. Exterprise sets up ServiceNow AI Control Tower, from intake to monitoring.
+
+# AI Control Tower
+One place to see, govern, and prove the value of every AI in your business.
+Talk to Us
+## Know Every AI You Run
+Most enterprises can't answer a simple question: how many AI tools are we actually using? Agents in ServiceNow, copilots in Microsoft 365, models your data team built, AI features inside vendor software. Each one carries risk, and few are tracked in one place.
+AI Control Tower brings them together. It keeps a live inventory of every AI agent, Now Assist skill, and third-party model, and runs each one through the same governance lifecycle: intake, risk assessment, approval, and ongoing monitoring. Every AI asset has a clear owner, a steward, and a risk and compliance reviewer, so nothing goes live without the right people signing off.
+Exterprise has built AI Control Tower governance flows hands-on, from intake questionnaires and impact assessments to role design, and we connect it to the AI Agents and Now Assist work we already deliver.
+## How AI Control Tower Works
+## 01
+### Discover
+Build a single inventory of AI assets across ServiceNow and third-party platforms.
+02
+### Assess
+Run intake and impact assessments that score each AI for risk before it's approved.
+03
+### Govern
+Route approvals through defined roles: AI asset owner, AI steward, and risk and compliance analyst.
+04
+### Monitor
+Track performance, usage, and value over time, and flag issues before they become incidents.
+## Key Services
+## ADVISORY
+### AI Governance Design
+Define your AI policies, risk tiers, and approval roles, aligned to frameworks like the NIST AI Risk Management Framework and the EU AI Act.
+DEPLOYMENT
+### AI Control Tower Implementation
+Configure the AI inventory, intake forms, risk assessments, and approval workflows around how your organization makes decisions.
+STAFFING
+### Certified AI Specialists
+Consultants experienced in AI Control Tower, AI Agents, and Now Assist, available to support your governance team.
+MANAGED SERVICES
+### Ongoing AI Oversight
+Monitor your AI inventory, tune policies as new tools arrive, and keep reporting ready for leadership and auditors.
+←AI Agents & Now Assist ServiceNow →ServiceNow Otto
+## Let's Talk!
+Talk to a ServiceNow architect about governing AI across your enterprise.
+Send a Message contact@exterprise.us
+
+---
+
+URL: https://www.exterprise.us/ai-image-analytics.html
+Title: AI Image Analytics & Computer Vision | Exterprise
+Summary: AI image analytics for construction and engineering sites: drone-captured aerial imagery on an AI platform that shows progress, discrepancies and completion in one view.
+
+# AI Image Analytics
+Capture, analyze, improve: business insight from aerial imagery on an AI-enabled platform.
+Talk to Us1UI for planning and management3Engineering roles connectedCloudZero-footprint loginsAITrained on quality datasets
+## Capture Analyze Improve
+Drone-captured imagery and an AI-enabled analytics platform give site, planning and design engineers one view of progress, discrepancies and completion.
+## Cost Savings
+### Fewer Delays
+Avoid costs from delayed problem reporting, execution delays and other site discrepancies.
+### Less Travel
+Save on the logistics of senior site and project managers for site inspection.
+### One Tool
+A single UI for project planning and management.
+## Time Saving
+### Simple Integration
+One platform for site engineers, planning engineers and design engineers.
+### Live Site Data
+Add, edit and modify structural data from site, and update completion status, counts and reports.
+### Design Correlation
+Correlate with design changes and make modifications whenever needed.
+## Advantages
+- Differentiated data visualization via TCG mCube
+- High quality datasets for training superior algorithms
+- Zero-footprint cloud logins for multiple users
+- Competitive pricing due to efficient processes
+- Client-customizable interfaces and views
+- Industry-specialist customer support personnel
+- Experienced field operators: no crashes, perfect data capture
+- Thought leadership in the open source drone software community
+- ←Enterprise Data ManagementEnterprise Solutions→SAP Solutions
+## Let's Talk!
+Talk to us about AI image analytics.
+Send a Messagecontact@exterprise.us
+
+---
+
+URL: https://www.exterprise.us/application-development.html
+Title: Custom Application Development Services | Exterprise
+Summary: Custom application development across the full stack, from front end to deployment, with platform customization and integration on future-proof technology.
+
+# Application Development
+Technology is the underlying unifying theme behind every business.
+Talk to Us3Development servicesFull StackFront end to deploymentPlatformCustomization and integrationFuture-proofTechnology choices
+## Your Vision, Built on Today’s Stack
+Our consultants and technical experts turn your business vision into a solution using current digital technology.
+We build end-to-end, industry-specific solutions on future-proof technologies, so you keep your existing IT investments while adopting newer digital platforms.
+## Services
+Experience across the full technology stack, from front end to deployment.
+### Front-End or User Technologies
+Client-side programming focused on customer-centric solutions.
+### Back-End or Server Side Technologies
+Commonly used traditional and newer digital technologies.
+### Platform Based Development
+Customization and integration for industry-specific technology platforms.
+←Solution DesignTechnical→Deployment & Maintenance
+## Let's Talk!
+Contact us for a free consultation.
+Send a Messagecontact@exterprise.us
+
+---
+
+URL: https://www.exterprise.us/bid-processing.html
+Title: Property Preservation Bid Processing | Exterprise
+Summary: Property preservation bid processing: job documentation, reusable work orders and thorough bids from in-depth analysis, for REO and PFC orders, 24x7.
+
+# Bid Processing
+Documentation, work orders and bids that keep property preservation moving.
+Talk to Us3Core services24x7Processing400,000+Properties every monthREO / PFCOrder types
+## Bids Built on Analysis
+Our bid processing service line documents completed field jobs, turns them into reusable work orders and prepares thorough bids from in-depth analysis.
+## Key Services
+### Job Documentation
+Records finished field jobs and uploads them to client portals or saves them as reusable files.
+### Work Order Creation
+Detailed work orders that serve as accurate templates for future jobs.
+### Bid Preparation
+Thorough bids based on in-depth analysis, with the deliverables laid out.
+←Vendor ManagementProperty Preservation
+## Let's Talk!
+Talk to us about bid processing.
+Send a Messagecontact@exterprise.us
+
+---
+
+URL: https://www.exterprise.us/claims-processing.html
+Title: Medical Claims Processing Outsourcing | Exterprise
+Summary: End-to-end medical claims processing for HCFA, UB-92 and ADA claims, with 12 to 72 hour turnaround, automated workflow and a digital repository.
+
+# Claims Processing
+Claims Processing solutions for managing patient claims, end to end.
+Talk to Us12-72 HrTurnaround schedules3Claim types: HCFA, UB-92, ADA2xDouble-key data entry24x7Round-the-clock schedule
+## Built for a Tightly Regulated Industry
+Healthcare claims processing faces service delays and rising costs. Exterprise answers with a web-based document repository and an automated claims workflow.
+We process HCFA, UB-92 and ADA claims on 12, 24, 48 or 72-hour schedules, from mailroom intake and scanning through to data conversion.
+## Key Features
+### Round the Clock Schedule
+HCFA, UB-92 and ADA claims processed on 12, 24, 48 or 72-hour schedules.
+### Complete Processing
+The full chain, from mailroom intake and scanning to data conversion.
+### Automated Workflow
+Manage claim payments within regulated timeframes.
+### Precise Data Entry
+Double-key entry with relationship validation of data.
+### Digital Repository
+Digital claim images for research in your in-house imaging system.
+### Reports & Graphs
+Production reports that help you manage the process.
+## Solution Components
+### Web Based Document Management
+Providers, claims representatives and claimants share access to documents and claim status, reducing resubmissions.
+### Claims Processing Workflow
+Automates routine tasks, routes complex claims between departments and gathers compliance evidence, with near real-time dashboards.
+## Who Is It For?
+- Insurance companies
+- Third-party administrators (TPAs)
+- Preferred provider organizations (PPOs)
+- Health maintenance organizations (HMOs)
+- ←Revenue Cycle ManagementHealthcare
+## Let's Talk!
+Talk to us about your claims volume.
+Send a Messagecontact@exterprise.us
+
+---
+
+URL: https://www.exterprise.us/cmdb-data-foundations.html
+Title: ServiceNow CMDB & CSDM Implementation | Exterprise
+Summary: Build and clean up your ServiceNow CMDB with Discovery, Service Graph Connectors and the CSDM data model, so AI Agents and workflows run on accurate data.
+
+# CMDB & Data Foundations
+Trust your data before you automate on it.
+Talk to Us
+## AI Is Only as Good as the Data Underneath It
+Every ServiceNow workflow depends on the Configuration Management Database (CMDB). It tells the platform what systems you have, who owns them, and how they connect. When the CMDB is incomplete or out of date, incidents get routed to the wrong team, change risk goes unnoticed, and AI Agents make decisions based on bad information.
+Exterprise builds CMDBs that stay accurate. We use Discovery and Service Graph Connectors to bring data in automatically, the Identification and Reconciliation Engine to prevent duplicates, and ServiceNow's Common Service Data Model (CSDM) to organize it all in a structure the whole platform understands. Our consultants hold the ServiceNow Certified Implementation Specialist in CMDB (CIS-CMDB).
+## CMDB Highlights
+### Automated Discovery
+Find servers, cloud resources, applications, and network devices automatically with Discovery and Service Mapping.
+### Connected Data Sources
+Pull in data from tools like Microsoft SCCM, Intune, AWS, and Azure through Service Graph Connectors.
+### Clean, Reliable Records
+Remove duplicates and keep one trusted record per item with the Identification and Reconciliation Engine.
+### A Structure That Scales
+Organize services and applications with CSDM, so ITSM, ITOM, GRC, and AI Agents all read from the same map.
+### Health You Can Measure
+Track completeness, correctness, and compliance with the CMDB Health Dashboard.
+## Key Services
+## ADVISORY
+### CMDB Health Assessment
+Review your current CMDB against CSDM best practices and build a prioritized plan to fix gaps.
+DEPLOYMENT
+### CMDB Build-Out and Cleanup
+Configure Discovery, MID Servers, Service Mapping, and Service Graph Connectors, and clean up existing data.
+STAFFING
+### CIS-CMDB Certified Consultants
+Certified specialists available to support your configuration management team.
+MANAGED SERVICES
+### Ongoing CMDB Upkeep
+Monitor data health, manage Discovery schedules, and keep your CMDB accurate as your infrastructure changes.
+←Governance, Risk & Compliance ServiceNow →AI Agents & Now Assist
+## Let's Talk!
+Talk to a ServiceNow architect about building a CMDB your whole platform can trust.
+Send a Message contact@exterprise.us
+
+---
+
+URL: https://www.exterprise.us/contact-center.html
+Title: 24x7 Contact Center Outsourcing (L1 & L2) | Exterprise
+Summary: Outsourced Level 1 and Level 2 contact center support, staffed 24x7 from onshore, offshore and near-shore teams, with 99.99% SLA adherence.
+
+# Contact Center
+Level 1 and Level 2 support, staffed around the clock from onshore, offshore and near-shore teams.
+Talk to Us99.99%Adherence rate to SLAs24x7Multi-shift coverage275+Professionals across 3 continents2015Founded
+## A Global Delivery Model
+Exterprise is headquartered in Dallas, TX, with offshore centers in Chennai and Coimbatore, India, and a near-shore center in San Pedro Sula, Honduras.
+Exterprise’s multi-shift operations enable continuous, round-the-clock processing, and the offshore and near-shore blend keeps operating costs low without trading away quality.
+## Call Center Levels
+### Level 1 Support
+Initial inquiries, basic technical support and first-line assistance, escalating complex issues when needed.
+### Level 2 Support
+More complex technical issues, handled with advanced problem-solving.
+## Cost-Effectiveness
+Flexible pricing so you can plan budgets with full transparency.
+- FTE-based pricing
+- Hourly pricing
+- Fixed project fee
+- Per-unit transactional pricing
+## Certifications & Compliance
+Control activities are validated every year by an independent Certified Public Accountant.
+- SOC 2 Type II
+- ISO 27001
+- HIPAA
+## Frequently Asked Questions
+### What contact center support does Exterprise provide?
+Exterprise provides Level 1 support (initial inquiries, basic technical help and first-line assistance) and Level 2 support for more complex technical issues, staffed around the clock from onshore, offshore and near-shore teams.
+### Is the contact center available 24x7?
+Yes. Multi-shift operations across Chennai and Coimbatore, India, and San Pedro Sula, Honduras, coordinated from Dallas, Texas, keep support running 24x7.
+### How is contact center outsourcing priced?
+You can choose FTE-based pricing, hourly pricing, a fixed project fee or per-unit transactional pricing, so budgets are planned with full transparency.
+### What service levels does Exterprise achieve?
+Exterprise maintains a 99.99% adherence rate to SLAs, under SOC 2 Type II, ISO 27001 and HIPAA controls validated every year by an independent Certified Public Accountant.
+Smartsourcing→Healthcare
+## Let's Talk!
+Talk to us about staffing your contact center.
+Send a Messagecontact@exterprise.us
+
+---
+
+URL: https://www.exterprise.us/county-government-services.html
+Title: County Records Digitization & Conversion | Exterprise
+Summary: Official property and vital records conversion for county governments: scanning, indexing, filing and book preservation with 99.995% data accuracy.
+
+# County Government Services
+The industry’s most accurate (99.995%) data entry and processing of County Government records.
+Talk to Us99.995%Data accuracy40 YearsOf book preservation experience2+1Operators per record24x7Round-the-clock entry
+## Deeds, Liens, Certificates and Easements
+We capture and process county government records such as deeds of trust, lien documents and lien releases, marriage certificates and easement rights.
+Two operators capture data from the same image, and a third compares the two files, exceeding the 99.95% minimum quality required by County Records Services.
+## Key Features
+### Double-Operator Entry
+Having two different operators capture data from the same image and of the same data set.
+### 99.995% Data Accuracy
+An individual compare operator checks the two data files generated from the same data set.
+### Speed in Entry
+Round-the-clock data entry, with distributed onsite and offsite teams working on faster data entry.
+## Official Property & Vital Records Conversion
+- Indexing and imaging
+- Onsite and offsite models
+- Film scanning and writing
+- System conversion and loading
+- Backfile and day-forward indexing projects
+## Book Preservation
+Full-service county book restoration, onsite or offsite.
+- Binding cutting
+- Archival cleaning
+- pH testing and deacidification
+- Imaging and indexing
+- Encapsulation
+- Rebinding in canvas and leather
+- Gold leaf lettering
+- Records Processing→Data Capture Services
+## Let's Talk!
+Talk to us about your county records.
+Send a Messagecontact@exterprise.us
+
+---
+
+URL: https://www.exterprise.us/custom-ai-solutions.html
+Title: Custom AI & Machine Learning Solutions | Exterprise
+Summary: Custom AI solutions designed around your business: ServiceNow AI Agents, drone image analytics and machine learning on your own data, built, deployed and supported.
+
+Technology & AI
+# Custom AI Solutions
+AI solutions designed around your business needs.
+Talk to UsExplore Services4AI service areasPremierServiceNow PartnerSnowflakeAI / ML enginesDroneImage analytics
+## AI That Fits How You Work
+From AI agents on ServiceNow to image analytics and machine learning on your own data, we design AI around the problem you need solved, then build, deploy and support it.
+## Services
+### AI Image Analytics
+Capture, analyze, improve: business insight from aerial imagery on an AI-enabled platform.
+### Enterprise Data Management
+End to end data management solutions for enterprises, with our partnership with Snowflake.
+### Application Development
+Technology is the underlying unifying theme behind every business.
+### Solution Design
+Exterprise works closely with you in identifying your business goals and challenges.
+### AI Agents & Now Assist
+AI agents that sort, resolve, and hand off routine work.
+- ←TechnicalAbout Us→Smartsourcing
+## Let's Talk!
+Talk to us about your AI use case.
+Send a Messagecontact@exterprise.us
+
+---
+
+URL: https://www.exterprise.us/customer-service-management.html
+Title: ServiceNow CSM Implementation Partner | Exterprise
+Summary: ServiceNow Customer Service Management implementation: Predictive Intelligence and Advanced Work Assignment route every case to the right agent, fast.
+
+# Customer Service Management
+Improving customer experience with AI Agents and Predictive Intelligence, to build brand loyalty and customer retention.
+Talk to Us
+95% of consumers cite customer service as important in their choice of, and loyalty to, a brand.
+Source: Microsoft Corporation
+Exterprise has implemented ServiceNow Customer Service Management many times. Predictive Intelligence sorts incoming cases by issue type and priority, and Advanced Work Assignment sends each one to the agent best placed to handle it, based on skills, availability and workload. AI Agents can now resolve routine requests on their own, without waiting for a person.
+90% of Americans use customer service as a deciding factor when choosing to do business with a company.
+Source: American Express
+Our CSM team configures Case Management and connects your customer data to the back-end processes in your front, middle and back offices. That gives Advanced Work Assignment the full picture, so cases don't get stuck between teams.
+## CSM Highlights
+Our CSM implementation accelerator can get you live in 4 to 6 weeks. We follow industry standards for customer experience design and implementation on ServiceNow, so your setup can grow with you.
+### Service Mapping and Standardization
+unified Account, Contact, Product & Case data model
+### Improve Customer Service Experience
+Agent Workspace plus Virtual Agent for routine self-service
+### Integrate with ALL Customer Communications Methods
+Omni-Channel routing across email, chat, phone & portal via IntegrationHub
+### Increased Efficiency of Business Operations
+tracked via Case Volume, Deflection Rate & CSAT dashboards
+### Improve Adherence to Governance and Compliance Regulations
+Contract & Entitlement Management with automatic SLA breach alerts
+### Increased Communication and Visibility
+CSM Portal: account hierarchy and entitlement visibility for B2B customers
+## Where Customers See CSM
+Most of the work happens in three applications behind the highlights above. We set them up around the way you deliver service.
+CASE MANAGEMENT
+### One Case, Tracked End to End
+- Case Management handles intake, SLAs, and interactions in one place
+- Including cases outsourced to third parties
+- While Predictive Intelligence classifies and prioritizes each case automatically as it comes in
+- OMNI-CHANNEL ENGAGEMENT
+### Every Channel, One Queue
+- Advanced Work Assignment routes email, chat, phone, and portal interactions to the agent best equipped to handle them, based on skills, availability, and capacity
+- With IntegrationHub connecting to CRM, CCaaS, and ERP systems
+- CSM PORTAL
+### Self-Service That Shows the Full Picture
+- B2B customers manage their own cases, view entitlements, and access knowledge directly
+- With account hierarchy and contract visibility built in, not bolted on
+- ←ServiceNow Otto ServiceNow →Field Service Management
+## Let's Talk!
+Don't wait until tomorrow. Talk to one of our consultants today about Customer Service Management.
+Send a Message contact@exterprise.us
+
+---
+
+URL: https://www.exterprise.us/data-capture-services.html
+Title: Data Capture & Data Entry Services (OCR) | Exterprise
+Summary: OCR-based data capture with centralized capture, cleanup and indexing, plus scanning, verification and updating of physical records.
+
+# Data Capture Services
+End to end data entry services that include scanning, verifying and updating physical records.
+Talk to Us99.995%Accuracy of entered data2Levels of validation6Key services24x7Continuous processing
+## Validated at Two Levels
+Manual entry uses the double-key method, and data is validated at two levels, data entry and data checking, for upwards of 99.995% accuracy.
+A back-office team works with onsite data capture experts to deliver accurate data that exports to multiple formats and systems.
+## Key Services
+### Data Management
+Double-key entry and capture, with multi-level validation.
+### Document Conversion
+Document conversion that includes indexing and archiving for easy, ongoing management.
+### Transaction Processing
+High-volume transactional data consumed by multiple systems.
+### OCR Services
+High-speed scanning and conversion services using optical character recognition and AI.
+### Industry Specific
+Processes designed around the pain points of particular industries.
+### Continuous Processing
+Onsite and offsite teams for faster capture and processing, with quality checks.
+←County Government ServicesRecords Processing
+## Let's Talk!
+Contact us for a free consultation with a data consultant.
+Send a Messagecontact@exterprise.us
+
+---
+
+URL: https://www.exterprise.us/deployment-maintenance.html
+Title: Application Deployment & Maintenance | Exterprise
+Summary: Application deployment, support and maintenance with 24x7 coverage, 99.99% SLA adherence and three pricing models, from a team with 5+ years managing complex IT applications.
+
+# Deployment & Maintenance
+Solutions that are simple to maintain, easy to sustain and ready to evolve.
+Talk to Us5+ YearsManaging complex IT applications24x7Support99.99%Adherence to SLAs3Pricing models
+## Efficient Application Maintenance
+Business practices and customer expectations keep changing, and application systems have to keep pace. Well-maintained applications are what let the business keep growing.
+With over five years of experience managing complex IT applications, we offer a broad range of support and maintenance solutions and keep building the technical and domain capability to deliver solutions that are easy to maintain.
+## How We Keep It Running
+### People
+Teams who know your applications and your domain.
+### Processes
+Support built around SLAs and continuous improvement.
+### Tools
+Monitoring and automation that keep solutions easy to sustain.
+←Application DevelopmentTechnical
+## Let's Talk!
+Talk to us about application support.
+Send a Messagecontact@exterprise.us
+
+---
+
+URL: https://www.exterprise.us/design-services.html
+Title: UX/UI Design Services | Exterprise
+Summary: From user research and personas to information architecture, prototypes, visual design and front-end development for digital products.
+
+# Design Services
+Intuitive, digital solutions for your customers, across devices and technologies.
+Talk to UsUI / UXEnd-to-end design4Front-end frameworksWebApps, mobile and softwareInteractivePrototypes
+## From Research to Front End
+We start by understanding customer behavior, attitudes, motivations and pain points to build accurate user personas, then create information architecture, wireframes, mockups and prototypes.
+Interactive prototyping gives you a close replica of what the end design will look like before it is built, and our front-end team delivers it in AngularJS, Flutter, HTML5 and React.
+## What We Design
+### User Research & Personas
+Behavior, motivations and pain points turned into accurate personas.
+### Information Architecture
+Structure, wireframes and mockups that test the look and feel.
+### Interactive Prototyping
+Near-final replicas of the product UI and UX.
+### Visual & Graphic Design
+Typography, imagery and highly creative visual content.
+### Front-End Development
+Built in AngularJS, Flutter, HTML5 and React.
+### Digital Products
+Websites, web apps, mobile apps and software.
+←Digital EnablementDigital Branding & Marketing→Digital Marketing
+## Let's Talk!
+Talk to us about your next product.
+Send a Messagecontact@exterprise.us
+
+---
+
+URL: https://www.exterprise.us/digital-branding-marketing.html
+Title: Digital Branding & Marketing Services | Exterprise
+Summary: Websites, apps, marketing and visual storytelling that bring your brand to life, from one team working to one plan.
+
+# Digital Branding & Marketing
+Websites, apps, marketing and stories that bring your brand to life.
+Talk to UsExplore Services3Service lines360°Marketing servicesPWAProgressive web appsUI / UXEnd-to-end design
+## Grow Your Brand Digitally
+Reach your customers across every digital channel, with design, development and marketing working from one plan.
+## Services
+### Digital Enablement
+Mobile app development, Progressive Web Applications, e-commerce and CMS-based solutions.
+### Design Services
+Intuitive, digital solutions for your customers, across devices and technologies.
+### Digital Marketing
+360° marketing services to grow your business, across digital platforms.
+## Visual Storytelling
+Product demos, training videos, and company stories that bring your brand to life.
+- Product demos
+- Training videos
+- Company stories
+- ←Records ProcessingSmartsourcing
+## Let's Talk!
+Talk to us about growing your brand.
+Send a Messagecontact@exterprise.us
+
+---
+
+URL: https://www.exterprise.us/digital-enablement.html
+Title: Mobile App, PWA & E-commerce Development | Exterprise
+Summary: Digital enablement: mobile apps, progressive web apps, e-commerce and CMS/LMS solutions that bring enterprise systems to every device.
+
+Enterprise Mobility
+# Digital Enablement
+Mobile app development, Progressive Web Applications, e-commerce and CMS-based solutions.
+Talk to Us1Progressive app for every endpoint3-4xLower cost than native appsPWAWeb, mobile and desktopCMSand LMS based solutions
+## Bridging Enterprise Needs and Mobile Access
+Our digital enablement services help you modernize, grow the business, simplify processes and cut costs.
+## Mobile App and PWA
+### Mobile Apps
+Mobile applications that open new markets: a strong promotional platform, loyalty and rewards programs, and more customer interaction.
+### Progressive Web Apps
+- A single progressive app meets the requirements of all endpoints
+- So there are no separate builds per device and costs can be three or four times lower than native apps
+### E-Commerce
+Online storefronts built for conversion and easy management.
+### CMS & LMS Solutions
+Content and learning platforms your teams can run themselves.
+Digital Branding & Marketing→Design Services
+## Let's Talk!
+Contact us now for a free consultation.
+Send a Messagecontact@exterprise.us
+
+---
+
+URL: https://www.exterprise.us/digital-marketing.html
+Title: Digital Marketing Services | Exterprise
+Summary: Measurable digital marketing: campaigns across every channel with mobile reach, real-time flexibility, direct communication and influencer engagement.
+
+# Digital Marketing
+360° marketing services to grow your business, across digital platforms.
+Talk to Us360°Marketing servicesReal-timeCampaign controlSearchSocial and digitalMeasurableReach and results
+## Engagement That Is Measurable
+Engagement strategies and tactics for prospects, customers, partners and vendors, with reach that is measurable and cost-effective.
+Digital marketing is considerably less expensive than other methods, and campaigns can be tested, tuned or stopped in real time.
+## Why Digital Marketing
+### Lower Cost
+Ad spend tends to be lower than other forms of marketing.
+### Mobile Reach
+Targeted ads reach people on their smartphones, where they read news and use social media.
+### Real-Time Flexibility
+Test campaigns, stop what underperforms and see what people saw before they bought.
+### Online Shoppers
+Search ads and awareness campaigns extend your reach to people who shop online.
+### Direct Communication
+Websites and blogs let you talk with customers and learn their preferences.
+### Influencer Engagement
+Influencer endorsements turn followers into customers and build brand awareness.
+←Design ServicesDigital Branding & Marketing
+## Let's Talk!
+Talk to us about growing your reach.
+Send a Messagecontact@exterprise.us
+
+---
+
+URL: https://www.exterprise.us/enterprise-data-management.html
+Title: Enterprise Data Management & Snowflake | Exterprise
+Summary: End-to-end enterprise data management with our Snowflake partnership: data engineering, governance and AI/ML engines that turn data into insight.
+
+# Enterprise Data Management
+End to end data management solutions for enterprises, with our partnership with Snowflake.
+Talk to Us4Service lines6Snowflake benefitsSnowflakePartnerAI / MLOn distributed data
+## Snowflake-Enabled Data Management
+From business case to running AI and ML engines, we build the data foundations your teams need on Snowflake.
+## Snowflake-Enabled Data Management Solutions
+### Consulting & Strategy
+Business case build, migration strategies, data pipeline & security architecture, using Snowflake.
+### Migration Services
+Tool-based migration services into Snowflake, for data consolidation and visualization.
+### Data Engineering
+Data lakes and data pipeline development, featuring security groups for granular access to data.
+### AI & ML Engines
+Running AI and ML models on scattered, distributed data in Snowflake to find insights you can act on.
+## Top 6 Snowflake Benefits
+- Performance & Speed
+- Security & Uptime
+- Multi-level Data Access & Sharing
+- Support for All Data Types
+- Real-time & Concurrent Requests
+- Scalability & Extensibility
+- Enterprise Solutions→AI Image Analytics
+## Let's Talk!
+Talk to a data consultant.
+Send a Messagecontact@exterprise.us
+
+---
+
+URL: https://www.exterprise.us/enterprise-solutions.html
+Title: Enterprise Solutions: ServiceNow, SAP & Data | Exterprise
+Summary: Bespoke or industry-standard enterprise solutions: implementation, migration, upgrades, support and maintenance on ServiceNow, SAP and Snowflake.
+
+Enterprise
+# Enterprise Solutions
+Custom or off-the-shelf solutions, from implementation and migration to upgrades and ongoing support.
+Talk to UsExplore Services3Solution areasSnowflakeData partnershipSAPEcosystem servicesAIImage analytics
+## Consultants and Technical Experts
+The key to our enterprise offering is the combination of experienced consultants and technical experts, delivering solutions across data, AI and SAP.
+## Services
+### Enterprise Data Management
+End to end data management solutions for enterprises, with our partnership with Snowflake.
+### AI Image Analytics
+Capture, analyze, improve: business insight from aerial imagery on an AI-enabled platform.
+### SAP Solutions
+Solutions for business processes in any industry, built on SAP and related products.
+- ←SmartsourcingAbout Us→Technical
+## Let's Talk!
+Talk to us about your enterprise platforms.
+Send a Messagecontact@exterprise.us
+
+---
+
+URL: https://www.exterprise.us/field-service-management.html
+Title: ServiceNow FSM Implementation Partner | Exterprise
+Summary: ServiceNow Field Service Management implementation: Schedule Optimization, AI Agents and the FSM mobile copilot so technicians fix it on the first visit.
+
+# Field Service Management
+For faster response time and prevention of issues, powered by Schedule Optimization and AI Agents.
+Talk to Us
+## Modernized Field Service Management
+The ServiceNow Field Service Management application helps organizations manage work tasks performed on assets in the field. It matches tasks to agents based on skills, location, technician availability, and parts/inventory. Agents can record details on assigned tasks like completion status, travel time to jobs, and add pictures and time spent.
+Schedule Optimization, ServiceNow's AI scheduling engine, keeps re-matching the right technician as plans change: a cancellation, a late part, a more urgent job. Its Explainability view shows dispatchers why each assignment was made, so nobody has to guess about routes and timing.
+Two AI Agents help here. The Shift Management AI Agent fills open shifts by matching available technicians on skills, location and constraints. The Create Work Order AI Agent turns a technician's field notes and photos into a complete work order in seconds, with no retyping.
+## FSM Highlights
+Our team makes sure your field service team:
+### Solves Customer Issues on the First Visit
+- Schedule Optimization automatically assigns the most qualified technician based on skills, location, availability, and parts on hand
+- With Territory Planning and Capacity & Reservations making sure the right crew is available before the job gets booked, not after
+### Maximizes Uptime
+Predictive Intelligence analyzes asset data, IoT sensor readings, and usage patterns to flag likely failures before they happen, automatically triggering preventive maintenance work orders instead of waiting on a breakdown.
+### Improves Efficiency
+- The Now Assist mobile copilot is built into the FSM app and works offline. It gives technicians on-site guidance, summaries and notes, with remote video and AR support when a job needs another expert.
+- Create and meet SLAs, optimize schedules, and keep workers safe, with Performance Analytics tracking it all.
+## Top Challenges
+Faced by field service technicians, and how the platform handles each one today.
+01
+### Pre-Visit Review of Service/Asset History
+Asset history, warranty status and past service records show up on the work order, so nobody digs through other systems before dispatch.
+02
+### Access to Service Manuals
+Manuals and documentation linked directly to the asset record, available offline in the FSM mobile app.
+03
+### Access to Knowledge Base
+Searchable offline, with Now Assist for Field Service surfacing similar past resolutions automatically.
+04
+### Visibility of Parts & Inventory
+Real-time stock visibility across ERP-connected inventory via IntegrationHub, so a technician never commits to a fix without the part in hand.
+05
+### Training Videos
+Attached directly to task types, with Now Assist for Field Service's mobile copilot walking newer technicians through unfamiliar jobs step by step.
+←Customer Service Management ServiceNow →IT Service Management
+## Let's Talk!
+Don't wait until tomorrow. Talk to one of our consultants today about Field Service Management.
+Send a Message contact@exterprise.us
+
+---
+
+URL: https://www.exterprise.us/governance-risk-compliance.html
+Title: ServiceNow GRC / IRM Implementation | Exterprise
+Summary: ServiceNow GRC and IRM implementation: policy, risk and audit workflows connected to the systems where work happens, so compliance is never a spreadsheet.
+
+# Governance, Risk & Compliance
+Manage risk in the same place the work happens, with ServiceNow Integrated Risk Management.
+Talk to Us
+## Compliance That Runs with the Business, Not Beside It
+In many organizations, risk and compliance live in spreadsheets and email, separate from the systems where the work gets done. By the time an audit arrives, teams are chasing screenshots and signatures.
+ServiceNow Integrated Risk Management (IRM) connects policies, controls, risks, and audits directly to your IT and business workflows. When a change is made, a vendor is onboarded, or an incident is raised, the related risk and control data updates automatically. Compliance becomes a continuous process instead of a yearly scramble.
+## Where Teams Work in GRC
+## POLICY & COMPLIANCE MANAGEMENT
+### One Source of Truth for Controls
+Map policies to controls and regulations such as SOC 2, HIPAA, ISO 27001, and NIST, then test and track them continuously.
+RISK MANAGEMENT
+### See Risk Before It Becomes a Problem
+Identify, score, and monitor risks across the business, with dashboards leadership can act on.
+THIRD-PARTY RISK MANAGEMENT
+### Know Your Vendors
+Run vendor assessments, track issues, and monitor supplier risk through a single portal.
+AUDIT MANAGEMENT
+### Audits Without the Scramble
+Plan engagements, collect evidence, and track findings in one place.
+## Key Services
+## ADVISORY
+### GRC Readiness Assessment
+Review your current risk and compliance processes and design an IRM roadmap that fits your regulatory requirements.
+DEPLOYMENT
+### IRM Implementation
+Configure Policy & Compliance, Risk, Third-Party Risk, and Audit Management, integrated with ITSM, ITOM, and your CMDB.
+STAFFING
+### Certified GRC Specialists
+ServiceNow GRC consultants available to support your risk and compliance teams.
+MANAGED SERVICES
+### Ongoing Compliance Support
+Maintain control libraries, update content as regulations change, and keep evidence audit-ready year round.
+←Now Platform ServiceNow →CMDB & Data Foundations
+## Let's Talk!
+Talk to a ServiceNow architect about your risk and compliance program.
+Send a Message contact@exterprise.us
+
+---
+
+URL: https://www.exterprise.us/healthcare.html
+Title: Healthcare BPO: Revenue Cycle, Claims & Records | Exterprise
+Summary: Patient-centric healthcare outsourcing: revenue cycle management, claims processing and records services that cut denials and speed up reimbursement.
+
+# Healthcare
+The broadest suite of patient-centric solutions and services for healthcare providers.
+Talk to UsExplore Services6Revenue cycle solutions12-72 HrClaim turnaround schedulesHIPAACompliant operations24x7Processing
+## A Single Trusted Source for Revenue Cycle Management
+Exterprise helps healthcare providers get the most from their people, optimize revenue and improve the patient experience.
+A technology platform, exception-based business processes and connectivity let us manage the full medical billing cycle, from payments to accounts receivable, for faster cash flow, quicker revenue realization and more profitability.
+## Services
+### Revenue Cycle Management
+Effectively manage the entire revenue cycle for healthcare: better cash flow, accelerated revenue realization and increased profitability.
+### Claims Processing
+Claims Processing solutions for managing patient claims, end to end.
+- ←Contact CenterSmartsourcing→Property Preservation
+## Let's Talk!
+Talk to us about your revenue cycle.
+Send a Messagecontact@exterprise.us
+
+---
+
+URL: https://www.exterprise.us/hr-service-delivery.html
+Title: ServiceNow HRSD Implementation Partner | Exterprise
+Summary: ServiceNow HR Service Delivery implementation with Employee Center, HR Virtual Agent and Now Assist for HRSD, by a certified ServiceNow Premier Partner.
+
+# HR Service Delivery
+Improve employee experience and productivity with Now Assist and AI Agents, and expedite employee onboarding and requests.
+Talk to Us
+Exterprise has configured and implemented ServiceNow HR Service Delivery (HRSD) for many clients, and we hold Now Assist for HR Service Delivery (Pro Plus Suite) certification. People expect HR help that knows their situation from their first day to their last, and hybrid work makes that harder to deliver.
+A recent IDC report suggests agile organizations retain employees at a 34% higher rate than competitors, helping them meet the demand for skills in the current war for talent.
+With ServiceNow HRSD, Now Assist summarizes cases and drafts resolution notes, and HR Virtual Agent lets employees handle routine HR requests themselves at any hour, starting with onboarding on day one. Workplace Service Delivery keeps day-to-day work running smoothly.
+## HRSD Highlights
+Our HRSD consultants design and deliver HR solutions that scale, and we regularly connect ServiceNow HR with outside systems like Workday and ADP.
+### AI-Powered Workflows to Automate Issue Resolution
+now with Now Assist for HRSD, certified
+### Improve Employee Experience Through a Unified Portal
+Employee Center, with Manager Hub for people leaders
+### Connect HR Teams by Providing Curated Content
+HR Case and Knowledge Management
+### Enterprise Onboarding and Transitions
+Lifecycle Events, via the Enterprise Onboarding and Transitions app
+### Resolve Issues Quicker Through Virtual Agent and AI Agents
+HR Virtual Agent plus Now Assist case summarization
+### Enable Self-Service Through Native Mobile App
+Employee Center's mobile experience
+## Where Employees Meet HRSD
+Most of the work happens in three applications behind the portal. We set them up around your HR processes.
+CASE & KNOWLEDGE MANAGEMENT
+### Every Inquiry, One System
+- HR Case and Knowledge Management standardizes how employee inquiries and requests get logged, routed, and resolved
+- With Now Assist drafting resolution notes and surfacing knowledge articles automatically
+- LIFECYCLE EVENTS & JOURNEYS
+### Guided, Not Scattered
+- Lifecycle Events, Journey Designer, and Journey Accelerator turn onboarding, parental leave, relocation, and promotions into a guided multi-step journey
+- Assigning tasks to HR, managers, IT, and payroll automatically instead of coordinating it by email
+- WORKPLACE SERVICE DELIVERY
+### Beyond HR Alone
+- Desk moves, equipment requests, and room bookings flow through the same Employee Center portal as HR requests
+- So employees have one place to ask for anything
+- Not a different system for every department
+- ←IT Operations Management ServiceNow →Strategic Portfolio Management
+## Let's Talk!
+Don't wait until tomorrow. Talk to one of our consultants today about HR Service Delivery.
+Send a Message contact@exterprise.us
+
+---
+
+URL: https://www.exterprise.us/inspection-services.html
+Title: Property Inspection Processing Services | Exterprise
+Summary: Property inspection services: external and internal inspections, securing, grass cuts, winterization and quality control for REO and PFC orders, with 400,000+ audits done.
+
+# Inspection Services
+A one-stop shop for your property inspection requirements.
+Talk to Us400,000+Quality audits completed24x7Inspection updatesREO / PFCOrder typesEvery LevelQuality checks
+## Inspection, Securing and Quality Control
+We manage external and internal inspections, securing, property preservation, grass cuts, winterization and quality control of vendor-executed orders.
+Our team reviews and approves all visual verification of completed vendor work for REO, pre-foreclosure (PFC) and inspection orders.
+## Key Features
+### Expert Auditing
+400,000+ quality audits completed to date.
+### Inspection Updates
+Round-the-clock updates on client portals.
+### Quality Check
+Quality checks at every level, comparing pre-inspection status with completed work.
+## Pre-Foreclosure and REO Inspections
+- Assigning inspection orders to vendors (Pre-FC and REO)
+- Reviewing completed inspection reports
+- Updating reports onto client systems
+## Our Recurring Services Include
+- Bi-weekly inspections, lawn care and winterization
+- Identifying assets that require these services
+- Allocating orders to vendors at periodic intervals
+- Property Preservation→Vendor Management
+## Let's Talk!
+Contact us for a free consultation.
+Send a Messagecontact@exterprise.us
+
+---
+
+URL: https://www.exterprise.us/it-operations-management.html
+Title: ServiceNow ITOM & AIOps Implementation | Exterprise
+Summary: ServiceNow ITOM implementation: Discovery, Service Mapping, Event Management and Predictive AIOps that catch problems before they become outages.
+
+# IT Operations Management
+Right-size and optimize your IT investments with Predictive AIOps.
+Talk to Us
+## Evolve to the Next Stage in ITSM
+IT Operations Management (ITOM) covers everything an IT department runs: applications, storage, networking, hardware and software. The goal is to keep all of it healthy on every server and node. Predictive AIOps goes a step further, spotting anomalies and flagging service issues before they cause an outage.
+## ITOM and ITSM: A Dynamic Duo
+ITOM is about how IT runs its own systems. ITSM is about how IT delivers services to users. The two overlap more every year: an anomaly that Predictive AIOps catches in ITOM often becomes the incident that Predictive Intelligence sorts and routes in ITSM.
+ServiceNow ITOM brings Event Management, Metric Intelligence and Health Log Analytics together, and it builds on the ServiceNow ITSM you already have.
+We make sure your IT team can see every part of the infrastructure. Discovery and CMDB mapping keep configuration data accurate, and AI Control Tower keeps track of the AI Agents and automations that act on it.
+## ITOM Highlights
+## VISIBILITY
+Enhance company-wide visibility of IT resources with Service Mapping and Discovery, keeping your CMDB accurate as infrastructure changes.
+PREDICTIVE AIOPS
+- Manage service health with Predictive AIOps
+- Combining Event Management, Metric Intelligence, and Health Log Analytics
+- Spots anomalies and predicts issues before they trigger an outage
+- With AI Agents able to act on routine ones automatically
+- AGILITY
+- Increase agility with Autonomous Service Operations unifying IT service and operations workflows into one proactive loop
+- So your cloud environment gets more efficient without adding manual overhead
+- TRANSFORMATION
+- Run IT operations from the Service Operations Workspace
+- With certified out-of-the-box AIOps Dashboards, turning raw monitoring data into decisions leadership can act on
+- And evidence of ROI they can point to
+- ←IT Service Management ServiceNow →HR Service Delivery
+## Let's Talk!
+Don't wait until tomorrow. Talk to one of our consultants today about IT Operations Management.
+Send a Message contact@exterprise.us
+
+---
+
+URL: https://www.exterprise.us/it-service-management.html
+Title: ServiceNow ITSM Implementation Partner | Exterprise
+Summary: ServiceNow ITSM implementation with Now Assist for ITSM and Predictive Intelligence, by a certified Premier Partner. Advisory, deployment, staffing and L1-L4 support.
+
+# IT Service Management
+with Predictive Intelligence and Now Assist built into your ITSM solution.
+Talk to Us
+## A Better Experience for Your Employees
+Our ServiceNow team implements, integrates and extends your platform so the whole company runs on one ITSM setup. Predictive Intelligence sorts and routes incoming incidents by category, priority and assignment group, and Now Assist summarizes cases and drafts resolution notes right inside Agent Workspace.
+Our business and technical consultants have implemented ServiceNow across many industries, and we hold Now Assist for ITSM (Pro Plus Suite) certification. We set up Virtual Agent and Now Assist summaries around your own categories and the way your team resolves issues.
+9Now Assist for ITSM certified staff (Pro Plus Suite)PremierPartner, Consulting & Implementation4.5/5Customer satisfaction score24x7Global operational support
+## Key Services
+## ADVISORY
+### ITSM & ITIL Advisory
+- Assess your existing implementation or design one from scratch
+- With a clear roadmap for where Predictive Intelligence and Now Assist add the most value
+- DEPLOYMENT
+### Implementation & Now Assist
+Deploy ITSM alongside Now Assist for ITSM and Predictive Intelligence classification, configured to your case types, categories, and resolution patterns.
+STAFFING
+### Certified Staffing
+Certified ServiceNow developers, administrators, and consultants available at cost-effective onshore, nearshore, or offshore rates.
+MANAGED SERVICES
+### L1 to L4 Managed Support
+- x7 monitoring and support across the full ticket lifecycle
+- With AI Search (RAG-based knowledge retrieval) and Now Assist triage reducing time to resolution
+## Frequently Asked Questions
+### What is included in a ServiceNow ITSM implementation with Exterprise?
+Exterprise deploys ServiceNow IT Service Management together with Now Assist for ITSM and Predictive Intelligence, configured to your case types, categories and resolution patterns, so incidents are routed automatically and Now Assist summarizes cases and drafts resolution notes.
+### Is Exterprise certified for Now Assist for ITSM?
+Yes. Exterprise holds Now Assist for ITSM (Pro Plus Suite) certification, with nine certified staff, and is a ServiceNow Premier Partner for Consulting & Implementation.
+### Can you assess our current ITSM setup?
+Yes. Our ITSM and ITIL advisory assesses your existing implementation, or designs one from scratch, with a clear roadmap for where Predictive Intelligence and Now Assist add the most value.
+### Do you offer ITSM managed support?
+Yes. Exterprise provides L1 to L4 managed support with 24x7 monitoring, using AI Search and Now Assist triage to reduce time to resolution.
+←Field Service Management ServiceNow →IT Operations Management
+## Let's Talk!
+Talk to a ServiceNow architect about your IT Service Management initiative.
+Send a Message contact@exterprise.us
+
+---
+
+URL: https://www.exterprise.us/now-platform.html
+Title: ServiceNow App Engine & Now Platform Development | Exterprise
+Summary: Custom ServiceNow applications with App Engine, Flow Designer, IntegrationHub and Build Agent, deployed inside the Now Platform with AI governance.
+
+# Now Platform
+Low-code, no-code and now plain-language app building with Build Agent, all on ServiceNow.
+Talk to Us
+## Cross-Enterprise, Digital Workflows. Now.
+The Now Platform, anchored by App Engine, is a rapid application modeling and development engine that lets platform users quickly model, build, integrate, and deploy custom applications within ServiceNow.
+With ready-made service templates, reusable Flow Designer actions and IntegrationHub spokes, it grows your ServiceNow services as the business changes, without replacing applications each time.
+Build Agent goes further. Teams describe an app in plain language and get a governed starting point they can deploy, while RaptorDB keeps the data behind it fast as it grows.
+## Who Is It for?
+If your organization already uses ServiceNow (ITSM, ITOM, or CSM), it's an ideal time to build on the Now Platform. Exterprise's team of experts will:
+01
+### Design
+Use App Engine Studio to shape user and process flows and map them to ServiceNow components and modules, visually and without writing boilerplate code.
+02
+### Develop & Integrate
+Flow Designer automates the process logic and IntegrationHub connects the new app to your other business systems, so there's no separate integration project.
+03
+### Deploy
+Deploy the custom app in minutes inside ServiceNow, with AI Control Tower governance in place from day one.
+←Strategic Portfolio Management ServiceNow →Governance, Risk & Compliance
+## Let's Talk!
+Don't wait until tomorrow. Talk to one of our consultants today about Now Platform.
+Send a Message contact@exterprise.us
+
+---
+
+URL: https://www.exterprise.us/property-preservation.html
+Title: Property Preservation Back-Office Services | Exterprise
+Summary: Property preservation outsourcing for banks: inspection, vendor management, bid processing and quality control across 400,000+ properties every month, 24x7.
+
+# Property Preservation
+Services and complete accountability across inspection, quality control, bidding and preservation order management.
+Talk to UsExplore Services400,000+Properties every month400,000+Quality audits completed24x7Updates on client portals3Service lines
+## Accountability for Every Property
+Exterprise handles more than 400,000 properties every month, across multiple processes, for a number of banks.
+Choosing the right vendor for each job is central to property preservation: the wrong choice means either unnecessary spend or fines and penalties. Our team runs quality checks and audits completed inspections for PFC and REO properties so defects are caught early.
+## Services
+### Inspection Services
+A one-stop shop for your property inspection requirements.
+### Vendor Management
+End-to-end vendor management as a round-the-clock service.
+### Bid Processing
+Documentation, work orders and bids that keep property preservation moving.
+## Property Preservation Services
+- End-to-end bid management across all property preservation work
+- Collecting vendor bids and shortlisting the best fit for the requirement
+- Placing work orders and tracking them through to completion
+- Providing proof of completion
+- ←HealthcareSmartsourcing→Records Processing
+## Let's Talk!
+Talk to us about your property preservation workload.
+Send a Messagecontact@exterprise.us
+
+---
+
+URL: https://www.exterprise.us/records-processing.html
+Title: Records Digitization & Indexing Services | Exterprise
+Summary: Records digitization, data entry, indexing, search and retrieval with 99.995% county and data capture accuracy and double-key entry validation.
+
+# Records Processing
+Technical services for records digitization, indexing, search and retrieval.
+Talk to UsExplore Services~100%Accuracy of entered data99.995%County and data capture accuracy97%+Double-key entry accuracy99.95%County minimum we exceed
+## Beyond Data Entry
+Exterprise offers a full suite of solutions centered around data accuracy and data reliability, with close to 100% accuracy of entered data.
+Our process, people and technology methodology keeps your data safe, easily accessible and accurate.
+## Services
+### County Government Services
+The industry’s most accurate (99.995%) data entry and processing of County Government records.
+### Data Capture Services
+End to end data entry services that include scanning, verifying and updating physical records.
+## Key Features
+### County Services
+Scanning, conversion, indexing and filing of county records, including book preservation.
+### Data Entry Solutions
+Double-key entry with built-in validation, for 97%+ accuracy.
+### Data Capture Services
+OCR-based solutions with centralized capture, cleanup and indexing.
+←Property PreservationSmartsourcing→Digital Branding & Marketing
+## Let's Talk!
+Talk to us about digitizing your records.
+Send a Messagecontact@exterprise.us
+
+---
+
+URL: https://www.exterprise.us/revenue-cycle-management.html
+Title: Healthcare Revenue Cycle Management Services | Exterprise
+Summary: Outsourced healthcare RCM: EOB digitization to ANSI 835, patient payments, ERA processing, reconciliation and lockbox. HIPAA compliant, 24x7 portal access.
+
+# Revenue Cycle Management
+Effectively manage the entire revenue cycle for healthcare: better cash flow, accelerated revenue realization and increased profitability.
+Talk to Us6Revenue management solutionsANSI 835EDI output for EOBs24x7Portal accessHIPAACompliant
+## Avoid Denials, Speed Up Reimbursements
+We help healthcare organizations simplify revenue cycle work, cut claim denials, get paid faster and give patients a better experience.
+Our team manages the entire medical billing cycle, from payments to accounts receivable.
+## Revenue Management Solutions
+### EOB Digitization
+Convert paper EOBs to ANSI 835 EDI format for loading into disparate billing systems.
+### Process Patient Payments
+Process patient payments based on your requirements with customized posting files.
+### ERA Processing
+ERAs are uploaded into an online portal, processed and stored securely, so remittances are centrally located for ease of access.
+### Reconciliation
+Automatically reconcile bank funds by matching EFT and ERA records, reducing cost and saving time.
+### Correspondence
+Secure access to every document through a centralized web portal, from any location, at any time.
+### Healthcare Lockbox
+A healthcare lockbox that speeds up accounts receivable.
+## Frequently Asked Questions
+### What revenue cycle management services does Exterprise offer?
+Exterprise manages the medical billing cycle from payments to accounts receivable: EOB digitization, patient payment processing, ERA processing, reconciliation, correspondence and a healthcare lockbox.
+### Can Exterprise convert paper EOBs to ANSI 835?
+Yes. Exterprise converts paper EOBs into ANSI 835 EDI format, ready to load into your billing systems.
+### How does Exterprise help reduce claim denials?
+By simplifying revenue cycle work end to end, from accurate payment posting to automatic reconciliation of EFT and ERA records, Exterprise helps healthcare organizations cut claim denials and get paid faster.
+### Is Exterprise's revenue cycle work HIPAA compliant?
+Yes. Revenue cycle services are HIPAA compliant, and remittances and documents are stored securely in a web portal you can reach 24x7 from any location.
+Healthcare→Claims Processing
+## Let's Talk!
+Talk to us about your revenue cycle.
+Send a Messagecontact@exterprise.us
+
+---
+
+URL: https://www.exterprise.us/sap-solutions.html
+Title: SAP Implementation & Support Services | Exterprise
+Summary: SAP solutions for every business process across industries: implementation, support and adoption of new SAP innovations, at every step of your project.
+
+# SAP Solutions
+Solutions for business processes in any industry, built on SAP and related products.
+Talk to Us6SAP service lines7Upgrade services12Support activitiesSOXCompliance reviews
+## Low-Risk Delivery Across the SAP Ecosystem
+Our functional consultants, technical experts and domain specialists deliver low-risk solutions across the SAP ecosystem, and act as a trusted SAP advisor from start to finish.
+## SAP Services
+- SAP Design & Implementation
+- HANA Based Services
+- SAP Ecosystem Products
+- SAP Operational Excellence
+- SAP BASIS Services
+- IoT Services for SAP Landscapes
+## SAP Basis Consulting
+Consultants who apply SAP change management and problem-solving practices to complex IT issues.
+- SAP Functional Consulting
+- SAP Technical Consulting
+- On-site System Diagnostics
+- SAP Landscape
+- Design Consulting
+- SAP Solution Manager
+## SAP Basis Implementation & Upgrade
+We stay with you through the whole project and help you adopt new SAP releases.
+- SAP Template Design & Implementation
+- SAP Customizations & Integrations
+- SAP Release and OS/DB Upgrades
+- SAP BW & HANA Upgrade Support
+- SAP Basis Kernel and Notes Upgrades
+- SAP CRM and EHP Upgrades
+- Unicode Conversion and SAP PI Upgrades
+## SAP Basis Support & Maintenance
+- Handling SAP Basis configurations
+- Capacity planning and monitoring
+- Administration of SAP peripherals and printers
+- SAP performance statistics for customer use
+- System health monitoring and stability recommendations
+- Audit support and auditor-suggested security changes
+- Knowledge database of problems and solutions
+- SLA compliance reports
+- Resolving operational defects, including performance problems
+- Preventive maintenance and performance tuning
+- SAP Basis system and security administration
+- SOX compliance reviews in SAP Security
+- ←AI Image AnalyticsEnterprise Solutions
+## Let's Talk!
+Contact us for a free consultation.
+Send a Messagecontact@exterprise.us
+
+---
+
+URL: https://www.exterprise.us/servicenow-nonprofits.html
+Title: ServiceNow for Nonprofits Implementation | Exterprise
+Summary: Quick-start ServiceNow programs for nonprofits (ITSM, CSM, FSM and more) on the low-code Now Platform, from a ServiceNow Premier Partner.
+
+# ServiceNow for Nonprofits
+Helping nonprofits modernize how they work with ServiceNow.
+Talk to Us6Quick-start programsLow-codeNow PlatformPremierServiceNow Partner4.5/5Customer satisfaction
+## Digital Experiences for a Noble Cause
+Nonprofits exist to create a positive impact on health, society and the environment. Smooth digital experiences for employees and the communities they serve, and well-managed enterprise assets, give them an edge.
+Limited resources, technical expertise and budgets often stand in the way. We use the ServiceNow low-code platform to offer quick-start implementation programs built for nonprofits.
+## Nonprofit Solutions
+Quick-start programs that simplify processes and improve service delivery.
+### IT Service Management (ITSM)
+Quick-start program
+### Customer Service Management (CSM)
+Quick-start program
+### Field Service Management (FSM)
+Quick-start program
+### IT Operations Management (ITOM)
+Quick-start program
+### HR Service Delivery (HRSD)
+Quick-start program
+### Now Platform
+Quick-start program
+## Let's Talk!
+Talk to a ServiceNow architect about a nonprofit quick start.
+Send a Messagecontact@exterprise.us
+
+---
+
+URL: https://www.exterprise.us/servicenow-otto.html
+Title: ServiceNow Otto & Moveworks Implementation | Exterprise
+Summary: One conversational front door for employees and customers. As a Moveworks implementation partner, Exterprise brings Now Assist, Moveworks and AI Experience together in Otto.
+
+# ServiceNow Otto
+Now Assist, Moveworks and AI Experience in one assistant that gets the request done instead of only answering it.
+Talk to Us
+Just launched: ServiceNow announced Otto at Knowledge 2026, and it's rolling out across the platform through the rest of the year, starting with ServiceNow EmployeeWorks and AI Control Tower. This page covers what ServiceNow has shared publicly so far. We're following the rollout as it reaches more products.
+## One Place to Ask, Work That Gets Done
+Most enterprises already have AI scattered across their tools: a copilot in the ticketing system, a chatbot on the intranet, a summarizer in the CRM. None of them talk to each other or remember the last conversation. ServiceNow Otto is ServiceNow's answer. It's a single conversational layer that brings together Moveworks, which ServiceNow acquired in 2025, with Now Assist and the AI Experience interface.
+Otto doesn't replace the workflows underneath. It sits on top of the ServiceNow platform, approval chains, and permissions you already have, and AI Control Tower logs and explains every action it takes.
+Exterprise already works with every piece Otto brings together. We're a Moveworks implementation partner, we hold Now Assist certifications for ITSM, HR Service Delivery, and Creator, and we've implemented AI Agent Orchestrator and AI Control Tower hands-on. That puts us in a strong position to help you prepare for Otto as it reaches more of the platform.
+3Now Assist certifications held (ITSM, HRSD, Creator), the base Otto builds onPremierPartner, Consulting & Implementation4.5/5Customer satisfaction score60+ServiceNow-accredited professionals
+## How Otto Reaches People
+Four channels, all governed the same way through AI Control Tower.
+CONVERSATIONAL AI
+### Ask in Plain Language
+Employees and customers submit requests conversationally, and Otto routes and resolves them across departments without switching tools.
+ENTERPRISE SEARCH
+### One Search, Every Source
+Searches documents, wikis, databases and connected systems like SharePoint, with results based on the person's role and location.
+AI VOICE AGENTS
+### No Menu Trees, No Hold Queues
+Handles requests by voice, in several languages, on both employee and customer support lines.
+AI DATA EXPLORER
+### Ask the Data Directly
+Business users query enterprise data in plain language and get the analysis back immediately, without filing a request to the analytics team.
+## Key Services
+## ADVISORY
+### Otto Readiness Assessment
+- Evaluate your current Now Assist, AI Agent, and data foundations against what Otto needs
+- Groundwork usually takes 12 to 18 months, so it pays to start the assessment now
+- DEPLOYMENT
+### Phased Rollout Planning
+Sequence your organization's move onto Otto as it reaches more of the platform, starting with EmployeeWorks and AI Control Tower where it's already live.
+STAFFING
+### Certified AI Specialists
+Now Assist and AI Agent-certified consultants who already work in the exact components Otto unifies, available to augment your team.
+MANAGED SERVICES
+### Ongoing Governance
+AI Control Tower monitoring and policy tuning, so every Otto interaction stays logged, auditable, and accountable as adoption grows.
+←AI Control Tower ServiceNow →Customer Service Management
+## Let's Talk!
+Talk to a ServiceNow architect about getting ready for ServiceNow Otto.
+Send a Message contact@exterprise.us
+
+---
+
+URL: https://www.exterprise.us/solution-design.html
+Title: Solution Design & Requirements Management | Exterprise
+Summary: Strategy before software: requirement management, solution design and architecture, and execution methodology for your next technology project.
+
+# Solution Design
+Exterprise works closely with you in identifying your business goals and challenges.
+Talk to Us3Key featuresMVPDevelopmentUI / UXPrototypingAgileor traditional SDLC
+## Strategy Before Software
+Together we design the technology strategies and tactics that turn your goals into a digital solution, then define how it will be delivered.
+## Key Features
+### Requirement Management
+Software requirement gathering based on focus groups, user journey maps and persona analysis.
+### Solution Design & Architecture
+Design featuring UI/UX prototyping and MVP development.
+### Execution Methodology Definition
+Process adherence and implementation based on Agile or traditional SDLC methodology.
+Technical→Application Development
+## Let's Talk!
+Contact us for a free consultation.
+Send a Messagecontact@exterprise.us
+
+---
+
+URL: https://www.exterprise.us/strategic-portfolio-management.html
+Title: ServiceNow SPM Implementation Partner | Exterprise
+Summary: ServiceNow Strategic Portfolio Management implementation: Portfolio Planning, Demand Management and Financial Planning with a live view of every investment.
+
+# Strategic Portfolio Management
+Connect strategy to delivery with AI-driven roadmaps on ServiceNow's SPM.
+Talk to Us
+## One View, From Strategy to Delivery
+Strategic Portfolio Management gives leadership a single, real-time view of how investments, projects, and portfolios map to business outcomes. Portfolio Planning prioritizes and sequences investments using roadmaps and scenario analysis, while Demand Management collects incoming requests and weighs them against business value. Live prioritization and reporting replace scattered spreadsheets and old PPM tools.
+Exterprise holds Certified Implementation Specialist accreditation in Strategic Portfolio Management, and works with Financial Services, Healthcare, and Government clients to connect SPM to the same platform already running their IT, HR, and customer service workflows.
+4Certified Implementation Specialists (SPM)PremierPartner, Consulting & Implementation4.5/5Customer satisfaction score3Focus industries: Financial Services, Healthcare, Government
+## Key Services
+## ADVISORY
+### Portfolio Strategy Assessment
+Evaluate current investment and project data to define how SPM should be structured around your actual decision-making process.
+DEPLOYMENT
+### SPM Implementation
+Configure Portfolio Planning, Demand Management, and Financial Planning so leadership can prioritize against outcomes, not gut feel.
+STAFFING
+### Certified SPM Specialists
+Certified Implementation Specialists available to augment your team through go-live and beyond.
+MANAGED SERVICES
+### Ongoing Portfolio Governance
+- Now Assist for SPM and the Demand Management AI Specialist agent keep intake triage and reporting current
+- So SPM stays a living decision tool, not a one-time setup
+- ←HR Service Delivery ServiceNow →Now Platform
+## Let's Talk!
+Talk to a ServiceNow architect about your Strategic Portfolio Management initiative.
+Send a Message contact@exterprise.us
+
+---
+
+URL: https://www.exterprise.us/technical.html
+Title: Custom Software & Technical Services | Exterprise
+Summary: Bespoke technical solutions for government, oil and gas, retail and real estate: solution design, application development, deployment and maintenance.
+
+Technical
+# Technical
+Custom technical work: we design it, build it, deploy it and look after it.
+Talk to UsExplore Services3Core technical services4Industries served5+ YearsManaging complex IT applicationsAgileor traditional SDLC
+## Proven Experience
+We have built custom technical solutions for Government, Oil & Gas, Retail and Real Estate clients.
+## Services
+### Solution Design
+Exterprise works closely with you in identifying your business goals and challenges.
+### Application Development
+Technology is the underlying unifying theme behind every business.
+### Deployment & Maintenance
+Solutions that are simple to maintain, easy to sustain and ready to evolve.
+- ←Enterprise SolutionsAbout Us→Custom AI Solutions
+## Let's Talk!
+Talk to us about your next build.
+Send a Messagecontact@exterprise.us
+
+---
+
+URL: https://www.exterprise.us/vendor-management.html
+Title: Vendor Management Outsourcing Services | Exterprise
+Summary: Round-the-clock property preservation vendor management: order allocation and follow-ups, quality checks of proposed vs actual work, and state-wise compliance.
+
+# Vendor Management
+End-to-end vendor management as a round-the-clock service.
+Talk to Us24x7Round-the-clock service6Managed activitiesState-wiseCompliance400,000+Properties every month
+## The Right Vendor for Every Job
+Our back office team helps you choose the vendor best suited to each property preservation need, then tracks, checks and reports on the completed work.
+## Key Services
+- Order scrutiny, allocation & follow-ups
+- Updating & reporting on client systems
+- Monitoring performance & status updates
+- Quality checking: proposed work vs actuals
+- Preservation process compliance (state-wise)
+- Managing requirements driven by policy change
+- ←Inspection ServicesProperty Preservation→Bid Processing
+## Let's Talk!
+Talk to us about vendor management.
+Send a Messagecontact@exterprise.us

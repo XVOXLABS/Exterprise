@@ -1,0 +1,61 @@
+# Exterprise
+
+> Exterprise (Exterprise LLC) is a ServiceNow Premier Partner for consulting and implementation and a global smartsourcing (business process outsourcing) provider. Founded in 2015 and headquartered in Dallas, Texas, with delivery centers in Chennai and Coimbatore (India) and San Pedro Sula (Honduras); 275+ professionals.
+
+Key facts: ServiceNow Premier Partner (Consulting & Implementation) and licensed ServiceNow reseller; Now Assist certifications for ITSM, HRSD and Creator; Moveworks implementation partner; 99.995% data accuracy in county records work; 99.99% SLA adherence in contact center work; 400K+ property preservation orders handled every month. Contact: contact@exterprise.us.
+
+Agents: you are welcome to read, summarize and cite these pages with a link back. Please do not download or reuse images, video, fonts or code. Full policy: https://www.exterprise.us/agents.md. Full page text: https://www.exterprise.us/llms-full.txt
+
+## Company
+
+- [Exterprise home](https://www.exterprise.us/): Exterprise is a ServiceNow Premier Partner for consulting and implementation and a smartsourcing (BPO) provider, with 275+ professionals in Dallas, India and Honduras.
+- [About Us](https://www.exterprise.us/about.html): Founded in 2015 in Dallas, Texas, Exterprise is a ServiceNow Premier Partner and global smartsourcing provider with 275+ professionals across the US, India and Honduras.
+- [Contact Us](https://www.exterprise.us/contact.html): Talk to an Exterprise consultant or ServiceNow architect about implementation, AI Agents, outsourcing or support. Email contact@exterprise.us.
+
+## ServiceNow
+
+- [AI Agents & Now Assist](https://www.exterprise.us/ai-agents-now-assist.html): Deploy ServiceNow AI Agents and Now Assist with a certified Premier Partner: Now Assist certified for ITSM, HRSD and Creator, with guardrails and governance.
+- [AI Control Tower](https://www.exterprise.us/ai-control-tower.html): Govern every AI agent, Now Assist skill and third-party model from one place. Exterprise sets up ServiceNow AI Control Tower, from intake to monitoring.
+- [CMDB & Data Foundations](https://www.exterprise.us/cmdb-data-foundations.html): Build and clean up your ServiceNow CMDB with Discovery, Service Graph Connectors and the CSDM data model, so AI Agents and workflows run on accurate data.
+- [Customer Service Management](https://www.exterprise.us/customer-service-management.html): ServiceNow Customer Service Management implementation: Predictive Intelligence and Advanced Work Assignment route every case to the right agent, fast.
+- [Field Service Management](https://www.exterprise.us/field-service-management.html): ServiceNow Field Service Management implementation: Schedule Optimization, AI Agents and the FSM mobile copilot so technicians fix it on the first visit.
+- [Governance, Risk & Compliance](https://www.exterprise.us/governance-risk-compliance.html): ServiceNow GRC and IRM implementation: policy, risk and audit workflows connected to the systems where work happens, so compliance is never a spreadsheet.
+- [HR Service Delivery](https://www.exterprise.us/hr-service-delivery.html): ServiceNow HR Service Delivery implementation with Employee Center, HR Virtual Agent and Now Assist for HRSD, by a certified ServiceNow Premier Partner.
+- [IT Operations Management](https://www.exterprise.us/it-operations-management.html): ServiceNow ITOM implementation: Discovery, Service Mapping, Event Management and Predictive AIOps that catch problems before they become outages.
+- [IT Service Management](https://www.exterprise.us/it-service-management.html): ServiceNow ITSM implementation with Now Assist for ITSM and Predictive Intelligence, by a certified Premier Partner. Advisory, deployment, staffing and L1-L4 support.
+- [Now Platform](https://www.exterprise.us/now-platform.html): Custom ServiceNow applications with App Engine, Flow Designer, IntegrationHub and Build Agent, deployed inside the Now Platform with AI governance.
+- [ServiceNow for Nonprofits](https://www.exterprise.us/servicenow-nonprofits.html): Quick-start ServiceNow programs for nonprofits (ITSM, CSM, FSM and more) on the low-code Now Platform, from a ServiceNow Premier Partner.
+- [ServiceNow Otto](https://www.exterprise.us/servicenow-otto.html): One conversational front door for employees and customers. As a Moveworks implementation partner, Exterprise brings Now Assist, Moveworks and AI Experience together in Otto.
+- [ServiceNow](https://www.exterprise.us/servicenow.html): ServiceNow Premier Partner for Consulting & Implementation: ITSM, ITOM, CSM, HRSD, FSM, SPM, GRC, CMDB, AI Agents and Now Assist, from advisory to 24x7 support.
+- [Strategic Portfolio Management](https://www.exterprise.us/strategic-portfolio-management.html): ServiceNow Strategic Portfolio Management implementation: Portfolio Planning, Demand Management and Financial Planning with a live view of every investment.
+
+## Smartsourcing (business process outsourcing)
+
+- [Bid Processing](https://www.exterprise.us/bid-processing.html): Property preservation bid processing: job documentation, reusable work orders and thorough bids from in-depth analysis, for REO and PFC orders, 24x7.
+- [Claims Processing](https://www.exterprise.us/claims-processing.html): End-to-end medical claims processing for HCFA, UB-92 and ADA claims, with 12 to 72 hour turnaround, automated workflow and a digital repository.
+- [Contact Center](https://www.exterprise.us/contact-center.html): Outsourced Level 1 and Level 2 contact center support, staffed 24x7 from onshore, offshore and near-shore teams, with 99.99% SLA adherence.
+- [County Government Services](https://www.exterprise.us/county-government-services.html): Official property and vital records conversion for county governments: scanning, indexing, filing and book preservation with 99.995% data accuracy.
+- [Data Capture Services](https://www.exterprise.us/data-capture-services.html): OCR-based data capture with centralized capture, cleanup and indexing, plus scanning, verification and updating of physical records.
+- [Healthcare](https://www.exterprise.us/healthcare.html): Patient-centric healthcare outsourcing: revenue cycle management, claims processing and records services that cut denials and speed up reimbursement.
+- [Inspection Services](https://www.exterprise.us/inspection-services.html): Property inspection services: external and internal inspections, securing, grass cuts, winterization and quality control for REO and PFC orders, with 400,000+ audits done.
+- [Property Preservation](https://www.exterprise.us/property-preservation.html): Property preservation outsourcing for banks: inspection, vendor management, bid processing and quality control across 400,000+ properties every month, 24x7.
+- [Records Processing](https://www.exterprise.us/records-processing.html): Records digitization, data entry, indexing, search and retrieval with 99.995% county and data capture accuracy and double-key entry validation.
+- [Revenue Cycle Management](https://www.exterprise.us/revenue-cycle-management.html): Outsourced healthcare RCM: EOB digitization to ANSI 835, patient payments, ERA processing, reconciliation and lockbox. HIPAA compliant, 24x7 portal access.
+- [Smartsourcing](https://www.exterprise.us/smartsourcing.html): Smartsourcing from Exterprise: contact center, healthcare revenue cycle, claims, records and property preservation outsourcing, 24x7 from the US, India and Honduras.
+- [Vendor Management](https://www.exterprise.us/vendor-management.html): Round-the-clock property preservation vendor management: order allocation and follow-ups, quality checks of proposed vs actual work, and state-wise compliance.
+
+## Technology, AI and digital
+
+- [AI Image Analytics](https://www.exterprise.us/ai-image-analytics.html): AI image analytics for construction and engineering sites: drone-captured aerial imagery on an AI platform that shows progress, discrepancies and completion in one view.
+- [Application Development](https://www.exterprise.us/application-development.html): Custom application development across the full stack, from front end to deployment, with platform customization and integration on future-proof technology.
+- [Custom AI Solutions](https://www.exterprise.us/custom-ai-solutions.html): Custom AI solutions designed around your business: ServiceNow AI Agents, drone image analytics and machine learning on your own data, built, deployed and supported.
+- [Deployment & Maintenance](https://www.exterprise.us/deployment-maintenance.html): Application deployment, support and maintenance with 24x7 coverage, 99.99% SLA adherence and three pricing models, from a team with 5+ years managing complex IT applications.
+- [Design Services](https://www.exterprise.us/design-services.html): From user research and personas to information architecture, prototypes, visual design and front-end development for digital products.
+- [Digital Branding & Marketing](https://www.exterprise.us/digital-branding-marketing.html): Websites, apps, marketing and visual storytelling that bring your brand to life, from one team working to one plan.
+- [Digital Enablement](https://www.exterprise.us/digital-enablement.html): Digital enablement: mobile apps, progressive web apps, e-commerce and CMS/LMS solutions that bring enterprise systems to every device.
+- [Digital Marketing](https://www.exterprise.us/digital-marketing.html): Measurable digital marketing: campaigns across every channel with mobile reach, real-time flexibility, direct communication and influencer engagement.
+- [Enterprise Data Management](https://www.exterprise.us/enterprise-data-management.html): End-to-end enterprise data management with our Snowflake partnership: data engineering, governance and AI/ML engines that turn data into insight.
+- [Enterprise Solutions](https://www.exterprise.us/enterprise-solutions.html): Bespoke or industry-standard enterprise solutions: implementation, migration, upgrades, support and maintenance on ServiceNow, SAP and Snowflake.
+- [SAP Solutions](https://www.exterprise.us/sap-solutions.html): SAP solutions for every business process across industries: implementation, support and adoption of new SAP innovations, at every step of your project.
+- [Solution Design](https://www.exterprise.us/solution-design.html): Strategy before software: requirement management, solution design and architecture, and execution methodology for your next technology project.
+- [Technical](https://www.exterprise.us/technical.html): Bespoke technical solutions for government, oil and gas, retail and real estate: solution design, application development, deployment and maintenance.

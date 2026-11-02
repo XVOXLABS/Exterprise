@@ -1,0 +1,81 @@
+# Exterprise - https://www.exterprise.us
+# Guide for AI assistants: /llms.txt  ·  Agent policy: /agents.md
+
+# Search engines: full access. They need the stylesheet, scripts and images to render pages properly.
+User-agent: Googlebot
+User-agent: Googlebot-Image
+User-agent: Bingbot
+User-agent: DuckDuckBot
+User-agent: Slurp
+User-agent: Applebot
+User-agent: YandexBot
+Allow: /
+
+# Link previews (LinkedIn, Slack, X, Facebook, WhatsApp, Teams): pages plus the share image.
+User-agent: LinkedInBot
+User-agent: Slackbot
+User-agent: Slackbot-LinkExpanding
+User-agent: Twitterbot
+User-agent: facebookexternalhit
+User-agent: WhatsApp
+User-agent: SkypeUriPreview
+Allow: /
+
+# AI assistants and answer engines: welcome to read, summarize and cite our pages.
+# Please do not fetch our media, fonts or code.
+User-agent: GPTBot
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: ClaudeBot
+User-agent: Claude-User
+User-agent: Claude-SearchBot
+User-agent: anthropic-ai
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+User-agent: Amazonbot
+User-agent: meta-externalagent
+User-agent: meta-externalfetcher
+User-agent: MistralAI-User
+User-agent: DuckAssistBot
+User-agent: cohere-ai
+User-agent: YouBot
+User-agent: CCBot
+User-agent: Bytespider
+User-agent: Diffbot
+Allow: /$
+Allow: /*.html$
+Allow: /llms.txt
+Allow: /llms-full.txt
+Allow: /agents.md
+Allow: /sitemap.xml
+Allow: /assets/og-cover.jpg
+Disallow: /assets/
+Disallow: /fonts/
+Disallow: /vendor/
+Disallow: /tools/
+Disallow: /docs/
+Disallow: /*.css
+Disallow: /*.js
+Disallow: /*.mp4
+Disallow: /*.webm
+Disallow: /*.woff2
+
+# Everyone else: pages yes, media and code no.
+User-agent: *
+Allow: /$
+Allow: /*.html$
+Allow: /assets/og-cover.jpg
+Disallow: /assets/
+Disallow: /fonts/
+Disallow: /vendor/
+Disallow: /tools/
+Disallow: /docs/
+Disallow: /*.css
+Disallow: /*.js
+Disallow: /*.mp4
+Disallow: /*.webm
+Disallow: /*.woff2
+
+Sitemap: https://www.exterprise.us/sitemap.xml
