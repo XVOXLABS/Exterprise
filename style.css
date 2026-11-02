@@ -6783,3 +6783,35 @@ html body section.ra .hc-grid.hc-row2{margin-top:16px}
   html body section.ra .hc-card:not(.on)[data-i="4"] .hc-media img{object-position:35% 30%}
 }
 /* <<< v69 */
+
+/* >>> v70 Optimise Your Business: all six cards on one line (desktop). Closed cards are photo strips
+   with the name running up the side; the open card keeps photo + details + links + View More. */
+@media (min-width:1000px){
+  html body section.ra .hc-grid{gap:12px!important;height:clamp(460px,58vh,520px)}
+  html body section.ra .hc-card{flex:1 1 0!important;transition:flex-grow .65s cubic-bezier(.2,.8,.2,1),flex-basis .65s cubic-bezier(.2,.8,.2,1),box-shadow .4s}
+  html body section.ra .hc-card.on{flex:0 0 max(50%,520px)!important}
+  /* closed strip */
+  html body section.ra .hc-card:not(.on) .hc-media{position:absolute!important;inset:0;width:100%!important;height:100%!important;aspect-ratio:auto!important;flex:none!important}
+  html body section.ra .hc-card:not(.on) .hc-media img{width:100%!important;height:100%!important;object-fit:cover}
+  html body section.ra .hc-card:not(.on) .hc-shade{background:linear-gradient(0deg,rgba(10,10,14,.96) 6%,rgba(10,10,14,.55) 45%,rgba(10,10,14,.05) 75%)!important}
+  html body section.ra .hc-card:not(.on) .hc-body{position:absolute!important;inset:auto 0 0 0;margin:0!important;padding:18px!important;display:flex!important;flex-direction:column-reverse!important;align-items:flex-start;gap:14px!important}
+  html body section.ra .hc-card:not(.on) :is(.hc-tag,.hc-d,.hc-tog,.hc-more){display:none!important}
+  html body section.ra .hc-card:not(.on) h3{writing-mode:vertical-rl;transform:rotate(180deg);white-space:nowrap;font-size:clamp(20px,1.6vw,24px)!important;line-height:1.1;margin:0 0 0 6px!important}
+  html body section.ra .hc-card:not(.on) .hc-ic{width:44px;height:44px}
+  html body section.ra .hc-card:not(.on):hover .hc-media img{transform:scale(1.06)}
+  /* faces stay in frame in both states */
+  html body section.ra .hc-card[data-i="0"] .hc-media img{object-position:70% 20%!important}
+  html body section.ra .hc-card[data-i="1"] .hc-media img{object-position:73% 0%!important}
+  html body section.ra .hc-card[data-i="2"] .hc-media img{object-position:80% 30%!important}
+  html body section.ra .hc-card[data-i="3"] .hc-media img{object-position:84% 30%!important}
+  html body section.ra .hc-card[data-i="4"] .hc-media img{object-position:56% 25%!important}
+  html body section.ra .hc-card[data-i="5"] .hc-media img{object-position:76% 30%!important}
+  html body section.ra .hc-card:not(.on)[data-i="4"] .hc-media img{object-position:64% 25%!important}
+  html body section.ra .hc-card.on .hc-d{flex-shrink:0}
+  @media (max-width:1199px){html body section.ra .hc-card:not(.on) .hc-body{padding:14px!important}html body section.ra .hc-card:not(.on) .hc-ic{width:40px;height:40px}
+    html body section.ra .hc-card.on .hc-body{gap:8px!important;padding:18px 18px 18px!important}
+    html body section.ra .hc-card.on .hc-subs a{min-height:42px!important;padding:8px 12px!important;font-size:13px!important}}
+}
+/* tablet: 3 + 3 */
+@media (min-width:900px) and (max-width:999px){html body section.ra .hc-grid{grid-template-columns:repeat(3,minmax(0,1fr))!important}}
+/* <<< v70 */
