@@ -704,7 +704,9 @@ void main(){vec2 uv=gl_FragCoord.xy/R;vec2 q=uv;q.y=1.-q.y;
     // frosted widgets rise in with a soft blur, per section
     document.querySelectorAll('.px-sec').forEach(sec => {
       const items = sec.querySelectorAll('.px-bento > *, .px-duo-in > *, .px-acc-i, .px-feat, .px-step, .px-cred, .bt-tile, .px-plan, .px-final');
-      if (items.length) gsap.from(items, { y: 80, opacity: 0, filter: 'blur(12px)', duration: 1.1, ease: 'power3.out', stagger: .1, clearProps: 'filter',
+      const soft = matchMedia('(max-width: 899px), (hover: none)').matches;   // v72: phones get a quick fade-up, no blur
+      if (items.length && soft) items.forEach(it => gsap.from(it, { y: 28, opacity: 0, duration: .6, ease: 'power2.out', scrollTrigger: { trigger: it, start: 'top 98%', once: true } }));
+      else if (items.length) gsap.from(items, { y: 80, opacity: 0, filter: 'blur(12px)', duration: 1.1, ease: 'power3.out', stagger: .1, clearProps: 'filter',
         scrollTrigger: { trigger: items[0], start: 'top 88%', once: true } });
     });
     document.querySelectorAll('.px-partner-l > *:not(h2), .px-about-l > p').forEach(el => rise(el, el, { stagger: 0 }));
@@ -824,7 +826,7 @@ void main(){vec2 uv=gl_FragCoord.xy/R;vec2 q=uv;q.y=1.-q.y;
       const obj = sec.querySelector('.stg-obj, .ut-stage');
       if (obj) gsap.from(obj, { y: 120, scale: .85, opacity: 0, duration: 1.6, ease: 'power3.out', delay: .2, scrollTrigger: st });
       const side = sec.querySelectorAll('.stg-left > *, .co, .kpi, .resell, .stg-frame, .stg-pills > *, .stg-sub, .cta-pill, .ut-side .stg-small, .ut-title .stg-label');
-      if (side.length) gsap.from(side, { y: 30, opacity: 0, filter: 'blur(8px)', duration: 1, ease: 'power3.out', stagger: .08, delay: .5, clearProps: 'filter', scrollTrigger: st });
+      if (side.length) gsap.from(side, { y: 30, opacity: 0, filter: matchMedia('(max-width: 899px), (hover: none)').matches ? 'none' : 'blur(8px)', duration: 1, ease: 'power3.out', stagger: .08, delay: .5, clearProps: 'filter', scrollTrigger: st });
       sec.querySelectorAll('.co-lead path').forEach(p => { const L = p.getTotalLength(); p.style.strokeDasharray = L; p.style.strokeDashoffset = L;
         gsap.to(p, { strokeDashoffset: 0, duration: 1.4, ease: 'power2.inOut', delay: .7, scrollTrigger: st }); });
       const slabs = sec.querySelector('.slabs');
@@ -1060,9 +1062,10 @@ void main(){vec2 uv=gl_FragCoord.xy/R;vec2 q=uv;q.y=1.-q.y;
       'main .wb', 'main .pager', 'main .ss-tile', 'main .ss-strip', 'main .ss-cta', 'main .ss-eb', 'main .xp-card', 'main .xp-kid', 'main .mx-card', 'main .wx-card', 'main .hc-card', 'main .xp-loc', 'main .xp-person', 'main .xp-list .sot-item', 'main .xp-trust', '.footer .footer-top > *'].join(',');
     const skip = el => el.closest('.stk, .p2-stick, .wd-list, .mega, .lx-hero, [aria-hidden="true"], .ma-app, .ea-app, .pvx-stack');  // v48: stacked product cards stay readable while stuck
     const els = [...document.querySelectorAll(SEL)].filter(el => !skip(el));
+    const soft = matchMedia('(max-width: 899px), (hover: none)').matches;   // v72: on phones reveal just before the element arrives
     const io = new IntersectionObserver(es => es.forEach(en => { const el = en.target;
       if (en.isIntersecting) { el.classList.remove('rv-up'); el.classList.add('rv-in'); }
-      else { el.classList.remove('rv-in'); el.classList.toggle('rv-up', en.boundingClientRect.top < 0); } }), { threshold: 0.08, rootMargin: '0px 0px -6% 0px' });
+      else { el.classList.remove('rv-in'); el.classList.toggle('rv-up', en.boundingClientRect.top < 0); } }), soft ? { threshold: 0, rootMargin: '0px 0px 8% 0px' } : { threshold: 0.08, rootMargin: '0px 0px -6% 0px' });
     els.forEach(el => { const sib = el.parentElement ? [...el.parentElement.children].filter(c => els.includes(c)) : [];
       const i = Math.max(0, sib.indexOf(el)); el.style.setProperty('--rvd', Math.min(i, 5) * 0.07 + 's');
       const r = el.getBoundingClientRect(); if (r.top < innerHeight && r.bottom > 0) el.classList.add('rv', 'rv-in'); else el.classList.add('rv');
@@ -1580,4 +1583,36 @@ document.querySelectorAll('.hc-card .hc-tog').forEach(b => b.addEventListener('c
     let fs = parseFloat(getComputedStyle(t).fontSize), n = 0; while (t.scrollWidth > t.clientWidth + 1 && fs > 11.5 && n++ < 12) { fs -= .5; t.style.setProperty('font-size', fs + 'px', 'important'); } });
   addEventListener('load', fit); addEventListener('resize', fit); document.fonts && document.fonts.ready.then(fit);
   document.addEventListener('click', () => setTimeout(fit, 450));                         // cards that open (e.g. View Services) reveal more buttons
+})();
+
+/* ===================== v72 touch screens: pressing a card shows its desktop hover look ===================== */
+(() => {
+  if (!matchMedia('(hover: none)').matches) return;
+  const CARDS = ['nb-card', 'wx-card', 'wxm-tile', 'xp-card', 'xp-kid', 'xp-ic-card', 'xp-person', 'xp-cert', 'xp-li', 'sv-card', 'sgl', 'sgr', 'ibt-tile', 'bt-tile',
+    'gx-card', 'kpi', 'sot-item', 'hc-card', 'pc-card', 'mg-card', 'card', 'neo'];
+  const SEL = CARDS.map(c => '.' + c).join(',');
+  // copy every ":hover" rule for those cards as a ".hov" rule, outside any (hover: hover) media block
+  const onCard = new RegExp('((?:\\.(?:' + CARDS.join('|') + ')(?![\\w-]))[^\\s>+~,]*?):hover', 'g');
+  const out = [];
+  const strip = m => m.split(',').map(q => q.replace(/\(\s*(hover\s*:\s*hover|pointer\s*:\s*fine)\s*\)/g, '').replace(/^\s*and\s+|\s+and\s*$/g, '').replace(/\band\s+and\b/g, 'and').trim())
+    .filter(q => q && q !== 'and');
+  const walk = (rules, media) => { for (const r of rules) {
+    if (r.cssRules && r.media) walk(r.cssRules, media.concat([r.media.mediaText]));
+    else if (r.selectorText && r.selectorText.includes(':hover')) {
+      const parts = r.selectorText.split(/,(?![^(]*\))/).map(p => p.replace(onCard, '$1.hov')).filter(p => p.includes('.hov') && !p.includes(':hover'));
+      if (!parts.length) continue;
+      let css = parts.join(',') + '{' + r.style.cssText + '}';
+      for (const m of media.slice().reverse()) { const q = strip(m); if (q.length) css = '@media ' + q.join(',') + '{' + css + '}'; }
+      out.push(css); } } };
+  for (const sh of document.styleSheets) { let rs; try { rs = sh.cssRules; } catch (e) { continue; } if (/style\.css/.test(sh.href || '')) walk(rs, []); }
+  if (out.length) { const st = document.createElement('style'); st.id = 'touch-hover'; st.textContent = out.join('\n'); document.head.appendChild(st); }
+  // press = hover; a scroll that starts on a card does not count
+  let cur = null, t = 0, x0 = 0, y0 = 0;
+  const off = () => { clearTimeout(t); if (cur) { cur.classList.remove('hov'); cur = null; } };
+  addEventListener('touchstart', e => { const el = e.target.closest && e.target.closest(SEL); off(); if (!el) return;
+    x0 = e.touches[0].clientX; y0 = e.touches[0].clientY; cur = el; t = setTimeout(() => cur && cur.classList.add('hov'), 60); }, { passive: true });
+  addEventListener('touchmove', e => { if (cur && Math.hypot(e.touches[0].clientX - x0, e.touches[0].clientY - y0) > 10) off(); }, { passive: true });
+  addEventListener('touchend', () => { if (!cur) return; cur.classList.add('hov'); const c = cur; clearTimeout(t); t = setTimeout(() => { c.classList.remove('hov'); if (cur === c) cur = null; }, 650); }, { passive: true });
+  addEventListener('touchcancel', off, { passive: true });
+  addEventListener('pageshow', off);
 })();
