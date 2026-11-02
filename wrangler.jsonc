@@ -1,0 +1,13 @@
+// Cloudflare hosting (Workers static assets), deployed automatically from GitHub by Workers Builds.
+// The build copies only the public site into dist/ (tools/build.sh).
+// html_handling "none" serves every page at its .html address, exactly as linked, so clicks never redirect.
+{
+  "name": "exterprise",
+  "compatibility_date": "2025-09-01",
+  "build": { "command": "sh tools/build.sh" },
+  "assets": {
+    "directory": "./dist",
+    "html_handling": "none",
+    "not_found_handling": "404-page"
+  }
+}

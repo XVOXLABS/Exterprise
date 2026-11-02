@@ -6,59 +6,99 @@ there. These steps move the domain over and get search engines and AI assistants
 
 ---
 
-## 1. Connect www.exterprise.us (about 30 minutes plus DNS wait)
+## 1. Connect www.exterprise.us through Cloudflare (no downtime)
 
-Moving the domain replaces the current exterprise.us website.
+**Hosting:** Cloudflare (free plan), using Workers static assets. It deploys automatically from this GitHub
+repo, so every push goes live in about a minute, just like now.
 
-**Before you switch:**
+**Settings already in the repo:**
 
-- Back up the old site.
-- Note any old pages that get traffic. The new 404 page already redirects common old addresses such as
-  /contact-us, /about-us and /services/servicenow-itsm to the matching new pages. Send me any others and
-  I'll add them.
-- Don't touch the **MX** or **TXT** records. They run your email (contact@exterprise.us).
+- `wrangler.jsonc`: tells Cloudflare to serve every page exactly at its `.html` address.
+- `_redirects`: real permanent (301) redirects for addresses without `.html` and common old-site addresses.
+- `_headers`: caching (pages always fresh; fonts, libraries and versioned CSS/JS cached for a year; images
+  and video for a week) plus security headers.
+- `tools/build.sh`: copies only the public site into `dist/` for each deploy, so `docs/`, `tools/` and config files stay private.
 
-### Step 1. DNS records at your domain registrar
+The old site stays live until step 12, and you can undo the switch in about a minute.
 
-Your registrar is wherever exterprise.us is managed: GoDaddy, Namecheap, Cloudflare and so on.
+### Phase A. Preparation (visitors and email see no change)
 
-Delete any existing `A`, `AAAA` or `CNAME` records for `@` and `www` that point to the old host, then add
-these:
+1. **Back up the old site.**
+2. **Write down your current DNS records** at your registrar (GoDaddy, Namecheap and so on). A screenshot or
+   export of the DNS page is enough. The ones that matter most:
+   - **MX** records (email)
+   - **TXT** records (SPF `v=spf1 …`, DMARC `_dmarc`, domain verifications)
+   - any **CNAME** records such as `autodiscover`, `selector1._domainkey` or `mail`
+3. **Turn off DNSSEC at your registrar** if it's on. Leaving it on while you change nameservers is the most
+   common cause of a site and email going down. You can turn it back on through Cloudflare later.
+4. **Create a Cloudflare account** at dash.cloudflare.com, then **Add a domain** → `exterprise.us` → **Free**
+   plan. Cloudflare scans and copies your existing DNS records.
+5. **Check the copied records against your list from step 2**, line by line.
+   - Add anything missing, especially **MX** and email **TXT/CNAME** records.
+   - Any record for mail (`mail`, `autodiscover`, `_domainkey`, `smtp`) must be **DNS only** (grey cloud).
+   - Leave the `@` and `www` records pointing at the old site for now.
+6. **Create the hosting:** Workers & Pages → **Create** → **Import a repository** → connect GitHub → choose
+   **XVOXLABS/Exterprise** → branch `main`.
+   - Build command: leave empty. The build step is already set in `wrangler.jsonc`.
+   - Deploy command: `npx wrangler deploy` (the default).
+   - Root directory: `/`.
+   - Click **Deploy**.
+7. **Test the preview address** Cloudflare gives you (`exterprise.<your-account>.workers.dev`): the homepage,
+   a few sub-pages, a phone, a made-up address like `/contact-us` (should land on Contact), and `/robots.txt`.
 
-| Type  | Host / Name | Value                  |
-|-------|-------------|------------------------|
-| CNAME | www         | xvoxlabs.github.io     |
-| A     | @           | 185.199.108.153        |
-| A     | @           | 185.199.109.153        |
-| A     | @           | 185.199.110.153        |
-| A     | @           | 185.199.111.153        |
-| AAAA  | @           | 2606:50c0:8000::153    |
-| AAAA  | @           | 2606:50c0:8001::153    |
-| AAAA  | @           | 2606:50c0:8002::153    |
-| AAAA  | @           | 2606:50c0:8003::153    |
+### Phase B. Move DNS to Cloudflare (still no change for visitors)
 
-### Step 2. GitHub settings
+8. Cloudflare shows two nameservers, for example `ada.ns.cloudflare.com` and `bob.ns.cloudflare.com`. At your
+   registrar, replace the current nameservers with these two.
+9. Wait for Cloudflare to email you that `exterprise.us` is **Active**. This usually takes under an hour, and
+   at most 24 hours. During this time both old and new nameservers answer with the same records, so nothing
+   breaks.
+10. **Send yourself a test email** to contact@exterprise.us and reply from it, to confirm mail still works.
 
-Go to github.com/XVOXLABS/Exterprise → **Settings → Pages**.
+### Phase C. Go live (about 2 minutes, at a quiet time)
 
-1. Under **Custom domain**, enter `www.exterprise.us` and click **Save**. GitHub adds a `CNAME` file to the
-   repo.
-2. Wait for the DNS check to turn green. This usually takes minutes, but can take up to 24 hours.
-3. Tick **Enforce HTTPS**. The certificate can take up to an hour to issue.
-4. Optional, but recommended: protect the domain against takeover. Go to the XVOXLABS organization →
-   **Settings → Pages → Add a domain**, then add the TXT record GitHub shows you at your registrar.
+11. In Cloudflare DNS, **note the current `www` and `@` records** (needed if you roll back), then delete them.
+12. In your Worker → **Settings → Domains & Routes → Add → Custom domain**, add `www.exterprise.us`, then add
+    `exterprise.us`. Cloudflare creates the records and the HTTPS certificate itself, usually within a minute.
+13. Go to **Rules → Redirect Rules → Create rule → template "Redirect from root to WWW"**. This sends
+    `exterprise.us/...` to `https://www.exterprise.us/...` (301, keeping the path).
+14. Go to **SSL/TLS** and set the mode to **Full (strict)**. Under **Edge Certificates**, turn on **Always Use
+    HTTPS**.
+15. Check https://www.exterprise.us, https://exterprise.us, a sub-page and a phone. Done.
 
-Once this is done, `exterprise.us` redirects to `www.exterprise.us`, and the github.io address redirects
-there too.
+**Rolling back:** remove the custom domains from the Worker and re-add the records you noted in step 11.
+The old site is back within a minute or two.
 
-### Optional: block AI scrapers at the network level (Cloudflare)
+### Phase D. Extras on the same free plan (optional, recommended)
 
-`robots.txt` is a polite request. Reputable crawlers follow it, but bad scrapers ignore it.
+- **Speed:** Speed → Optimization → turn on **Early Hints**. HTTP/3 is on by default.
+- **AI scrapers:** Security → Bots → turn on **Block AI Scrapers and Crawlers** only if you want hard
+  blocking.
+  - This also stops AI assistants reading your pages, which works against AEO.
+  - The softer option, already in place, is `robots.txt`: assistants may read pages but not media.
+  - A middle ground is **Bot Fight Mode**: it blocks bad bots and lets verified ones (Google, Bing,
+    ChatGPT, Claude) through.
+- **Analytics:** Analytics & Logs → **Web Analytics**. It's free and needs no cookie banner.
+- **GitHub Pages:** keep it as a backup copy. Every page points Google to www.exterprise.us as the main
+  address, so the copy doesn't hurt rankings. Or turn it off in GitHub Settings → Pages once Cloudflare has
+  run smoothly for a few weeks.
 
-1. Move the domain's DNS to Cloudflare (the free plan is enough).
-2. Keep the records above, with the cloud icon set to **Proxied**.
-3. Turn on **Security → Bots → Block AI Scrapers and Crawlers** and **Bot Fight Mode**. If you do this,
-   leave **Verified bots** allowed so Google, Bing and AI search assistants can still read the pages.
+### Why not Vercel?
+
+Vercel is fast and easy, but its free (Hobby) plan is for **non-commercial use only**. A company website needs
+Vercel **Pro at $20 per member per month**, and bot blocking is more limited.
+
+| | Cloudflare (free) | Vercel Pro ($20/member/mo) | GitHub Pages (free) |
+|---|---|---|---|
+| Commercial use | Yes | Yes | Yes |
+| Speed | Excellent | Excellent | Good |
+| Bandwidth | Unlimited for static files | 1 TB/month included | Soft limit of 100 GB/month |
+| Real 301 redirects and headers | Yes | Yes | No |
+| Bot/AI-scraper blocking | Yes, built in | Limited | No |
+| Deploys from GitHub | Yes | Yes | Yes |
+
+For a static site like this one, Cloudflare gives the same or better speed for free. Netlify is similar to
+Vercel; its free tier allows commercial use, but bandwidth is capped.
 
 ---
 
