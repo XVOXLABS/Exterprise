@@ -1549,9 +1549,9 @@ document.querySelectorAll('.hc-card .hc-tog').forEach(b => b.addEventListener('c
   document.fonts && document.fonts.ready.then(() => { fit(); fitDemos(); });
 })();
 
-/* ===================== v60 Revenue Cycle (desktop): hover opens a card sideways; the first starts open ===================== */
+/* ===================== v60 Revenue Cycle (desktop): hover opens a card sideways; the first in each row starts open ===================== */
 (() => {
-  const grid = document.querySelector('section.ra .hc-grid'); if (!grid) return;
+  document.querySelectorAll('section.ra .hc-grid').forEach(grid => {
   const cards = [...grid.querySelectorAll('.hc-card')]; if (!cards.length) return;
   const set = i => cards.forEach((c, k) => c.classList.toggle('on', k === i));
   set(0);
@@ -1562,6 +1562,7 @@ document.querySelectorAll('.hc-card .hc-tog').forEach(b => b.addEventListener('c
     c.addEventListener('pointerleave', () => clearTimeout(t));
     c.addEventListener('focusin', () => set(i));
     c.addEventListener('click', e => { if (innerWidth >= 1000 && !c.classList.contains('on')) { e.preventDefault(); set(i); } });
+  });
   });
 })();
 
