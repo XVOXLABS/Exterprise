@@ -41,8 +41,8 @@
 /digital-enablement/ /digital-enablement.html 301
 /digital-marketing /digital-marketing.html 301
 /digital-marketing/ /digital-marketing.html 301
-/enterprise-data-management /enterprise-data-management.html 301
-/enterprise-data-management/ /enterprise-data-management.html 301
+/enterprise-data-management /enterprise-solutions.html 301
+/enterprise-data-management/ /enterprise-solutions.html 301
 /enterprise-solutions /enterprise-solutions.html 301
 /enterprise-solutions/ /enterprise-solutions.html 301
 /field-service-management /field-service-management.html 301
@@ -67,8 +67,8 @@
 /records-processing/ /records-processing.html 301
 /revenue-cycle-management /revenue-cycle-management.html 301
 /revenue-cycle-management/ /revenue-cycle-management.html 301
-/sap-solutions /sap-solutions.html 301
-/sap-solutions/ /sap-solutions.html 301
+/sap-solutions /enterprise-solutions.html 301
+/sap-solutions/ /enterprise-solutions.html 301
 /servicenow /servicenow.html 301
 /servicenow/ /servicenow.html 301
 /servicenow-nonprofits /servicenow-nonprofits.html 301
@@ -87,6 +87,10 @@
 /vendor-management/ /vendor-management.html 301
 /index /  301
 /home /  301
+
+# Removed services (SAP, Snowflake data management) -> Enterprise Solutions
+/sap-solutions.html /enterprise-solutions.html 301
+/enterprise-data-management.html /enterprise-solutions.html 301
 
 # 2) Common addresses from the previous exterprise.us site -> the matching new page
 #    (anything not listed still reaches the right page through 404.html)
@@ -158,10 +162,10 @@
 /county-government/ /county-government-services.html 301
 /property-preservation-services /property-preservation.html 301
 /property-preservation-services/ /property-preservation.html 301
-/sap /sap-solutions.html 301
-/sap/ /sap-solutions.html 301
-/snowflake /enterprise-data-management.html 301
-/snowflake/ /enterprise-data-management.html 301
+/sap /enterprise-solutions.html 301
+/sap/ /enterprise-solutions.html 301
+/snowflake /enterprise-solutions.html 301
+/snowflake/ /enterprise-solutions.html 301
 /ai-solutions /custom-ai-solutions.html 301
 /ai-solutions/ /custom-ai-solutions.html 301
 /ui-ux-design /design-services.html 301

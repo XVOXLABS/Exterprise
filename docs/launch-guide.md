@@ -197,5 +197,5 @@ order of impact.
 |---|---|
 | ServiceNow | ServiceNow implementation partner, ServiceNow consulting partner, ServiceNow Premier Partner, ServiceNow ITSM / ITOM / CSM / HRSD / FSM / SPM / GRC implementation, Now Assist implementation, ServiceNow AI Agents, AI Control Tower, CMDB / CSDM, App Engine |
 | Outsourcing | business process outsourcing (BPO), contact center outsourcing, healthcare revenue cycle management, medical claims processing, records digitization, county records conversion, property preservation services, data capture and data entry |
-| Technology | custom AI solutions, AI image analytics, Snowflake data management, SAP implementation, application development, UX/UI design, digital marketing |
+| Technology | custom AI solutions, AI image analytics, application development, UX/UI design, digital marketing |
 | Location | Dallas TX, India (Chennai, Coimbatore), near-shore Honduras (San Pedro Sula) |

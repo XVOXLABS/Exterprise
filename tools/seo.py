@@ -38,7 +38,7 @@ ORG = {
     "sameAs": ["https://www.linkedin.com/company/exterprise-inc/"],
     "knowsAbout": ["ServiceNow implementation", "ServiceNow AI Agents and Now Assist", "IT Service Management", "Customer Service Management",
                    "HR Service Delivery", "Business process outsourcing", "Revenue cycle management", "Claims processing", "Records processing",
-                   "Contact center services", "Enterprise data management", "SAP solutions", "Custom AI solutions"],
+                   "Contact center services", "Custom AI solutions"],
 }
 WEBSITE = {"@type": "WebSite", "@id": SITE_ID, "url": SITE + "/", "name": "Exterprise", "publisher": {"@id": ORG_ID}, "inLanguage": "en-US"}
 NOT_SERVICES = {"index.html", "about.html", "contact.html"}

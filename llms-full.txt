@@ -1,6 +1,6 @@
 # Exterprise: full site text
 
-Source: https://www.exterprise.us/ (generated 2026-11-02). Cite the page URL when quoting.
+Source: https://www.exterprise.us/ (generated 2026-11-04). Cite the page URL when quoting.
 
 ---
 
@@ -25,8 +25,6 @@ Level 1 and Level 2 support, staffed around the clock with a 99.99% adherence ra
 Claims Processing solutions for managing patient claims, end to end.
 ### Records Processing
 Technical services for records digitization, indexing, search and retrieval
-### Enterprise Data Management
-End to end data management solutions, with our partnership with Snowflake.
 ### Enterprise Mobility
 Bridging the gap between enterprise needs and ease of access via Mobile
 ### Design Services
@@ -38,7 +36,6 @@ More Services
 - County Government Services
 - Property Preservation
 - Custom AI Solutions
-- SAP Solutions
 - IT Support & Maintenance
 - AI Agents & Now Assist
 ## ServiceNow Premier Partner Consulting & Implementation
@@ -517,7 +514,7 @@ Correlate with design changes and make modifications whenever needed.
 - Industry-specialist customer support personnel
 - Experienced field operators: no crashes, perfect data capture
 - Thought leadership in the open source drone software community
-- ←Enterprise Data ManagementEnterprise Solutions→SAP Solutions
+- Enterprise Solutions
 ## Let's Talk!
 Talk to us about AI image analytics.
 Send a Messagecontact@exterprise.us
@@ -741,14 +738,12 @@ Summary: Custom AI solutions designed around your business: ServiceNow AI Agents
 Technology & AI
 # Custom AI Solutions
 AI solutions designed around your business needs.
-Talk to UsExplore Services4AI service areasPremierServiceNow PartnerSnowflakeAI / ML enginesDroneImage analytics
+Talk to UsExplore Services3AI service areasPremierServiceNow PartnerMLOn your own dataDroneImage analytics
 ## AI That Fits How You Work
 From AI agents on ServiceNow to image analytics and machine learning on your own data, we design AI around the problem you need solved, then build, deploy and support it.
 ## Services
 ### AI Image Analytics
 Capture, analyze, improve: business insight from aerial imagery on an AI-enabled platform.
-### Enterprise Data Management
-End to end data management solutions for enterprises, with our partnership with Snowflake.
 ### Application Development
 Technology is the underlying unifying theme behind every business.
 ### Solution Design
@@ -980,55 +975,23 @@ Send a Messagecontact@exterprise.us
 
 ---
 
-URL: https://www.exterprise.us/enterprise-data-management.html
-Title: Enterprise Data Management & Snowflake | Exterprise
-Summary: End-to-end enterprise data management with our Snowflake partnership: data engineering, governance and AI/ML engines that turn data into insight.
-
-# Enterprise Data Management
-End to end data management solutions for enterprises, with our partnership with Snowflake.
-Talk to Us4Service lines6Snowflake benefitsSnowflakePartnerAI / MLOn distributed data
-## Snowflake-Enabled Data Management
-From business case to running AI and ML engines, we build the data foundations your teams need on Snowflake.
-## Snowflake-Enabled Data Management Solutions
-### Consulting & Strategy
-Business case build, migration strategies, data pipeline & security architecture, using Snowflake.
-### Migration Services
-Tool-based migration services into Snowflake, for data consolidation and visualization.
-### Data Engineering
-Data lakes and data pipeline development, featuring security groups for granular access to data.
-### AI & ML Engines
-Running AI and ML models on scattered, distributed data in Snowflake to find insights you can act on.
-## Top 6 Snowflake Benefits
-- Performance & Speed
-- Security & Uptime
-- Multi-level Data Access & Sharing
-- Support for All Data Types
-- Real-time & Concurrent Requests
-- Scalability & Extensibility
-- Enterprise Solutions→AI Image Analytics
-## Let's Talk!
-Talk to a data consultant.
-Send a Messagecontact@exterprise.us
-
----
-
 URL: https://www.exterprise.us/enterprise-solutions.html
-Title: Enterprise Solutions: ServiceNow, SAP & Data | Exterprise
-Summary: Bespoke or industry-standard enterprise solutions: implementation, migration, upgrades, support and maintenance on ServiceNow, SAP and Snowflake.
+Title: Enterprise Solutions: AI, Apps & Solution Design | Exterprise
+Summary: Custom or off-the-shelf enterprise solutions: AI image analytics, application development and solution design, from implementation and migration to upgrades and support.
 
 Enterprise
 # Enterprise Solutions
 Custom or off-the-shelf solutions, from implementation and migration to upgrades and ongoing support.
-Talk to UsExplore Services3Solution areasSnowflakeData partnershipSAPEcosystem servicesAIImage analytics
+Talk to UsExplore Services3Solution areasFull StackFront end to deploymentPremierServiceNow PartnerAIImage analytics
 ## Consultants and Technical Experts
-The key to our enterprise offering is the combination of experienced consultants and technical experts, delivering solutions across data, AI and SAP.
+The key to our enterprise offering is the combination of experienced consultants and technical experts, delivering solutions across AI, application development and solution design.
 ## Services
-### Enterprise Data Management
-End to end data management solutions for enterprises, with our partnership with Snowflake.
 ### AI Image Analytics
 Capture, analyze, improve: business insight from aerial imagery on an AI-enabled platform.
-### SAP Solutions
-Solutions for business processes in any industry, built on SAP and related products.
+### Application Development
+Technology is the underlying unifying theme behind every business.
+### Solution Design
+Exterprise works closely with you in identifying your business goals and challenges.
 - ←SmartsourcingAbout Us→Technical
 ## Let's Talk!
 Talk to us about your enterprise platforms.
@@ -1423,59 +1386,6 @@ Yes. Revenue cycle services are HIPAA compliant, and remittances and documents a
 Healthcare→Claims Processing
 ## Let's Talk!
 Talk to us about your revenue cycle.
-Send a Messagecontact@exterprise.us
-
----
-
-URL: https://www.exterprise.us/sap-solutions.html
-Title: SAP Implementation & Support Services | Exterprise
-Summary: SAP solutions for every business process across industries: implementation, support and adoption of new SAP innovations, at every step of your project.
-
-# SAP Solutions
-Solutions for business processes in any industry, built on SAP and related products.
-Talk to Us6SAP service lines7Upgrade services12Support activitiesSOXCompliance reviews
-## Low-Risk Delivery Across the SAP Ecosystem
-Our functional consultants, technical experts and domain specialists deliver low-risk solutions across the SAP ecosystem, and act as a trusted SAP advisor from start to finish.
-## SAP Services
-- SAP Design & Implementation
-- HANA Based Services
-- SAP Ecosystem Products
-- SAP Operational Excellence
-- SAP BASIS Services
-- IoT Services for SAP Landscapes
-## SAP Basis Consulting
-Consultants who apply SAP change management and problem-solving practices to complex IT issues.
-- SAP Functional Consulting
-- SAP Technical Consulting
-- On-site System Diagnostics
-- SAP Landscape
-- Design Consulting
-- SAP Solution Manager
-## SAP Basis Implementation & Upgrade
-We stay with you through the whole project and help you adopt new SAP releases.
-- SAP Template Design & Implementation
-- SAP Customizations & Integrations
-- SAP Release and OS/DB Upgrades
-- SAP BW & HANA Upgrade Support
-- SAP Basis Kernel and Notes Upgrades
-- SAP CRM and EHP Upgrades
-- Unicode Conversion and SAP PI Upgrades
-## SAP Basis Support & Maintenance
-- Handling SAP Basis configurations
-- Capacity planning and monitoring
-- Administration of SAP peripherals and printers
-- SAP performance statistics for customer use
-- System health monitoring and stability recommendations
-- Audit support and auditor-suggested security changes
-- Knowledge database of problems and solutions
-- SLA compliance reports
-- Resolving operational defects, including performance problems
-- Preventive maintenance and performance tuning
-- SAP Basis system and security administration
-- SOX compliance reviews in SAP Security
-- ←AI Image AnalyticsEnterprise Solutions
-## Let's Talk!
-Contact us for a free consultation.
 Send a Messagecontact@exterprise.us
 
 ---

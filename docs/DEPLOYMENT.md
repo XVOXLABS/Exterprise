@@ -72,7 +72,7 @@ The current website keeps running until step 12, and every step can be undone.
    - Deploy command: `npx wrangler deploy`
    - Root directory: `/`
 
-   Then click **Deploy**. The build log should end with `dist: 278 files …` and a successful deployment.
+   Then click **Deploy**. The build log should end with `dist: 271 files …` and a successful deployment.
 7. **Turn on preview builds.** In the Worker, go to **Settings → Build** and enable **builds for
    non-production branches**. Every branch then gets its own preview URL.
 8. **Test the `*.workers.dev` URL** Cloudflare shows. Use the checklist in section 6.
