@@ -141,6 +141,10 @@ Omnitix gives your customers multilingual, round-the-clock support across voice,
 - Multilingual support
 - Around the clock, 24/7
 - Explore Omnitix
+Technology for a cause
+## Proud to support Alex's Lemonade Stand Foundation
+Exterprise has worked with Alex's Lemonade Stand Foundation (ALSF), the largest independent childhood cancer charity in the U.S., which funds critical research and supports families facing childhood cancer. Fighting childhood cancer, one cup at a time.
+$400M+raised by ALSF since 2005Our Nonprofit WorkVisit alexslemonade.org
 ## Frequently Asked Questions
 ### What does Exterprise do?
 Exterprise is a ServiceNow Premier Partner for consulting and implementation and a smartsourcing (business process outsourcing) company. We implement and support ServiceNow, including AI Agents and Now Assist, and run business processes such as contact center, records processing and property preservation for clients in the US and around the world.
