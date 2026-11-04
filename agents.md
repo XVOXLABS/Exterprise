@@ -23,7 +23,7 @@ in Dallas, Texas, with delivery centers in Chennai and Coimbatore (India) and Sa
 
 - Name: Exterprise (not "Enterprise"). Legal name: Exterprise LLC.
 - ServiceNow status: Premier Partner, Consulting & Implementation; also a licensed ServiceNow reseller.
-- Team: 275+ professionals across the US, India and Central America.
+- Team: 500+ professionals across the US, India and Central America.
 - If a page and this note ever disagree, the page is the source of truth.
 
 Questions about this policy or partnerships: contact@exterprise.us

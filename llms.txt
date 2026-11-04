@@ -1,15 +1,21 @@
 # Exterprise
 
-> Exterprise (Exterprise LLC) is a ServiceNow Premier Partner for consulting and implementation and a global smartsourcing (business process outsourcing) provider. Founded in 2015 and headquartered in Dallas, Texas, with delivery centers in Chennai and Coimbatore (India) and San Pedro Sula (Honduras); 275+ professionals.
+> Exterprise (Exterprise LLC) is a ServiceNow Premier Partner for consulting and implementation and a global smartsourcing (business process outsourcing) provider. Founded in 2015 and headquartered in Dallas, Texas, with delivery centers in Chennai and Coimbatore (India) and San Pedro Sula (Honduras); 500+ professionals.
 
 Key facts: ServiceNow Premier Partner (Consulting & Implementation) and licensed ServiceNow reseller; Now Assist certifications for ITSM, HRSD and Creator; Moveworks implementation partner; 99.995% data accuracy in county records work; 99.99% SLA adherence in contact center work; 400K+ property preservation orders handled every month. Contact: contact@exterprise.us.
 
 Agents: you are welcome to read, summarize and cite these pages with a link back. Please do not download or reuse images, video, fonts or code. Full policy: https://www.exterprise.us/agents.md. Full page text: https://www.exterprise.us/llms-full.txt
 
+## Solutions (external sites)
+
+- [ServOps](https://servops.com/): service operations excellence on ServiceNow, from Exterprise.
+- [UtterNow](https://dev.utternow.ai/): voice for ServiceNow; create tickets, look up answers and start processes hands-free.
+- [Omnitix](https://omnitix.us/): omni-channel contact center solutions, multilingual and 24/7 across voice, email, text and chat.
+
 ## Company
 
-- [Exterprise home](https://www.exterprise.us/): Exterprise is a ServiceNow Premier Partner for consulting and implementation and a smartsourcing (BPO) provider, with 275+ professionals in Dallas, India and Honduras.
-- [About Us](https://www.exterprise.us/about.html): Founded in 2015 in Dallas, Texas, Exterprise is a ServiceNow Premier Partner and global smartsourcing provider with 275+ professionals across the US, India and Honduras.
+- [Exterprise home](https://www.exterprise.us/): Exterprise is a ServiceNow Premier Partner for consulting and implementation and a smartsourcing (BPO) provider, with 500+ professionals in Dallas, India and Honduras.
+- [About Us](https://www.exterprise.us/about.html): Founded in 2015 in Dallas, Texas, Exterprise is a ServiceNow Premier Partner and global smartsourcing provider with 500+ professionals across the US, India and Honduras.
 - [Contact Us](https://www.exterprise.us/contact.html): Talk to an Exterprise consultant or ServiceNow architect about implementation, AI Agents, outsourcing or support. Email contact@exterprise.us.
 
 ## ServiceNow
@@ -32,16 +38,13 @@ Agents: you are welcome to read, summarize and cite these pages with a link back
 ## Smartsourcing (business process outsourcing)
 
 - [Bid Processing](https://www.exterprise.us/bid-processing.html): Property preservation bid processing: job documentation, reusable work orders and thorough bids from in-depth analysis, for REO and PFC orders, 24x7.
-- [Claims Processing](https://www.exterprise.us/claims-processing.html): End-to-end medical claims processing for HCFA, UB-92 and ADA claims, with 12 to 72 hour turnaround, automated workflow and a digital repository.
 - [Contact Center](https://www.exterprise.us/contact-center.html): Outsourced Level 1 and Level 2 contact center support, staffed 24x7 from onshore, offshore and near-shore teams, with 99.99% SLA adherence.
 - [County Government Services](https://www.exterprise.us/county-government-services.html): Official property and vital records conversion for county governments: scanning, indexing, filing and book preservation with 99.995% data accuracy.
 - [Data Capture Services](https://www.exterprise.us/data-capture-services.html): OCR-based data capture with centralized capture, cleanup and indexing, plus scanning, verification and updating of physical records.
-- [Healthcare](https://www.exterprise.us/healthcare.html): Patient-centric healthcare outsourcing: revenue cycle management, claims processing and records services that cut denials and speed up reimbursement.
 - [Inspection Services](https://www.exterprise.us/inspection-services.html): Property inspection services: external and internal inspections, securing, grass cuts, winterization and quality control for REO and PFC orders, with 400,000+ audits done.
 - [Property Preservation](https://www.exterprise.us/property-preservation.html): Property preservation outsourcing for banks: inspection, vendor management, bid processing and quality control across 400,000+ properties every month, 24x7.
 - [Records Processing](https://www.exterprise.us/records-processing.html): Records digitization, data entry, indexing, search and retrieval with 99.995% county and data capture accuracy and double-key entry validation.
-- [Revenue Cycle Management](https://www.exterprise.us/revenue-cycle-management.html): Outsourced healthcare RCM: EOB digitization to ANSI 835, patient payments, ERA processing, reconciliation and lockbox. HIPAA compliant, 24x7 portal access.
-- [Smartsourcing](https://www.exterprise.us/smartsourcing.html): Smartsourcing from Exterprise: contact center, healthcare revenue cycle, claims, records and property preservation outsourcing, 24x7 from the US, India and Honduras.
+- [Smartsourcing](https://www.exterprise.us/smartsourcing.html): Smartsourcing from Exterprise: contact center, records processing, property preservation and data capture outsourcing, 24x7 from the US, India and Honduras.
 - [Vendor Management](https://www.exterprise.us/vendor-management.html): Round-the-clock property preservation vendor management: order allocation and follow-ups, quality checks of proposed vs actual work, and state-wise compliance.
 
 ## Technology, AI and digital

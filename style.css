@@ -3989,3 +3989,48 @@ html body .faq-sec .faq-a{padding:0 24px 22px}
 html body .faq-sec .faq-a p{margin:0;max-width:70ch;font-size:16px;line-height:1.65;color:rgba(255,255,255,.86)!important}
 @media (max-width:600px){html body .faq-sec .faq-i summary{padding:18px 18px}html body .faq-sec .faq-a{padding:0 18px 18px}}
 /* <<< v74 */
+
+/* >>> v75 Partner KPI "Focus Industries": 4-step version of the pip + ticker loop (same timing per step) */
+html body .kpis.go .pips.p4 i{animation:kpiPip4 10s infinite;animation-delay:calc(var(--k) * 2.5s)}
+@keyframes kpiPip4{0%,22%{background:linear-gradient(180deg,#fff,#B9F5AE);filter:drop-shadow(0 0 6px rgba(98,216,78,.8));transform:scale(1.15)}27%,100%{background:rgba(255,255,255,.14);filter:none;transform:none}}
+html body .kpis.go .kpi-tick.t4>span{animation:kpiTick4 10s cubic-bezier(.7,0,.2,1) infinite}
+@keyframes kpiTick4{0%,20%{transform:translateY(0)}25%,45%{transform:translateY(-1.4em)}50%,70%{transform:translateY(-2.8em)}75%,95%{transform:translateY(-4.2em)}100%{transform:translateY(-5.6em)}}
+@media (prefers-reduced-motion:reduce){html body .kpis.go .pips.p4 i{animation:none}html body .kpi-tick.t4>span{animation:none}}
+/* About: three certificates now (DIR removed) */
+html body .xp-certs{grid-template-columns:repeat(3,minmax(0,1fr))}
+@media (max-width:900px){html body .xp-certs{grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}}
+/* <<< v75 */
+
+/* >>> v76 menu */
+/* menu: the "Our Solutions" group under the ServiceNow AI column */
+html body .mg-lbl.mg-lbl-2{margin-top:18px}
+/* <<< v76 */
+
+/* >>> v77 Products: ServOps (amber) and Omnitix (blue) panels, same build as the other three */
+.pc[data-act="3"]{--acc:#F7B23B}.pc[data-act="4"]{--acc:#7FA8FF}
+.pc-card.pv-so{--ca:#F7B23B}.pc-card.pv-ox{--ca:#7FA8FF}
+.pc-wash.pv-so{background:radial-gradient(52% 62% at 76% 52%,rgba(244,159,31,.34),transparent 70%),radial-gradient(42% 52% at 10% 88%,rgba(228,24,42,.22),transparent 70%),linear-gradient(180deg,#140D05,#0A0806)}
+.pc-wash.pv-ox{background:radial-gradient(52% 62% at 76% 52%,rgba(61,139,255,.40),transparent 70%),radial-gradient(42% 52% at 10% 88%,rgba(124,92,255,.26),transparent 70%),linear-gradient(180deg,#060B18,#05070C)}
+.pc[data-act="3"] .pc-wash.pv-so,.pc[data-act="4"] .pc-wash.pv-ox{opacity:1}
+html body .pc .pc-giant span[data-i="3"]{background-image:linear-gradient(180deg,#FFFFFF 4%,#FFE7BE 30%,#F7B23B 56%,rgba(244,159,31,.24) 74%,rgba(244,159,31,0) 92%)}
+html body .pc .pc-giant span[data-i="4"]{background-image:linear-gradient(180deg,#FFFFFF 4%,#DCE7FF 30%,#7FA8FF 56%,rgba(61,139,255,.24) 74%,rgba(61,139,255,0) 92%)}
+html body .pc[data-act="3"] .pc-giant span[data-i="3"],html body .pc[data-act="4"] .pc-giant span[data-i="4"]{opacity:.15;transform:none;filter:none}
+html body .pc #servops.pc-card.on,html body .pc #omnitix.pc-card.on{background-color:rgba(12,12,20,.42)!important}
+html body .pc #servops.pc-card:not(.on),html body .pc #omnitix.pc-card:not(.on){background-color:rgba(18,18,26,.3)!important}
+html body .pc #servops.pc-card:not(.on):hover,html body .pc #omnitix.pc-card:not(.on):hover{background-color:rgba(255,255,255,.08)!important}
+@media (max-width:899px){html body .pc #servops.pc-card,html body .pc #omnitix.pc-card{border-radius:22px!important}}
+.pc-bgfilm .pc-still{object-fit:cover}
+/* the screen on the right: a framed photo */
+.pc-demo.pc-shot{aspect-ratio:4/3;border-radius:22px;overflow:hidden;box-shadow:inset 0 0 0 1px rgba(255,255,255,.14),0 30px 70px -30px rgba(0,0,0,.9),0 0 0 1px color-mix(in srgb,var(--ca) 30%,transparent)}
+.pc-demo.pc-shot img{display:block;width:100%;height:100%;object-fit:cover}
+/* <<< v77 */
+
+/* >>> v78 Products with five panels: open panel grows 7 (of 11) and its content width follows; phone tabs scroll sideways */
+.pc-card.on{flex-grow:7}
+@media (min-width:900px){html body .pc .pc-body{width:calc((100cqw - 48px) * 7 / 11 - 58px)}}
+@media (max-width:899px){
+  html body .pc .pc-tabs{overflow-x:auto;scrollbar-width:none;justify-content:flex-start;scroll-snap-type:x proximity}
+  html body .pc .pc-tabs::-webkit-scrollbar{display:none}
+  html body .pc .pc-tab{flex:none!important;min-width:auto;scroll-snap-align:center}
+}
+/* <<< v78 */

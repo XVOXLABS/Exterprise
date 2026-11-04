@@ -6,7 +6,7 @@ Source: https://www.exterprise.us/ (generated 2026-11-04). Cite the page URL whe
 
 URL: https://www.exterprise.us/
 Title: ServiceNow Implementation Partner & BPO Services | Exterprise
-Summary: Exterprise is a ServiceNow Premier Partner for consulting and implementation and a smartsourcing (BPO) provider, with 275+ professionals in Dallas, India and Honduras.
+Summary: Exterprise is a ServiceNow Premier Partner for consulting and implementation and a smartsourcing (BPO) provider, with 500+ professionals in Dallas, India and Honduras.
 
 Exterprise
 # Modernize How You Work
@@ -21,8 +21,6 @@ Efficient enterprise service management with ServiceNow solutions
 Outsourced processes that extend your enterprise, delivered by teams in the US, India and Central America.
 ### Contact Center
 Level 1 and Level 2 support, staffed around the clock with a 99.99% adherence rate to SLAs.
-### Claims Processing
-Claims Processing solutions for managing patient claims, end to end.
 ### Records Processing
 Technical services for records digitization, indexing, search and retrieval
 ### Enterprise Mobility
@@ -32,7 +30,6 @@ Easy-to-use digital products for your customers, on any device
 ### Digital Marketing
 360° marketing services to grow your business, across digital platforms
 More Services
-- Revenue Cycle Management
 - County Government Services
 - Property Preservation
 - Custom AI Solutions
@@ -44,7 +41,7 @@ Buy, build, and grow on ServiceNow with one team. We're a Premier Partner for co
 ServiceNow
 - 60+ServiceNow-Accredited Professionals
 - CTACertified Technical Architect on Staff
-- 5Focus Industries: Financial Services, Government, Healthcare, Insurance, Manufacturing
+- 4Focus Industries: Financial Services, Government, Insurance, Manufacturing
 ## ServiceNow AI, Put to Work.
 We set up ServiceNow AI and keep it in check, so it fits the way your teams already work.
 ### AI That Gets the Work Done
@@ -56,28 +53,10 @@ We set up ServiceNow AI and keep it in check, so it fits the way your teams alre
 Exterprise Outsourced Process
 ## Smartsourcing
 Exterprise offers a full suite of solutions centered around data accuracy and data reliability.
-Explore Smartsourcing Data Accuracy99.995%County Government ServicesAdherence to SLAs99.99%Contact CenterProperties Every Month400K+Property PreservationProfessionals, Globally275+About Exterprise
+Explore Smartsourcing Data Accuracy99.995%County Government ServicesAdherence to SLAs99.99%Contact CenterProperties Every Month400K+Property PreservationProfessionals, Globally500+About Exterprise
 ## Optimise Your Business
-From healthcare billing to marketing, design and back-office work, we take on the processes that slow your teams down.
-6 Solutions
-### Revenue Cycle Management
-Effectively manage the entire medical billing cycle, from payments to accounts receivable.
-- EOB Digitization
-- Process Patient Payments
-- ERA Processing
-- Reconciliation
-- Correspondence
-- Healthcare Lockbox
-- View MoreHCFA · UB-92 · ADA
-### Claims Processing
-Claims Processing solutions for managing patient claims, end to end.
-- Round the Clock Schedule
-- Complete Processing
-- Automated Workflow
-- Precise Data Entry
-- Digital Repository
-- Reports & Graphs
-- View More99.995% Accuracy
+From records and property preservation to marketing, design and back-office work, we take on the processes that slow your teams down.
+99.995% Accuracy
 ### Records Processing
 Technical services for records digitization, indexing, search and retrieval.
 - County Government Services
@@ -111,9 +90,9 @@ Outsourced processes run by our teams in the US, India and Central America.
 - Inspection Services
 - Vendor Management
 - Data Capture Services
-AI for your employees
-## Three ways to help your people get things done
-Moveworks, EmployeeWorks and UtterNow. We partner on all three, so one team sets them up and keeps them running.
+Products & Solutions
+## Five ways to help your people get things done
+Moveworks and EmployeeWorks, plus our own UtterNow, ServOps and Omnitix. One team sets them up and keeps them running.
 Moveworks Partner
 ### Help for Every Employee, Across Every System
 Moveworks gives your employees one AI assistant in Teams, Slack, or your portal. It finds answers across your company’s documents and handles everyday requests in the tools you already use. We set it up, connect it, and help it improve over time.
@@ -148,15 +127,31 @@ Run your ServiceNow workflows by voice. Create tickets, look up answers and star
 - Look up answers hands-free
 - Start processes without a keyboard
 - Explore UtterNowWatch on YouTube
+Service Operations Excellence
+### Service Operations, Run Smoothly on ServiceNow
+ServOps brings Exterprise’s ServiceNow experience to how your service operations run day to day, from a pure-play ServiceNow partner delivering since 2015.
+- Built on ServiceNow, by a Premier Partner
+- Teams across the US, India and Central America
+- Since 2015
+- Explore ServOps
+Omni-Channel Contact Center
+### Every Channel, Every Language, 24/7
+Omnitix gives your customers multilingual, round-the-clock support across voice, email, text and chat, so every conversation gets answered.
+- Voice, email, text and chat
+- Multilingual support
+- Around the clock, 24/7
+- Explore Omnitix
 ## Frequently Asked Questions
 ### What does Exterprise do?
-Exterprise is a ServiceNow Premier Partner for consulting and implementation and a smartsourcing (business process outsourcing) company. We implement and support ServiceNow, including AI Agents and Now Assist, and run business processes such as contact center, healthcare revenue cycle, claims and records processing for clients in the US and around the world.
+Exterprise is a ServiceNow Premier Partner for consulting and implementation and a smartsourcing (business process outsourcing) company. We implement and support ServiceNow, including AI Agents and Now Assist, and run business processes such as contact center, records processing and property preservation for clients in the US and around the world.
 ### Is Exterprise a ServiceNow partner?
 Yes. Exterprise is a ServiceNow Premier Partner for Consulting & Implementation and a licensed ServiceNow reseller, with 60+ ServiceNow-accredited professionals and Now Assist certifications for IT Service Management, HR Service Delivery and Creator.
 ### Where is Exterprise located?
-Exterprise is headquartered in Dallas, Texas, with offshore delivery centers in Chennai and Coimbatore, India, and a near-shore center in Altia Smart City, San Pedro Sula, Honduras. More than 275 professionals work across these locations, so work can run around the clock.
+Exterprise is headquartered in Dallas, Texas, with offshore delivery centers in Chennai and Coimbatore, India, and a near-shore center in San Pedro Sula, Honduras. More than 500 professionals work across these locations, so work can run around the clock.
 ### Which industries does Exterprise work with?
-Exterprise works with healthcare providers, county governments, property preservation companies, nonprofits and enterprises in government, oil and gas, retail and real estate, delivering ServiceNow, outsourcing and custom technology solutions.
+Exterprise works with county governments, property preservation companies, nonprofits and enterprises in government, oil and gas, retail and real estate, delivering ServiceNow, outsourcing and custom technology solutions.
+### What solutions does Exterprise offer?
+Exterprise offers three solutions: ServOps, for service operations excellence on ServiceNow (servops.com); UtterNow, which lets people run ServiceNow workflows by voice (utternow.ai); and Omnitix, omni-channel contact center solutions with multilingual, 24/7 support across voice, email, text and chat (omnitix.us).
 ### How do I start a project with Exterprise?
 Email contact@exterprise.us or send a message from the Contact page. A consultant or ServiceNow architect will review your goals and suggest the right next step, whether that is an assessment, an implementation plan or a dedicated team.
 ## Let's Talk!
@@ -167,15 +162,15 @@ Send a Messagecontact@exterprise.us
 
 URL: https://www.exterprise.us/about.html
 Title: About Exterprise | ServiceNow Partner & BPO, Dallas TX
-Summary: Founded in 2015 in Dallas, Texas, Exterprise is a ServiceNow Premier Partner and global smartsourcing provider with 275+ professionals across the US, India and Honduras.
+Summary: Founded in 2015 in Dallas, Texas, Exterprise is a ServiceNow Premier Partner and global smartsourcing provider with 500+ professionals across the US, India and Honduras.
 
 The Company
 # About Us
 Extend your Enterprise, with Exterprise.
-Talk to UsOur Team2015Founded in Dallas, TX275+Professionals, globally3Continents99.99%Adherence to SLAs
+Talk to UsOur Team2015Founded in Dallas, TX500+Professionals, globally3Continents99.99%Adherence to SLAs
 ## Extend Your Enterprise, With Exterprise
 Exterprise was founded in 2015 by Prabhu [PK] Karunakaran with one goal: help US-based organizations run more efficiently and cost-effectively by extending their operations and service delivery to teams in India and Central America.
-That idea, extending your enterprise, gave us our name and our tagline. We opened our main offshore delivery center in Chennai, India, with a small team, and have grown to over 275 professionals, globally.
+That idea, extending your enterprise, gave us our name and our tagline. We opened our main offshore delivery center in Chennai, India, with a small team, and have grown to over 500 professionals, globally.
 Today we combine offshore and near-shore delivery with ServiceNow, enterprise and technical expertise, always designed to reduce cost, increase efficiency and stay compliant.
 ## Accuracy & Efficiency
 Built on new ways of doing business.
@@ -198,10 +193,9 @@ India
 Offshore delivery center
 ### San Pedro Sula
 Honduras
-Near-shore center, Altia Smart City
+Nearshore delivery center
 ## Enabling Customer Trust
 Certifications and compliance, verified every year by an independent Certified Public Accountant.
-Texas Department of Information Resources
 ISO 27001 · Intertek UKAS
 SSAE 18 SOC 2 Type II
 HIPAA Compliance
@@ -211,7 +205,6 @@ HIPAA Compliance
 - ServiceNow Premier Partner
 - Licensed ServiceNow Reseller
 Industries We Serve
-- Healthcare
 - Financial Services
 - Government
 - Insurance
@@ -244,7 +237,7 @@ The model lets us expand without building physical space.
 ### 24/7 Operations
 A 24-hour turnaround on all work, with operations across three continents.
 ### Industry Specific, Professional Workforce
-Experience in healthcare, government, oil and gas, insurance, retail and more.
+Experience in government, oil and gas, insurance, retail and more.
 ### Flexibility
 Flexible engagement models: FTE, hourly and transactional (pay-as-you-go) pricing.
 ## What We Do
@@ -279,8 +272,8 @@ Let’s Talk!
 Don’t wait until tomorrow. Talk to one of our consultants today to start extending your enterprise.
 Talk to Us
 ## Get in Touch
-## NameWork EmailCompanyPhoneI’m Interested InServiceNowAI Agents & Now AssistSmartsourcingContact CenterHealthcare (RCM & Claims)Property PreservationRecords ProcessingDigital Branding & MarketingEnterprise SolutionsTechnical ServicesSomething elseMessage
-Emailcontact@exterprise.usLinkedInExterpriseOfficesDallas, TX, United States · HeadquartersChennai, India · Main offshore delivery centerCoimbatore, India · Offshore delivery centerSan Pedro Sula, Honduras · Near-shore center
+## NameWork EmailCompanyPhoneI’m Interested InServiceNowAI Agents & Now AssistUtterNowServOpsSmartsourcingContact CenterOmnitixProperty PreservationRecords ProcessingDigital Branding & MarketingEnterprise SolutionsTechnical ServicesSomething elseMessage
+Emailcontact@exterprise.usLinkedInExterpriseOfficesDallas, TX, United States · HeadquartersChennai, India · Main offshore delivery centerCoimbatore, India · Offshore delivery centerSan Pedro Sula, Honduras · Nearshore delivery center
 
 ---
 
@@ -362,20 +355,18 @@ Talk to Uscontact@exterprise.us
 
 URL: https://www.exterprise.us/smartsourcing.html
 Title: Business Process Outsourcing (BPO) Services | Exterprise
-Summary: Smartsourcing from Exterprise: contact center, healthcare revenue cycle, claims, records and property preservation outsourcing, 24x7 from the US, India and Honduras.
+Summary: Smartsourcing from Exterprise: contact center, records processing, property preservation and data capture outsourcing, 24x7 from the US, India and Honduras.
 
 Smartsourcing
 # Smartsourcing
 Outsourced processes that extend your enterprise, delivered by teams in the US, India and Central America.
-Talk to UsExplore Services275+Professionals, globally24x7Round-the-clock processing99.99%Adherence to SLAs4Delivery centers on 3 continents
+Talk to UsExplore Services500+Professionals, globally24x7Round-the-clock processing99.99%Adherence to SLAs4Delivery centers on 3 continents
 ## Exterprise Outsourced Process
-We take on the processes that keep a business running, from revenue cycle work in healthcare to county records, property preservation and round-the-clock contact centers.
+We take on the processes that keep a business running, from county records and property preservation to round-the-clock contact centers.
 A technology platform built for faster implementation and advanced customization sits behind every engagement, so each process is shaped around how you already work.
 ## Services
 ### Contact Center
 Level 1 and Level 2 support, staffed around the clock from onshore, offshore and near-shore teams.
-### Healthcare
-The broadest suite of patient-centric solutions and services for healthcare providers.
 ### Property Preservation
 Services and complete accountability across inspection, quality control, bidding and preservation order management.
 ### Records Processing
@@ -384,7 +375,7 @@ Technical services for records digitization, indexing, search and retrieval.
 Websites, apps, marketing and stories that bring your brand to life.
 ## Frequently Asked Questions
 ### What is smartsourcing?
-Smartsourcing is Exterprise's approach to business process outsourcing: onshore, offshore and near-shore teams backed by a technology platform, taking on processes such as contact center support, healthcare revenue cycle and claims work, records and county records processing, property preservation and data capture.
+Smartsourcing is Exterprise's approach to business process outsourcing: onshore, offshore and near-shore teams backed by a technology platform, taking on processes such as contact center support, records and county records processing, property preservation and data capture.
 ### Where are Exterprise's outsourcing teams?
 Exterprise is headquartered in Dallas, Texas, with delivery centers in Chennai and Coimbatore, India, and San Pedro Sula, Honduras: four delivery centers on three continents, running 24x7.
 ### How accurate and reliable is the work?
@@ -569,46 +560,6 @@ Send a Messagecontact@exterprise.us
 
 ---
 
-URL: https://www.exterprise.us/claims-processing.html
-Title: Medical Claims Processing Outsourcing | Exterprise
-Summary: End-to-end medical claims processing for HCFA, UB-92 and ADA claims, with 12 to 72 hour turnaround, automated workflow and a digital repository.
-
-# Claims Processing
-Claims Processing solutions for managing patient claims, end to end.
-Talk to Us12-72 HrTurnaround schedules3Claim types: HCFA, UB-92, ADA2xDouble-key data entry24x7Round-the-clock schedule
-## Built for a Tightly Regulated Industry
-Healthcare claims processing faces service delays and rising costs. Exterprise answers with a web-based document repository and an automated claims workflow.
-We process HCFA, UB-92 and ADA claims on 12, 24, 48 or 72-hour schedules, from mailroom intake and scanning through to data conversion.
-## Key Features
-### Round the Clock Schedule
-HCFA, UB-92 and ADA claims processed on 12, 24, 48 or 72-hour schedules.
-### Complete Processing
-The full chain, from mailroom intake and scanning to data conversion.
-### Automated Workflow
-Manage claim payments within regulated timeframes.
-### Precise Data Entry
-Double-key entry with relationship validation of data.
-### Digital Repository
-Digital claim images for research in your in-house imaging system.
-### Reports & Graphs
-Production reports that help you manage the process.
-## Solution Components
-### Web Based Document Management
-Providers, claims representatives and claimants share access to documents and claim status, reducing resubmissions.
-### Claims Processing Workflow
-Automates routine tasks, routes complex claims between departments and gathers compliance evidence, with near real-time dashboards.
-## Who Is It For?
-- Insurance companies
-- Third-party administrators (TPAs)
-- Preferred provider organizations (PPOs)
-- Health maintenance organizations (HMOs)
-- ←Revenue Cycle ManagementHealthcare
-## Let's Talk!
-Talk to us about your claims volume.
-Send a Messagecontact@exterprise.us
-
----
-
 URL: https://www.exterprise.us/cmdb-data-foundations.html
 Title: ServiceNow CMDB & CSDM Implementation | Exterprise
 Summary: Build and clean up your ServiceNow CMDB with Discovery, Service Graph Connectors and the CSDM data model, so AI Agents and workflows run on accurate data.
@@ -656,9 +607,9 @@ Summary: Outsourced Level 1 and Level 2 contact center support, staffed 24x7 fro
 
 # Contact Center
 Level 1 and Level 2 support, staffed around the clock from onshore, offshore and near-shore teams.
-Talk to Us99.99%Adherence rate to SLAs24x7Multi-shift coverage275+Professionals across 3 continents2015Founded
+Talk to Us99.99%Adherence rate to SLAs24x7Multi-shift coverage500+Professionals across 3 continents2015Founded
 ## A Global Delivery Model
-Exterprise is headquartered in Dallas, TX, with offshore centers in Chennai and Coimbatore, India, and a near-shore center in San Pedro Sula, Honduras.
+Exterprise is headquartered in Dallas, TX, with offshore centers in Chennai and Coimbatore, India, and a nearshore delivery center in San Pedro Sula, Honduras.
 Exterprise’s multi-shift operations enable continuous, round-the-clock processing, and the offshore and near-shore blend keeps operating costs low without trading away quality.
 ## Call Center Levels
 ### Level 1 Support
@@ -685,7 +636,7 @@ Yes. Multi-shift operations across Chennai and Coimbatore, India, and San Pedro 
 You can choose FTE-based pricing, hourly pricing, a fixed project fee or per-unit transactional pricing, so budgets are planned with full transparency.
 ### What service levels does Exterprise achieve?
 Exterprise maintains a 99.99% adherence rate to SLAs, under SOC 2 Type II, ISO 27001 and HIPAA controls validated every year by an independent Certified Public Accountant.
-Smartsourcing→Healthcare
+Smartsourcing→Property Preservation
 ## Let's Talk!
 Talk to us about staffing your contact center.
 Send a Messagecontact@exterprise.us
@@ -1087,28 +1038,6 @@ Send a Message contact@exterprise.us
 
 ---
 
-URL: https://www.exterprise.us/healthcare.html
-Title: Healthcare BPO: Revenue Cycle, Claims & Records | Exterprise
-Summary: Patient-centric healthcare outsourcing: revenue cycle management, claims processing and records services that cut denials and speed up reimbursement.
-
-# Healthcare
-The broadest suite of patient-centric solutions and services for healthcare providers.
-Talk to UsExplore Services6Revenue cycle solutions12-72 HrClaim turnaround schedulesHIPAACompliant operations24x7Processing
-## A Single Trusted Source for Revenue Cycle Management
-Exterprise helps healthcare providers get the most from their people, optimize revenue and improve the patient experience.
-A technology platform, exception-based business processes and connectivity let us manage the full medical billing cycle, from payments to accounts receivable, for faster cash flow, quicker revenue realization and more profitability.
-## Services
-### Revenue Cycle Management
-Effectively manage the entire revenue cycle for healthcare: better cash flow, accelerated revenue realization and increased profitability.
-### Claims Processing
-Claims Processing solutions for managing patient claims, end to end.
-- ←Contact CenterSmartsourcing→Property Preservation
-## Let's Talk!
-Talk to us about your revenue cycle.
-Send a Messagecontact@exterprise.us
-
----
-
 URL: https://www.exterprise.us/hr-service-delivery.html
 Title: ServiceNow HRSD Implementation Partner | Exterprise
 Summary: ServiceNow HR Service Delivery implementation with Employee Center, HR Virtual Agent and Now Assist for HRSD, by a certified ServiceNow Premier Partner.
@@ -1315,7 +1244,7 @@ Documentation, work orders and bids that keep property preservation moving.
 - Collecting vendor bids and shortlisting the best fit for the requirement
 - Placing work orders and tracking them through to completion
 - Providing proof of completion
-- ←HealthcareSmartsourcing→Records Processing
+- ←Contact CenterSmartsourcing→Records Processing
 ## Let's Talk!
 Talk to us about your property preservation workload.
 Send a Messagecontact@exterprise.us
@@ -1347,45 +1276,6 @@ OCR-based solutions with centralized capture, cleanup and indexing.
 ←Property PreservationSmartsourcing→Digital Branding & Marketing
 ## Let's Talk!
 Talk to us about digitizing your records.
-Send a Messagecontact@exterprise.us
-
----
-
-URL: https://www.exterprise.us/revenue-cycle-management.html
-Title: Healthcare Revenue Cycle Management Services | Exterprise
-Summary: Outsourced healthcare RCM: EOB digitization to ANSI 835, patient payments, ERA processing, reconciliation and lockbox. HIPAA compliant, 24x7 portal access.
-
-# Revenue Cycle Management
-Effectively manage the entire revenue cycle for healthcare: better cash flow, accelerated revenue realization and increased profitability.
-Talk to Us6Revenue management solutionsANSI 835EDI output for EOBs24x7Portal accessHIPAACompliant
-## Avoid Denials, Speed Up Reimbursements
-We help healthcare organizations simplify revenue cycle work, cut claim denials, get paid faster and give patients a better experience.
-Our team manages the entire medical billing cycle, from payments to accounts receivable.
-## Revenue Management Solutions
-### EOB Digitization
-Convert paper EOBs to ANSI 835 EDI format for loading into disparate billing systems.
-### Process Patient Payments
-Process patient payments based on your requirements with customized posting files.
-### ERA Processing
-ERAs are uploaded into an online portal, processed and stored securely, so remittances are centrally located for ease of access.
-### Reconciliation
-Automatically reconcile bank funds by matching EFT and ERA records, reducing cost and saving time.
-### Correspondence
-Secure access to every document through a centralized web portal, from any location, at any time.
-### Healthcare Lockbox
-A healthcare lockbox that speeds up accounts receivable.
-## Frequently Asked Questions
-### What revenue cycle management services does Exterprise offer?
-Exterprise manages the medical billing cycle from payments to accounts receivable: EOB digitization, patient payment processing, ERA processing, reconciliation, correspondence and a healthcare lockbox.
-### Can Exterprise convert paper EOBs to ANSI 835?
-Yes. Exterprise converts paper EOBs into ANSI 835 EDI format, ready to load into your billing systems.
-### How does Exterprise help reduce claim denials?
-By simplifying revenue cycle work end to end, from accurate payment posting to automatic reconciliation of EFT and ERA records, Exterprise helps healthcare organizations cut claim denials and get paid faster.
-### Is Exterprise's revenue cycle work HIPAA compliant?
-Yes. Revenue cycle services are HIPAA compliant, and remittances and documents are stored securely in a web portal you can reach 24x7 from any location.
-Healthcare→Claims Processing
-## Let's Talk!
-Talk to us about your revenue cycle.
 Send a Messagecontact@exterprise.us
 
 ---
@@ -1500,8 +1390,8 @@ Connect strategy to delivery with AI-driven roadmaps on ServiceNow's SPM.
 Talk to Us
 ## One View, From Strategy to Delivery
 Strategic Portfolio Management gives leadership a single, real-time view of how investments, projects, and portfolios map to business outcomes. Portfolio Planning prioritizes and sequences investments using roadmaps and scenario analysis, while Demand Management collects incoming requests and weighs them against business value. Live prioritization and reporting replace scattered spreadsheets and old PPM tools.
-Exterprise holds Certified Implementation Specialist accreditation in Strategic Portfolio Management, and works with Financial Services, Healthcare, and Government clients to connect SPM to the same platform already running their IT, HR, and customer service workflows.
-4Certified Implementation Specialists (SPM)PremierPartner, Consulting & Implementation4.5/5Customer satisfaction score3Focus industries: Financial Services, Healthcare, Government
+Exterprise holds Certified Implementation Specialist accreditation in Strategic Portfolio Management, and works with Financial Services and Government clients to connect SPM to the same platform already running their IT, HR, and customer service workflows.
+4Certified Implementation Specialists (SPM)PremierPartner, Consulting & Implementation4.5/5Customer satisfaction score2Focus industries: Financial Services, Government
 ## Key Services
 ## ADVISORY
 ### Portfolio Strategy Assessment

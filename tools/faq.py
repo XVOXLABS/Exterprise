@@ -14,17 +14,21 @@ FAQ = {
     "index.html": [
         ("What does Exterprise do?",
          "Exterprise is a ServiceNow Premier Partner for consulting and implementation and a smartsourcing (business process outsourcing) company. "
-         "We implement and support ServiceNow, including AI Agents and Now Assist, and run business processes such as contact center, healthcare revenue cycle, "
-         "claims and records processing for clients in the US and around the world."),
+         "We implement and support ServiceNow, including AI Agents and Now Assist, and run business processes such as contact center, records processing "
+         "and property preservation for clients in the US and around the world."),
         ("Is Exterprise a ServiceNow partner?",
          "Yes. Exterprise is a ServiceNow Premier Partner for Consulting & Implementation and a licensed ServiceNow reseller, with 60+ ServiceNow-accredited "
          "professionals and Now Assist certifications for IT Service Management, HR Service Delivery and Creator."),
         ("Where is Exterprise located?",
          "Exterprise is headquartered in Dallas, Texas, with offshore delivery centers in Chennai and Coimbatore, India, and a near-shore center in "
-         "Altia Smart City, San Pedro Sula, Honduras. More than 275 professionals work across these locations, so work can run around the clock."),
+         "San Pedro Sula, Honduras. More than 500 professionals work across these locations, so work can run around the clock."),
         ("Which industries does Exterprise work with?",
-         "Exterprise works with healthcare providers, county governments, property preservation companies, nonprofits and enterprises in government, "
+         "Exterprise works with county governments, property preservation companies, nonprofits and enterprises in government, "
          "oil and gas, retail and real estate, delivering ServiceNow, outsourcing and custom technology solutions."),
+        ("What solutions does Exterprise offer?",
+         "Exterprise offers three solutions: ServOps, for service operations excellence on ServiceNow (servops.com); UtterNow, which lets people "
+         "run ServiceNow workflows by voice (utternow.ai); and Omnitix, omni-channel contact center solutions with multilingual, 24/7 support "
+         "across voice, email, text and chat (omnitix.us)."),
         ("How do I start a project with Exterprise?",
          "Email contact@exterprise.us or send a message from the Contact page. A consultant or ServiceNow architect will review your goals and suggest "
          "the right next step, whether that is an assessment, an implementation plan or a dedicated team."),
@@ -77,7 +81,7 @@ FAQ = {
     "smartsourcing.html": [
         ("What is smartsourcing?",
          "Smartsourcing is Exterprise's approach to business process outsourcing: onshore, offshore and near-shore teams backed by a technology platform, "
-         "taking on processes such as contact center support, healthcare revenue cycle and claims work, records and county records processing, "
+         "taking on processes such as contact center support, records and county records processing, "
          "property preservation and data capture."),
         ("Where are Exterprise's outsourcing teams?",
          "Exterprise is headquartered in Dallas, Texas, with delivery centers in Chennai and Coimbatore, India, and San Pedro Sula, Honduras: four "
@@ -101,19 +105,6 @@ FAQ = {
         ("What service levels does Exterprise achieve?",
          "Exterprise maintains a 99.99% adherence rate to SLAs, under SOC 2 Type II, ISO 27001 and HIPAA controls validated every year by an "
          "independent Certified Public Accountant."),
-    ],
-    "revenue-cycle-management.html": [
-        ("What revenue cycle management services does Exterprise offer?",
-         "Exterprise manages the medical billing cycle from payments to accounts receivable: EOB digitization, patient payment processing, ERA processing, "
-         "reconciliation, correspondence and a healthcare lockbox."),
-        ("Can Exterprise convert paper EOBs to ANSI 835?",
-         "Yes. Exterprise converts paper EOBs into ANSI 835 EDI format, ready to load into your billing systems."),
-        ("How does Exterprise help reduce claim denials?",
-         "By simplifying revenue cycle work end to end, from accurate payment posting to automatic reconciliation of EFT and ERA records, Exterprise "
-         "helps healthcare organizations cut claim denials and get paid faster."),
-        ("Is Exterprise's revenue cycle work HIPAA compliant?",
-         "Yes. Revenue cycle services are HIPAA compliant, and remittances and documents are stored securely in a web portal you can reach 24x7 from "
-         "any location."),
     ],
 }
 

@@ -24,20 +24,25 @@ ORG = {
     "@type": "Organization", "@id": ORG_ID, "name": "Exterprise", "legalName": "Exterprise LLC",
     "url": SITE + "/", "logo": SITE + "/assets/exterprise-logo.png", "image": OG_IMAGE,
     "slogan": "Extend your enterprise", "foundingDate": "2015", "email": "contact@exterprise.us",
-    "description": "Exterprise is a ServiceNow Premier Partner and global smartsourcing provider, with 275+ "
+    "description": "Exterprise is a ServiceNow Premier Partner and global smartsourcing provider, with 500+ "
                    "professionals across the US, India and Central America.",
-    "numberOfEmployees": {"@type": "QuantitativeValue", "minValue": 275},
+    "numberOfEmployees": {"@type": "QuantitativeValue", "minValue": 500},
     "address": {"@type": "PostalAddress", "addressLocality": "Dallas", "addressRegion": "TX", "addressCountry": "US"},
     "location": [
         {"@type": "Place", "name": "Exterprise headquarters, Dallas", "address": {"@type": "PostalAddress", "addressLocality": "Dallas", "addressRegion": "TX", "addressCountry": "US"}},
         {"@type": "Place", "name": "Exterprise main offshore delivery center, Chennai", "address": {"@type": "PostalAddress", "addressLocality": "Chennai", "addressRegion": "Tamil Nadu", "addressCountry": "IN"}},
         {"@type": "Place", "name": "Exterprise offshore delivery center, Coimbatore", "address": {"@type": "PostalAddress", "addressLocality": "Coimbatore", "addressRegion": "Tamil Nadu", "addressCountry": "IN"}},
-        {"@type": "Place", "name": "Exterprise near-shore center, Altia Smart City, San Pedro Sula", "address": {"@type": "PostalAddress", "addressLocality": "San Pedro Sula", "addressCountry": "HN"}},
+        {"@type": "Place", "name": "Exterprise nearshore delivery center, San Pedro Sula", "address": {"@type": "PostalAddress", "addressLocality": "San Pedro Sula", "addressCountry": "HN"}},
     ],
     "contactPoint": {"@type": "ContactPoint", "contactType": "sales", "email": "contact@exterprise.us", "url": SITE + "/contact.html"},
     "sameAs": ["https://www.linkedin.com/company/exterprise-inc/"],
+    "brand": [
+        {"@type": "Brand", "name": "ServOps", "url": "https://servops.com/", "description": "Service operations excellence on ServiceNow."},
+        {"@type": "Brand", "name": "UtterNow", "url": "https://dev.utternow.ai/", "description": "Voice for ServiceNow: create tickets, look up answers and start processes by voice."},
+        {"@type": "Brand", "name": "Omnitix", "url": "https://omnitix.us/", "description": "Omni-channel contact center solutions with multilingual, 24/7 support across voice, email, text and chat."},
+    ],
     "knowsAbout": ["ServiceNow implementation", "ServiceNow AI Agents and Now Assist", "IT Service Management", "Customer Service Management",
-                   "HR Service Delivery", "Business process outsourcing", "Revenue cycle management", "Claims processing", "Records processing",
+                   "HR Service Delivery", "Business process outsourcing", "Records processing",
                    "Contact center services", "Custom AI solutions"],
 }
 WEBSITE = {"@type": "WebSite", "@id": SITE_ID, "url": SITE + "/", "name": "Exterprise", "publisher": {"@id": ORG_ID}, "inLanguage": "en-US"}
@@ -164,8 +169,7 @@ def main():
               ("ServiceNow", [p for p in pages if p in ("servicenow.html", "ai-agents-now-assist.html", "ai-control-tower.html", "servicenow-otto.html", "it-service-management.html",
                   "it-operations-management.html", "customer-service-management.html", "hr-service-delivery.html", "field-service-management.html", "strategic-portfolio-management.html",
                   "governance-risk-compliance.html", "cmdb-data-foundations.html", "now-platform.html", "servicenow-nonprofits.html")]),
-              ("Smartsourcing (business process outsourcing)", [p for p in pages if p in ("smartsourcing.html", "contact-center.html", "healthcare.html", "revenue-cycle-management.html",
-                  "claims-processing.html", "records-processing.html", "county-government-services.html", "data-capture-services.html", "property-preservation.html",
+              ("Smartsourcing (business process outsourcing)", [p for p in pages if p in ("smartsourcing.html", "contact-center.html", "records-processing.html", "county-government-services.html", "data-capture-services.html", "property-preservation.html",
                   "bid-processing.html", "inspection-services.html", "vendor-management.html")])]
     used = {p for _, ps in groups for p in ps}
     groups.append(("Technology, AI and digital", [p for p in pages if p not in used]))
@@ -173,12 +177,16 @@ def main():
     L = ["# Exterprise", "",
          "> Exterprise (Exterprise LLC) is a ServiceNow Premier Partner for consulting and implementation and a global smartsourcing "
          "(business process outsourcing) provider. Founded in 2015 and headquartered in Dallas, Texas, with delivery centers in Chennai "
-         "and Coimbatore (India) and San Pedro Sula (Honduras); 275+ professionals.", "",
+         "and Coimbatore (India) and San Pedro Sula (Honduras); 500+ professionals.", "",
          "Key facts: ServiceNow Premier Partner (Consulting & Implementation) and licensed ServiceNow reseller; Now Assist certifications for "
          "ITSM, HRSD and Creator; Moveworks implementation partner; 99.995% data accuracy in county records work; 99.99% SLA adherence in "
          "contact center work; 400K+ property preservation orders handled every month. Contact: contact@exterprise.us.", "",
          "Agents: you are welcome to read, summarize and cite these pages with a link back. Please do not download or reuse images, video, "
          "fonts or code. Full policy: " + SITE + "/agents.md. Full page text: " + SITE + "/llms-full.txt", ""]
+    L += ["## Solutions (external sites)", "",
+          "- [ServOps](https://servops.com/): service operations excellence on ServiceNow, from Exterprise.",
+          "- [UtterNow](https://dev.utternow.ai/): voice for ServiceNow; create tickets, look up answers and start processes hands-free.",
+          "- [Omnitix](https://omnitix.us/): omni-channel contact center solutions, multilingual and 24/7 across voice, email, text and chat.", ""]
     for name, ps in groups:
         L += [f"## {name}", ""] + [f"- [{by[p]['h1']}]({by[p]['url']}): {by[p]['desc']}" for p in ps if p in by] + [""]
     (ROOT / "llms.txt").write_text("\n".join(L), encoding="utf-8")

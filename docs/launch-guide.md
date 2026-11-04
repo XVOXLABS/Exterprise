@@ -172,7 +172,7 @@ order of impact.
    - Ask clients for reviews on **G2** and **Clutch** (Clutch's "ServiceNow consultants" category ranks well).
    - Keep the **LinkedIn company page** in step with the site: same description, Premier Partner badge and
      locations.
-   - Get listed in industry directories for BPO, healthcare RCM and contact centers.
+   - Get listed in industry directories for BPO, records processing and contact centers.
 2. **Publish proof.** One case study per main service, each with the client industry, the problem, what you
    did and the numbers (for example "99.99% SLA adherence over 24 months").
    - These are the pages AI assistants cite.
@@ -196,6 +196,6 @@ order of impact.
 | Area | Keywords |
 |---|---|
 | ServiceNow | ServiceNow implementation partner, ServiceNow consulting partner, ServiceNow Premier Partner, ServiceNow ITSM / ITOM / CSM / HRSD / FSM / SPM / GRC implementation, Now Assist implementation, ServiceNow AI Agents, AI Control Tower, CMDB / CSDM, App Engine |
-| Outsourcing | business process outsourcing (BPO), contact center outsourcing, healthcare revenue cycle management, medical claims processing, records digitization, county records conversion, property preservation services, data capture and data entry |
+| Outsourcing | business process outsourcing (BPO), contact center outsourcing, records digitization, county records conversion, property preservation services, data capture and data entry |
 | Technology | custom AI solutions, AI image analytics, application development, UX/UI design, digital marketing |
 | Location | Dallas TX, India (Chennai, Coimbatore), near-shore Honduras (San Pedro Sula) |

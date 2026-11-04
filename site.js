@@ -5,7 +5,7 @@
   (() => {
     const EMAIL = 'contact@exterprise.us';
     const ARW = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>';
-    const TOPICS = ['ServiceNow implementation', 'AI Agents & Now Assist', 'ITSM · CSM · HRSD', 'Integration & migration', 'Managed support', 'Something else'];
+    const TOPICS = ['ServiceNow implementation', 'AI Agents & Now Assist', 'ITSM · CSM · HRSD', 'Integration & migration', 'Managed support', 'UtterNow', 'ServOps', 'Omnitix', 'Something else'];
     let m = document.getElementById('xt-modal');
     if (!m) {
       m = document.createElement('div'); m.id = 'xt-modal'; m.className = 'xm'; m.setAttribute('aria-hidden', 'true');
@@ -107,7 +107,7 @@
       });
     }
     // wire every contact CTA on the current page (re-run safe)
-    const PRE = [[/ai agents|now assist/i, 'AI Agents & Now Assist'], [/service management|hr service|customer service|itsm|csm|hrsd/i, 'ITSM · CSM · HRSD'], [/servicenow|platform|otto|control tower|operations|portfolio|governance|cmdb|field service/i, 'ServiceNow implementation']];
+    const PRE = [[/utternow/i, 'UtterNow'], [/servops/i, 'ServOps'], [/omnitix/i, 'Omnitix'], [/ai agents|now assist/i, 'AI Agents & Now Assist'], [/service management|hr service|customer service|itsm|csm|hrsd/i, 'ITSM · CSM · HRSD'], [/servicenow|platform|otto|control tower|operations|portfolio|governance|cmdb|field service/i, 'ServiceNow implementation']];
     document.querySelectorAll('a[href="#contact"], a[href*="contact-us"], [data-contact]').forEach(a => {
       if (a.dataset.xm) return; a.dataset.xm = '1'; a.setAttribute('aria-haspopup', 'dialog');
       a.addEventListener('click', e => {
@@ -1519,7 +1519,7 @@ document.querySelectorAll('.hc-card .hc-tog').forEach(b => b.addEventListener('c
   const calm = matchMedia('(prefers-reduced-motion: reduce)').matches || window.__CALM;
   let act = 0, vis = false, hov = 0;
   const uts = cards.map(c => c.querySelector('.ut-film'));
-  const play = () => [films, uts].forEach(list => list.forEach((v, k) => { if (!v) return; if (k === act && vis && !calm) { if (v.preload !== 'auto') v.preload = 'auto'; v.play().catch(() => {}); } else v.pause(); }));
+  const play = () => [films, uts].forEach(list => list.forEach((v, k) => { if (!v || !v.play) return; if (k === act && vis && !calm) { if (v.preload !== 'auto') v.preload = 'auto'; v.play().catch(() => {}); } else v.pause(); }));
   const ptabs = [...sec.querySelectorAll('.pc-tab')];
   ptabs.forEach((t, i) => t.addEventListener('click', () => set(i)));
   const apply = i => { act = i; sec.dataset.act = i;
@@ -1619,3 +1619,7 @@ document.querySelectorAll('.hc-card .hc-tog').forEach(b => b.addEventListener('c
 
 /* ===================== v74 FAQ: keep scroll effects in step when an answer opens or closes ===================== */
 document.querySelectorAll('.faq-i').forEach(d => d.addEventListener('toggle', () => { if (window.ScrollTrigger) ScrollTrigger.refresh(); if (window.__lenis && window.__lenis.resize) window.__lenis.resize(); }));
+
+/* ===================== v78 product tabs (phones): keep the chosen tab in view ===================== */
+document.querySelectorAll('.pc-tab').forEach(t => t.addEventListener('click', () => { const bar = t.parentElement;
+  bar.scrollTo({ left: t.offsetLeft - (bar.clientWidth - t.offsetWidth) / 2, behavior: 'smooth' }); }));

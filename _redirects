@@ -15,8 +15,8 @@
 /application-development/ /application-development.html 301
 /bid-processing /bid-processing.html 301
 /bid-processing/ /bid-processing.html 301
-/claims-processing /claims-processing.html 301
-/claims-processing/ /claims-processing.html 301
+/claims-processing /smartsourcing.html 301
+/claims-processing/ /smartsourcing.html 301
 /cmdb-data-foundations /cmdb-data-foundations.html 301
 /cmdb-data-foundations/ /cmdb-data-foundations.html 301
 /contact /contact.html 301
@@ -49,8 +49,8 @@
 /field-service-management/ /field-service-management.html 301
 /governance-risk-compliance /governance-risk-compliance.html 301
 /governance-risk-compliance/ /governance-risk-compliance.html 301
-/healthcare /healthcare.html 301
-/healthcare/ /healthcare.html 301
+/healthcare /smartsourcing.html 301
+/healthcare/ /smartsourcing.html 301
 /hr-service-delivery /hr-service-delivery.html 301
 /hr-service-delivery/ /hr-service-delivery.html 301
 /inspection-services /inspection-services.html 301
@@ -65,8 +65,8 @@
 /property-preservation/ /property-preservation.html 301
 /records-processing /records-processing.html 301
 /records-processing/ /records-processing.html 301
-/revenue-cycle-management /revenue-cycle-management.html 301
-/revenue-cycle-management/ /revenue-cycle-management.html 301
+/revenue-cycle-management /smartsourcing.html 301
+/revenue-cycle-management/ /smartsourcing.html 301
 /sap-solutions /enterprise-solutions.html 301
 /sap-solutions/ /enterprise-solutions.html 301
 /servicenow /servicenow.html 301
@@ -91,6 +91,11 @@
 # Removed services (SAP, Snowflake data management) -> Enterprise Solutions
 /sap-solutions.html /enterprise-solutions.html 301
 /enterprise-data-management.html /enterprise-solutions.html 301
+
+# Hidden services (healthcare, revenue cycle, claims) -> Smartsourcing
+/healthcare.html /smartsourcing.html 301
+/revenue-cycle-management.html /smartsourcing.html 301
+/claims-processing.html /smartsourcing.html 301
 
 # 2) Common addresses from the previous exterprise.us site -> the matching new page
 #    (anything not listed still reaches the right page through 404.html)
@@ -144,14 +149,14 @@
 /outsourcing/ /smartsourcing.html 301
 /call-center /contact-center.html 301
 /call-center/ /contact-center.html 301
-/rcm /revenue-cycle-management.html 301
-/rcm/ /revenue-cycle-management.html 301
-/medical-billing /revenue-cycle-management.html 301
-/medical-billing/ /revenue-cycle-management.html 301
-/healthcare-lockbox /revenue-cycle-management.html 301
-/healthcare-lockbox/ /revenue-cycle-management.html 301
-/claims /claims-processing.html 301
-/claims/ /claims-processing.html 301
+/rcm /smartsourcing.html 301
+/rcm/ /smartsourcing.html 301
+/medical-billing /smartsourcing.html 301
+/medical-billing/ /smartsourcing.html 301
+/healthcare-lockbox /smartsourcing.html 301
+/healthcare-lockbox/ /smartsourcing.html 301
+/claims /smartsourcing.html 301
+/claims/ /smartsourcing.html 301
 /records-management /records-processing.html 301
 /records-management/ /records-processing.html 301
 /data-entry /data-capture-services.html 301
