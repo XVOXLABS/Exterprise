@@ -1,6 +1,6 @@
 # Exterprise: full site text
 
-Source: https://www.exterprise.us/ (generated 2026-11-04). Cite the page URL when quoting.
+Source: https://www.exterprise.us/ (generated 2026-11-05). Cite the page URL when quoting.
 
 ---
 
@@ -23,6 +23,8 @@ Outsourced processes that extend your enterprise, delivered by teams in the US, 
 Level 1 and Level 2 support, staffed around the clock with a 99.99% adherence rate to SLAs.
 ### Records Processing
 Technical services for records digitization, indexing, search and retrieval
+### Nonprofits
+ServiceNow quick-start programs built for nonprofits, live in six to seven weeks
 ### Enterprise Mobility
 Bridging the gap between enterprise needs and ease of access via Mobile
 ### Design Services
@@ -31,7 +33,6 @@ Easy-to-use digital products for your customers, on any device
 360° marketing services to grow your business, across digital platforms
 More Services
 - County Government Services
-- Property Preservation
 - Custom AI Solutions
 - IT Support & Maintenance
 - AI Agents & Now Assist
@@ -39,9 +40,9 @@ More Services
 ### From Licenses to Go-Live
 Buy, build, and grow on ServiceNow with one team. We're a Premier Partner for consulting and implementation, and a licensed reseller, so you get expert guidance from day one.
 ServiceNow
-- 60+ServiceNow-Accredited Professionals
+- CertifiedServiceNow-Accredited Professionals
 - CTACertified Technical Architect on Staff
-- 4Focus Industries: Financial Services, Government, Insurance, Manufacturing
+- Cross-VerticalIndustry Experience: Financial Services, Government, Insurance, Manufacturing
 ## ServiceNow AI, Put to Work.
 We set up ServiceNow AI and keep it in check, so it fits the way your teams already work.
 ### AI That Gets the Work Done
@@ -53,9 +54,9 @@ We set up ServiceNow AI and keep it in check, so it fits the way your teams alre
 Exterprise Outsourced Process
 ## Smartsourcing
 Exterprise offers a full suite of solutions centered around data accuracy and data reliability.
-Explore Smartsourcing Data Accuracy99.995%County Government ServicesAdherence to SLAs99.99%Contact CenterProperties Every Month400K+Property PreservationProfessionals, Globally500+About Exterprise
+Explore Smartsourcing Data Accuracy99.995%County Government ServicesAdherence to SLAs99.99%Contact CenterRecords Every Month1M+Records ProcessingProfessionals, Globally500+About Exterprise
 ## Optimise Your Business
-From records and property preservation to marketing, design and back-office work, we take on the processes that slow your teams down.
+From records processing and contact centers to marketing, design and back-office work, we take on the processes that slow your teams down.
 99.995% Accuracy
 ### Records Processing
 Technical services for records digitization, indexing, search and retrieval.
@@ -85,11 +86,11 @@ Intuitive digital products for your customers, across devices and technologies.
 ### Business Process Outsourcing
 Outsourced processes run by our teams in the US, India and Central America.
 - Contact Center
-- Property Preservation
-- Bid Processing
-- Inspection Services
-- Vendor Management
+- Records Processing
+- County Government Services
 - Data Capture Services
+- Omnitix
+- Smartsourcing Overview
 Products & Solutions
 ## Five ways to help your people get things done
 Moveworks and EmployeeWorks, plus our own UtterNow, ServOps and Omnitix. One team sets them up and keeps them running.
@@ -128,32 +129,38 @@ Run your ServiceNow workflows by voice. Create tickets, look up answers and star
 - Start processes without a keyboard
 - Explore UtterNowWatch on YouTube
 Service Operations Excellence
-### Service Operations, Run Smoothly on ServiceNow
-ServOps brings Exterprise’s ServiceNow experience to how your service operations run day to day, from a pure-play ServiceNow partner delivering since 2015.
-- Built on ServiceNow, by a Premier Partner
-- Teams across the US, India and Central America
-- Since 2015
+### Streamlining IT and Business Services
+Exterprise ServOps brings ServiceNow IT Service Management and IT Operations Management together in the Service Operations Workspace, with Agent Assist and generative AI put to work, so service delivery gets faster and outcomes get better.
+- ITSM and ITOM in one Service Operations Workspace
+- Root-cause analysis and faster resolution times
+- Agent Assist and generative AI built in
 - Explore ServOps
 Omni-Channel Contact Center
 ### Every Channel, Every Language, 24/7
-Omnitix gives your customers multilingual, round-the-clock support across voice, email, text and chat, so every conversation gets answered.
-- Voice, email, text and chat
-- Multilingual support
-- Around the clock, 24/7
+Transform your customer experience with multilingual, 24/7 support across voice, email, text and chat. Enterprise-grade security meets AI technology, delivered by teams in the US, India and Honduras.
+- Customer service, help desk and lead generation
+- Voice, email, text and chat, around the clock
+- SOC 2, ISO 27001 and HIPAA compliant
 - Explore Omnitix
-Technology for a cause
-## Proud to support Alex's Lemonade Stand Foundation
-Exterprise has worked with Alex's Lemonade Stand Foundation (ALSF), the largest independent childhood cancer charity in the U.S., which funds critical research and supports families facing childhood cancer. Fighting childhood cancer, one cup at a time.
-$400M+raised by ALSF since 2005Our Nonprofit WorkVisit alexslemonade.org
+Nonprofits
+## Technology That Serves Your Mission
+Nonprofits run on limited budgets and small teams. Our ServiceNow quick-start programs are built for them: fixed scope, flexible payment terms, and live in six to seven weeks, so more of your resources go to the people you serve.
+- IT Service Management
+- Customer Service Management
+- Field Service Management
+- IT Operations Management
+- HR Service Delivery
+- Now Platform
+- 6Quick-start programs6–7 wksTo go-live2 monthsSupport after go-liveExplore Nonprofit ProgramsTalk to Us
 ## Frequently Asked Questions
 ### What does Exterprise do?
-Exterprise is a ServiceNow Premier Partner for consulting and implementation and a smartsourcing (business process outsourcing) company. We implement and support ServiceNow, including AI Agents and Now Assist, and run business processes such as contact center, records processing and property preservation for clients in the US and around the world.
+Exterprise is a ServiceNow Premier Partner for consulting and implementation and a smartsourcing (business process outsourcing) company. We implement and support ServiceNow, including AI Agents and Now Assist, and run business processes such as contact center, records processing and data capture for clients in the US and around the world.
 ### Is Exterprise a ServiceNow partner?
-Yes. Exterprise is a ServiceNow Premier Partner for Consulting & Implementation and a licensed ServiceNow reseller, with 60+ ServiceNow-accredited professionals and Now Assist certifications for IT Service Management, HR Service Delivery and Creator.
+Yes. Exterprise is a ServiceNow Premier Partner for Consulting & Implementation and a licensed ServiceNow reseller, with a team of ServiceNow-accredited professionals and Now Assist certifications for IT Service Management, HR Service Delivery and Creator.
 ### Where is Exterprise located?
 Exterprise is headquartered in Dallas, Texas, with offshore delivery centers in Chennai and Coimbatore, India, and a near-shore center in San Pedro Sula, Honduras. More than 500 professionals work across these locations, so work can run around the clock.
 ### Which industries does Exterprise work with?
-Exterprise works with county governments, property preservation companies, nonprofits and enterprises in government, oil and gas, retail and real estate, delivering ServiceNow, outsourcing and custom technology solutions.
+Exterprise works with county governments, nonprofits and enterprises in government, oil and gas, retail and real estate, delivering ServiceNow, outsourcing and custom technology solutions.
 ### What solutions does Exterprise offer?
 Exterprise offers three solutions: ServOps, for service operations excellence on ServiceNow (servops.com); UtterNow, which lets people run ServiceNow workflows by voice (utternow.ai); and Omnitix, omni-channel contact center solutions with multilingual, 24/7 support across voice, email, text and chat (omnitix.us).
 ### How do I start a project with Exterprise?
@@ -276,7 +283,7 @@ Let’s Talk!
 Don’t wait until tomorrow. Talk to one of our consultants today to start extending your enterprise.
 Talk to Us
 ## Get in Touch
-## NameWork EmailCompanyPhoneI’m Interested InServiceNowAI Agents & Now AssistUtterNowServOpsSmartsourcingContact CenterOmnitixProperty PreservationRecords ProcessingDigital Branding & MarketingEnterprise SolutionsTechnical ServicesSomething elseMessage
+## NameWork EmailCompanyPhoneI’m Interested InServiceNowAI Agents & Now AssistUtterNowServOpsSmartsourcingContact CenterOmnitixRecords ProcessingDigital Branding & MarketingEnterprise SolutionsTechnical ServicesSomething elseMessage
 Emailcontact@exterprise.usLinkedInExterpriseOfficesDallas, TX, United States · HeadquartersChennai, India · Main offshore delivery centerCoimbatore, India · Offshore delivery centerSan Pedro Sula, Honduras · Nearshore delivery center
 
 ---
@@ -359,27 +366,25 @@ Talk to Uscontact@exterprise.us
 
 URL: https://www.exterprise.us/smartsourcing.html
 Title: Business Process Outsourcing (BPO) Services | Exterprise
-Summary: Smartsourcing from Exterprise: contact center, records processing, property preservation and data capture outsourcing, 24x7 from the US, India and Honduras.
+Summary: Smartsourcing from Exterprise: contact center, records processing, county records and data capture outsourcing, 24x7 from the US, India and Honduras.
 
 Smartsourcing
 # Smartsourcing
 Outsourced processes that extend your enterprise, delivered by teams in the US, India and Central America.
 Talk to UsExplore Services500+Professionals, globally24x7Round-the-clock processing99.99%Adherence to SLAs4Delivery centers on 3 continents
 ## Exterprise Outsourced Process
-We take on the processes that keep a business running, from county records and property preservation to round-the-clock contact centers.
+We take on the processes that keep a business running, from county records and data capture to round-the-clock contact centers.
 A technology platform built for faster implementation and advanced customization sits behind every engagement, so each process is shaped around how you already work.
 ## Services
 ### Contact Center
 Level 1 and Level 2 support, staffed around the clock from onshore, offshore and near-shore teams.
-### Property Preservation
-Services and complete accountability across inspection, quality control, bidding and preservation order management.
 ### Records Processing
 Technical services for records digitization, indexing, search and retrieval.
 ### Digital Branding & Marketing
 Websites, apps, marketing and stories that bring your brand to life.
 ## Frequently Asked Questions
 ### What is smartsourcing?
-Smartsourcing is Exterprise's approach to business process outsourcing: onshore, offshore and near-shore teams backed by a technology platform, taking on processes such as contact center support, records and county records processing, property preservation and data capture.
+Smartsourcing is Exterprise's approach to business process outsourcing: onshore, offshore and near-shore teams backed by a technology platform, taking on processes such as contact center support, records and county records processing and data capture.
 ### Where are Exterprise's outsourcing teams?
 Exterprise is headquartered in Dallas, Texas, with delivery centers in Chennai and Coimbatore, India, and San Pedro Sula, Honduras: four delivery centers on three continents, running 24x7.
 ### How accurate and reliable is the work?
@@ -403,7 +408,7 @@ Talk to Us
 ## From Chat to Action
 ServiceNow's AI Agents take the next step on their own. They triage a ticket, close out a routine request, or pass it to a person with the full history attached. AI Agent Orchestrator keeps several agents working together so handoffs stay clean. Now Assist adds generative AI to the tools your teams already use, summarizing cases and drafting resolutions in ITSM, HR Service Delivery and Creator.
 Exterprise is certified to implement Now Assist for IT Service Management, HR Service Delivery and Creator. We set up AI Agents with the guardrails and human review points your business needs, rather than leaving the defaults in place.
-3Now Assist certifications held (ITSM, HRSD, Creator)PremierPartner, Consulting & Implementation4.5/5Customer satisfaction score60+ServiceNow-accredited professionals
+3Now Assist certifications held (ITSM, HRSD, Creator)PremierPartner, Consulting & Implementation4.5/5Customer satisfaction scoreCertifiedServiceNow-accredited professionals on staff
 ## Key Services
 ## ADVISORY
 ### AI Readiness Assessment
@@ -421,7 +426,7 @@ AI Control Tower configuration and monitoring keeps every agent's activity visib
 ### What do ServiceNow AI Agents do?
 ServiceNow AI Agents take the next step on their own: they triage a ticket, close out a routine request, or pass it to a person with the full history attached. AI Agent Orchestrator coordinates several agents so they hand off work cleanly.
 ### Is Exterprise certified to implement Now Assist?
-Yes. Exterprise is certified to implement Now Assist for IT Service Management, HR Service Delivery and Creator, and is a ServiceNow Premier Partner for Consulting & Implementation with 60+ ServiceNow-accredited professionals.
+Yes. Exterprise is certified to implement Now Assist for IT Service Management, HR Service Delivery and Creator, and is a ServiceNow Premier Partner for Consulting & Implementation with a team of ServiceNow-accredited professionals.
 ### How do you keep AI Agents safe and accountable?
 Every agent is set up with clear guardrails on what it can and cannot do on its own, plus human review points. AI Control Tower configuration and monitoring keeps each agent's activity visible and auditable.
 ### Where should we start with ServiceNow AI?
@@ -541,29 +546,6 @@ Send a Messagecontact@exterprise.us
 
 ---
 
-URL: https://www.exterprise.us/bid-processing.html
-Title: Property Preservation Bid Processing | Exterprise
-Summary: Property preservation bid processing: job documentation, reusable work orders and thorough bids from in-depth analysis, for REO and PFC orders, 24x7.
-
-# Bid Processing
-Documentation, work orders and bids that keep property preservation moving.
-Talk to Us3Core services24x7Processing400,000+Properties every monthREO / PFCOrder types
-## Bids Built on Analysis
-Our bid processing service line documents completed field jobs, turns them into reusable work orders and prepares thorough bids from in-depth analysis.
-## Key Services
-### Job Documentation
-Records finished field jobs and uploads them to client portals or saves them as reusable files.
-### Work Order Creation
-Detailed work orders that serve as accurate templates for future jobs.
-### Bid Preparation
-Thorough bids based on in-depth analysis, with the deliverables laid out.
-←Vendor ManagementProperty Preservation
-## Let's Talk!
-Talk to us about bid processing.
-Send a Messagecontact@exterprise.us
-
----
-
 URL: https://www.exterprise.us/cmdb-data-foundations.html
 Title: ServiceNow CMDB & CSDM Implementation | Exterprise
 Summary: Build and clean up your ServiceNow CMDB with Discovery, Service Graph Connectors and the CSDM data model, so AI Agents and workflows run on accurate data.
@@ -640,7 +622,7 @@ Yes. Multi-shift operations across Chennai and Coimbatore, India, and San Pedro 
 You can choose FTE-based pricing, hourly pricing, a fixed project fee or per-unit transactional pricing, so budgets are planned with full transparency.
 ### What service levels does Exterprise achieve?
 Exterprise maintains a 99.99% adherence rate to SLAs, under SOC 2 Type II, ISO 27001 and HIPAA controls validated every year by an independent Certified Public Accountant.
-Smartsourcing→Property Preservation
+Smartsourcing→Records Processing
 ## Let's Talk!
 Talk to us about staffing your contact center.
 Send a Messagecontact@exterprise.us
@@ -1088,38 +1070,6 @@ Send a Message contact@exterprise.us
 
 ---
 
-URL: https://www.exterprise.us/inspection-services.html
-Title: Property Inspection Processing Services | Exterprise
-Summary: Property inspection services: external and internal inspections, securing, grass cuts, winterization and quality control for REO and PFC orders, with 400,000+ audits done.
-
-# Inspection Services
-A one-stop shop for your property inspection requirements.
-Talk to Us400,000+Quality audits completed24x7Inspection updatesREO / PFCOrder typesEvery LevelQuality checks
-## Inspection, Securing and Quality Control
-We manage external and internal inspections, securing, property preservation, grass cuts, winterization and quality control of vendor-executed orders.
-Our team reviews and approves all visual verification of completed vendor work for REO, pre-foreclosure (PFC) and inspection orders.
-## Key Features
-### Expert Auditing
-400,000+ quality audits completed to date.
-### Inspection Updates
-Round-the-clock updates on client portals.
-### Quality Check
-Quality checks at every level, comparing pre-inspection status with completed work.
-## Pre-Foreclosure and REO Inspections
-- Assigning inspection orders to vendors (Pre-FC and REO)
-- Reviewing completed inspection reports
-- Updating reports onto client systems
-## Our Recurring Services Include
-- Bi-weekly inspections, lawn care and winterization
-- Identifying assets that require these services
-- Allocating orders to vendors at periodic intervals
-- Property Preservation→Vendor Management
-## Let's Talk!
-Contact us for a free consultation.
-Send a Messagecontact@exterprise.us
-
----
-
 URL: https://www.exterprise.us/it-operations-management.html
 Title: ServiceNow ITOM & AIOps Implementation | Exterprise
 Summary: ServiceNow ITOM implementation: Discovery, Service Mapping, Event Management and Predictive AIOps that catch problems before they become outages.
@@ -1226,35 +1176,6 @@ Send a Message contact@exterprise.us
 
 ---
 
-URL: https://www.exterprise.us/property-preservation.html
-Title: Property Preservation Back-Office Services | Exterprise
-Summary: Property preservation outsourcing for banks: inspection, vendor management, bid processing and quality control across 400,000+ properties every month, 24x7.
-
-# Property Preservation
-Services and complete accountability across inspection, quality control, bidding and preservation order management.
-Talk to UsExplore Services400,000+Properties every month400,000+Quality audits completed24x7Updates on client portals3Service lines
-## Accountability for Every Property
-Exterprise handles more than 400,000 properties every month, across multiple processes, for a number of banks.
-Choosing the right vendor for each job is central to property preservation: the wrong choice means either unnecessary spend or fines and penalties. Our team runs quality checks and audits completed inspections for PFC and REO properties so defects are caught early.
-## Services
-### Inspection Services
-A one-stop shop for your property inspection requirements.
-### Vendor Management
-End-to-end vendor management as a round-the-clock service.
-### Bid Processing
-Documentation, work orders and bids that keep property preservation moving.
-## Property Preservation Services
-- End-to-end bid management across all property preservation work
-- Collecting vendor bids and shortlisting the best fit for the requirement
-- Placing work orders and tracking them through to completion
-- Providing proof of completion
-- ←Contact CenterSmartsourcing→Records Processing
-## Let's Talk!
-Talk to us about your property preservation workload.
-Send a Messagecontact@exterprise.us
-
----
-
 URL: https://www.exterprise.us/records-processing.html
 Title: Records Digitization & Indexing Services | Exterprise
 Summary: Records digitization, data entry, indexing, search and retrieval with 99.995% county and data capture accuracy and double-key entry validation.
@@ -1277,7 +1198,7 @@ Scanning, conversion, indexing and filing of county records, including book pres
 Double-key entry with built-in validation, for 97%+ accuracy.
 ### Data Capture Services
 OCR-based solutions with centralized capture, cleanup and indexing.
-←Property PreservationSmartsourcing→Digital Branding & Marketing
+←Contact CenterSmartsourcing→Digital Branding & Marketing
 ## Let's Talk!
 Talk to us about digitizing your records.
 Send a Messagecontact@exterprise.us
@@ -1285,29 +1206,53 @@ Send a Messagecontact@exterprise.us
 ---
 
 URL: https://www.exterprise.us/servicenow-nonprofits.html
-Title: ServiceNow for Nonprofits Implementation | Exterprise
-Summary: Quick-start ServiceNow programs for nonprofits (ITSM, CSM, FSM and more) on the low-code Now Platform, from a ServiceNow Premier Partner.
+Title: ServiceNow for Nonprofits: Quick-Start Programs | Exterprise
+Summary: Six ServiceNow quick-start programs for nonprofits (ITSM, CSM, FSM, ITOM, HRSD and Now Platform), live in six to seven weeks with flexible payment terms and support after go-live.
 
 # ServiceNow for Nonprofits
-Helping nonprofits modernize how they work with ServiceNow.
-Talk to Us6Quick-start programsLow-codeNow PlatformPremierServiceNow Partner4.5/5Customer satisfaction
+Enabling nonprofits to embrace digital transformation using ServiceNow.
+Talk to Us6Quick-start programs6–7 wksTo go-livePremierServiceNow Partner2 monthsSupport after go-live
 ## Digital Experiences for a Noble Cause
 Nonprofits exist to create a positive impact on health, society and the environment. Smooth digital experiences for employees and the communities they serve, and well-managed enterprise assets, give them an edge.
 Limited resources, technical expertise and budgets often stand in the way. We use the ServiceNow low-code platform to offer quick-start implementation programs built for nonprofits.
 ## Nonprofit Solutions
-Quick-start programs that simplify processes and improve service delivery.
+With the ServiceNow low-code platform, Exterprise built quick-start implementation programs for nonprofits to streamline processes, improve service delivery and give employees and the communities they serve a better experience.
+ITSMnp
 ### IT Service Management (ITSM)
-Quick-start program
+Better serve employees, automate core service processes and resolve IT issues faster.
+Watch demoBrochureCSMnp
 ### Customer Service Management (CSM)
-Quick-start program
+Engage easily with the people you serve, monitor for issues and create cases automatically.
+Watch demoBrochureFSMnp
 ### Field Service Management (FSM)
-Quick-start program
+Manage field-based work efficiently and safely, from scheduling to completion.
+Watch demoBrochureITOMnp
 ### IT Operations Management (ITOM)
-Quick-start program
+Increase visibility to predict issues, automate resolutions and connect your data.
+Watch demoBrochureHRSDnp
 ### HR Service Delivery (HRSD)
-Quick-start program
+Manage HR work efficiently and give staff one place to get help, from onboarding on.
+Watch demoBrochureNOWnp
 ### Now Platform
-Quick-start program
+Automate and connect work across your organization with generative AI and Now Intelligence.
+Watch demoBrochure
+## Every Quick Start Includes
+You know the timeline and the budget before you begin. Integrations, data migration, ServiceNow licensing and other customizations can change both, and we scope those with you up front.
+- Six to seven weeks of consulting, implementation, testing and go-live
+- A fixed scope and budget, with flexible payment terms
+- Two months of support after go-live, up to 20 hours a month
+- Virtual training sessions for your team
+- A dedicated nonprofit hourly rate for anything beyond the program
+- Now Assist and generative AI where the program includes them
+## Frequently Asked Questions
+### What ServiceNow programs does Exterprise offer nonprofits?
+Exterprise offers six ServiceNow quick-start programs built for nonprofits: IT Service Management, Customer Service Management, Field Service Management, IT Operations Management, HR Service Delivery and the Now Platform. Each one has a demo video and a brochure on this page.
+### How long does a nonprofit quick start take?
+Six to seven weeks of consulting, implementation, testing and go-live. Integrations, data migration, ServiceNow licensing and other customizations can change the timeline, and we scope those with you up front.
+### What support do nonprofits get after go-live?
+Every quick start includes two months of support after go-live, for up to 20 hours a month, plus virtual training sessions for your team and a dedicated nonprofit hourly rate for work beyond the program.
+### Can nonprofits pay over time?
+Yes. Each quick start has a fixed scope and budget with flexible payment terms, so you know the cost before you begin.
 ## Let's Talk!
 Talk to a ServiceNow architect about a nonprofit quick start.
 Send a Messagecontact@exterprise.us
@@ -1326,7 +1271,7 @@ Just launched: ServiceNow announced Otto at Knowledge 2026, and it's rolling out
 Most enterprises already have AI scattered across their tools: a copilot in the ticketing system, a chatbot on the intranet, a summarizer in the CRM. None of them talk to each other or remember the last conversation. ServiceNow Otto is ServiceNow's answer. It's a single conversational layer that brings together Moveworks, which ServiceNow acquired in 2025, with Now Assist and the AI Experience interface.
 Otto doesn't replace the workflows underneath. It sits on top of the ServiceNow platform, approval chains, and permissions you already have, and AI Control Tower logs and explains every action it takes.
 Exterprise already works with every piece Otto brings together. We're a Moveworks implementation partner, we hold Now Assist certifications for ITSM, HR Service Delivery, and Creator, and we've implemented AI Agent Orchestrator and AI Control Tower hands-on. That puts us in a strong position to help you prepare for Otto as it reaches more of the platform.
-3Now Assist certifications held (ITSM, HRSD, Creator), the base Otto builds onPremierPartner, Consulting & Implementation4.5/5Customer satisfaction score60+ServiceNow-accredited professionals
+3Now Assist certifications held (ITSM, HRSD, Creator), the base Otto builds onPremierPartner, Consulting & Implementation4.5/5Customer satisfaction scoreCertifiedServiceNow-accredited professionals on staff
 ## How Otto Reaches People
 Four channels, all governed the same way through AI Control Tower.
 CONVERSATIONAL AI
@@ -1395,7 +1340,7 @@ Talk to Us
 ## One View, From Strategy to Delivery
 Strategic Portfolio Management gives leadership a single, real-time view of how investments, projects, and portfolios map to business outcomes. Portfolio Planning prioritizes and sequences investments using roadmaps and scenario analysis, while Demand Management collects incoming requests and weighs them against business value. Live prioritization and reporting replace scattered spreadsheets and old PPM tools.
 Exterprise holds Certified Implementation Specialist accreditation in Strategic Portfolio Management, and works with Financial Services and Government clients to connect SPM to the same platform already running their IT, HR, and customer service workflows.
-4Certified Implementation Specialists (SPM)PremierPartner, Consulting & Implementation4.5/5Customer satisfaction score2Focus industries: Financial Services, Government
+4Certified Implementation Specialists (SPM)PremierPartner, Consulting & Implementation4.5/5Customer satisfaction scoreCross-VerticalExperience across financial services, government and more
 ## Key Services
 ## ADVISORY
 ### Portfolio Strategy Assessment
@@ -1437,27 +1382,4 @@ Solutions that are simple to maintain, easy to sustain and ready to evolve.
 - ←Enterprise SolutionsAbout Us→Custom AI Solutions
 ## Let's Talk!
 Talk to us about your next build.
-Send a Messagecontact@exterprise.us
-
----
-
-URL: https://www.exterprise.us/vendor-management.html
-Title: Vendor Management Outsourcing Services | Exterprise
-Summary: Round-the-clock property preservation vendor management: order allocation and follow-ups, quality checks of proposed vs actual work, and state-wise compliance.
-
-# Vendor Management
-End-to-end vendor management as a round-the-clock service.
-Talk to Us24x7Round-the-clock service6Managed activitiesState-wiseCompliance400,000+Properties every month
-## The Right Vendor for Every Job
-Our back office team helps you choose the vendor best suited to each property preservation need, then tracks, checks and reports on the completed work.
-## Key Services
-- Order scrutiny, allocation & follow-ups
-- Updating & reporting on client systems
-- Monitoring performance & status updates
-- Quality checking: proposed work vs actuals
-- Preservation process compliance (state-wise)
-- Managing requirements driven by policy change
-- ←Inspection ServicesProperty Preservation→Bid Processing
-## Let's Talk!
-Talk to us about vendor management.
 Send a Messagecontact@exterprise.us

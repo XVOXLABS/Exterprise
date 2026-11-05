@@ -169,7 +169,7 @@ nameservers.
 ☐ **5.8** Wait 1–3 minutes, watching the build log. Near the end, the log should include:
 
 ```
-[custom build] dist: 254 files, style.css?v=…, site.js?v=…
+[custom build] dist: 247 files, style.css?v=…, site.js?v=…
 ✨ Success! Uploaded … files
 Deployed exterprise triggers
   https://exterprise.<your-account>.workers.dev

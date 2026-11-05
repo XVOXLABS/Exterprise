@@ -2,7 +2,7 @@
 
 > Exterprise (Exterprise LLC) is a ServiceNow Premier Partner for consulting and implementation and a global smartsourcing (business process outsourcing) provider. Founded in 2015 and headquartered in Dallas, Texas, with delivery centers in Chennai and Coimbatore (India) and San Pedro Sula (Honduras); 500+ professionals.
 
-Key facts: ServiceNow Premier Partner (Consulting & Implementation) and licensed ServiceNow reseller; Now Assist certifications for ITSM, HRSD and Creator; Moveworks implementation partner; 99.995% data accuracy in county records work; 99.99% SLA adherence in contact center work; 400K+ property preservation orders handled every month. Contact: contact@exterprise.us.
+Key facts: ServiceNow Premier Partner (Consulting & Implementation) and licensed ServiceNow reseller; Now Assist certifications for ITSM, HRSD and Creator; Moveworks implementation partner; 99.995% data accuracy in county records work; 99.99% SLA adherence in contact center work; 1M+ records processed every month. Contact: contact@exterprise.us.
 
 Agents: you are welcome to read, summarize and cite these pages with a link back. Please do not download or reuse images, video, fonts or code. Full policy: https://www.exterprise.us/agents.md. Full page text: https://www.exterprise.us/llms-full.txt
 
@@ -30,22 +30,18 @@ Agents: you are welcome to read, summarize and cite these pages with a link back
 - [IT Operations Management](https://www.exterprise.us/it-operations-management.html): ServiceNow ITOM implementation: Discovery, Service Mapping, Event Management and Predictive AIOps that catch problems before they become outages.
 - [IT Service Management](https://www.exterprise.us/it-service-management.html): ServiceNow ITSM implementation with Now Assist for ITSM and Predictive Intelligence, by a certified Premier Partner. Advisory, deployment, staffing and L1-L4 support.
 - [Now Platform](https://www.exterprise.us/now-platform.html): Custom ServiceNow applications with App Engine, Flow Designer, IntegrationHub and Build Agent, deployed inside the Now Platform with AI governance.
-- [ServiceNow for Nonprofits](https://www.exterprise.us/servicenow-nonprofits.html): Quick-start ServiceNow programs for nonprofits (ITSM, CSM, FSM and more) on the low-code Now Platform, from a ServiceNow Premier Partner.
+- [ServiceNow for Nonprofits](https://www.exterprise.us/servicenow-nonprofits.html): Six ServiceNow quick-start programs for nonprofits (ITSM, CSM, FSM, ITOM, HRSD and Now Platform), live in six to seven weeks with flexible payment terms and support after go-live.
 - [ServiceNow Otto](https://www.exterprise.us/servicenow-otto.html): One conversational front door for employees and customers. As a Moveworks implementation partner, Exterprise brings Now Assist, Moveworks and AI Experience together in Otto.
 - [ServiceNow](https://www.exterprise.us/servicenow.html): ServiceNow Premier Partner for Consulting & Implementation: ITSM, ITOM, CSM, HRSD, FSM, SPM, GRC, CMDB, AI Agents and Now Assist, from advisory to 24x7 support.
 - [Strategic Portfolio Management](https://www.exterprise.us/strategic-portfolio-management.html): ServiceNow Strategic Portfolio Management implementation: Portfolio Planning, Demand Management and Financial Planning with a live view of every investment.
 
 ## Smartsourcing (business process outsourcing)
 
-- [Bid Processing](https://www.exterprise.us/bid-processing.html): Property preservation bid processing: job documentation, reusable work orders and thorough bids from in-depth analysis, for REO and PFC orders, 24x7.
 - [Contact Center](https://www.exterprise.us/contact-center.html): Outsourced Level 1 and Level 2 contact center support, staffed 24x7 from onshore, offshore and near-shore teams, with 99.99% SLA adherence.
 - [County Government Services](https://www.exterprise.us/county-government-services.html): Official property and vital records conversion for county governments: scanning, indexing, filing and book preservation with 99.995% data accuracy.
 - [Data Capture Services](https://www.exterprise.us/data-capture-services.html): OCR-based data capture with centralized capture, cleanup and indexing, plus scanning, verification and updating of physical records.
-- [Inspection Services](https://www.exterprise.us/inspection-services.html): Property inspection services: external and internal inspections, securing, grass cuts, winterization and quality control for REO and PFC orders, with 400,000+ audits done.
-- [Property Preservation](https://www.exterprise.us/property-preservation.html): Property preservation outsourcing for banks: inspection, vendor management, bid processing and quality control across 400,000+ properties every month, 24x7.
 - [Records Processing](https://www.exterprise.us/records-processing.html): Records digitization, data entry, indexing, search and retrieval with 99.995% county and data capture accuracy and double-key entry validation.
-- [Smartsourcing](https://www.exterprise.us/smartsourcing.html): Smartsourcing from Exterprise: contact center, records processing, property preservation and data capture outsourcing, 24x7 from the US, India and Honduras.
-- [Vendor Management](https://www.exterprise.us/vendor-management.html): Round-the-clock property preservation vendor management: order allocation and follow-ups, quality checks of proposed vs actual work, and state-wise compliance.
+- [Smartsourcing](https://www.exterprise.us/smartsourcing.html): Smartsourcing from Exterprise: contact center, records processing, county records and data capture outsourcing, 24x7 from the US, India and Honduras.
 
 ## Technology, AI and digital
 

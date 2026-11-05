@@ -15,15 +15,15 @@ FAQ = {
         ("What does Exterprise do?",
          "Exterprise is a ServiceNow Premier Partner for consulting and implementation and a smartsourcing (business process outsourcing) company. "
          "We implement and support ServiceNow, including AI Agents and Now Assist, and run business processes such as contact center, records processing "
-         "and property preservation for clients in the US and around the world."),
+         "and data capture for clients in the US and around the world."),
         ("Is Exterprise a ServiceNow partner?",
-         "Yes. Exterprise is a ServiceNow Premier Partner for Consulting & Implementation and a licensed ServiceNow reseller, with 60+ ServiceNow-accredited "
+         "Yes. Exterprise is a ServiceNow Premier Partner for Consulting & Implementation and a licensed ServiceNow reseller, with a team of ServiceNow-accredited "
          "professionals and Now Assist certifications for IT Service Management, HR Service Delivery and Creator."),
         ("Where is Exterprise located?",
          "Exterprise is headquartered in Dallas, Texas, with offshore delivery centers in Chennai and Coimbatore, India, and a near-shore center in "
          "San Pedro Sula, Honduras. More than 500 professionals work across these locations, so work can run around the clock."),
         ("Which industries does Exterprise work with?",
-         "Exterprise works with county governments, property preservation companies, nonprofits and enterprises in government, "
+         "Exterprise works with county governments, nonprofits and enterprises in government, "
          "oil and gas, retail and real estate, delivering ServiceNow, outsourcing and custom technology solutions."),
         ("What solutions does Exterprise offer?",
          "Exterprise offers three solutions: ServOps, for service operations excellence on ServiceNow (servops.com); UtterNow, which lets people "
@@ -70,7 +70,7 @@ FAQ = {
          "history attached. AI Agent Orchestrator coordinates several agents so they hand off work cleanly."),
         ("Is Exterprise certified to implement Now Assist?",
          "Yes. Exterprise is certified to implement Now Assist for IT Service Management, HR Service Delivery and Creator, and is a ServiceNow Premier "
-         "Partner for Consulting & Implementation with 60+ ServiceNow-accredited professionals."),
+         "Partner for Consulting & Implementation with a team of ServiceNow-accredited professionals."),
         ("How do you keep AI Agents safe and accountable?",
          "Every agent is set up with clear guardrails on what it can and cannot do on its own, plus human review points. AI Control Tower configuration "
          "and monitoring keeps each agent's activity visible and auditable."),
@@ -78,11 +78,24 @@ FAQ = {
          "Start with an AI Readiness Assessment. Process Mining shows where your workflows create real bottlenecks, so AI Agents target actual friction "
          "instead of guesses."),
     ],
+    "servicenow-nonprofits.html": [
+        ("What ServiceNow programs does Exterprise offer nonprofits?",
+         "Exterprise offers six ServiceNow quick-start programs built for nonprofits: IT Service Management, Customer Service Management, Field Service "
+         "Management, IT Operations Management, HR Service Delivery and the Now Platform. Each one has a demo video and a brochure on this page."),
+        ("How long does a nonprofit quick start take?",
+         "Six to seven weeks of consulting, implementation, testing and go-live. Integrations, data migration, ServiceNow licensing and other "
+         "customizations can change the timeline, and we scope those with you up front."),
+        ("What support do nonprofits get after go-live?",
+         "Every quick start includes two months of support after go-live, for up to 20 hours a month, plus virtual training sessions for your team "
+         "and a dedicated nonprofit hourly rate for work beyond the program."),
+        ("Can nonprofits pay over time?",
+         "Yes. Each quick start has a fixed scope and budget with flexible payment terms, so you know the cost before you begin."),
+    ],
     "smartsourcing.html": [
         ("What is smartsourcing?",
          "Smartsourcing is Exterprise's approach to business process outsourcing: onshore, offshore and near-shore teams backed by a technology platform, "
-         "taking on processes such as contact center support, records and county records processing, "
-         "property preservation and data capture."),
+         "taking on processes such as contact center support, records and county records processing "
+         "and data capture."),
         ("Where are Exterprise's outsourcing teams?",
          "Exterprise is headquartered in Dallas, Texas, with delivery centers in Chennai and Coimbatore, India, and San Pedro Sula, Honduras: four "
          "delivery centers on three continents, running 24x7."),

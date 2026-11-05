@@ -13,8 +13,8 @@
 /ai-image-analytics/ /ai-image-analytics.html 301
 /application-development /application-development.html 301
 /application-development/ /application-development.html 301
-/bid-processing /bid-processing.html 301
-/bid-processing/ /bid-processing.html 301
+/bid-processing /records-processing.html 301
+/bid-processing/ /records-processing.html 301
 /claims-processing /smartsourcing.html 301
 /claims-processing/ /smartsourcing.html 301
 /cmdb-data-foundations /cmdb-data-foundations.html 301
@@ -53,16 +53,16 @@
 /healthcare/ /smartsourcing.html 301
 /hr-service-delivery /hr-service-delivery.html 301
 /hr-service-delivery/ /hr-service-delivery.html 301
-/inspection-services /inspection-services.html 301
-/inspection-services/ /inspection-services.html 301
+/inspection-services /records-processing.html 301
+/inspection-services/ /records-processing.html 301
 /it-operations-management /it-operations-management.html 301
 /it-operations-management/ /it-operations-management.html 301
 /it-service-management /it-service-management.html 301
 /it-service-management/ /it-service-management.html 301
 /now-platform /now-platform.html 301
 /now-platform/ /now-platform.html 301
-/property-preservation /property-preservation.html 301
-/property-preservation/ /property-preservation.html 301
+/property-preservation /records-processing.html 301
+/property-preservation/ /records-processing.html 301
 /records-processing /records-processing.html 301
 /records-processing/ /records-processing.html 301
 /revenue-cycle-management /smartsourcing.html 301
@@ -83,8 +83,8 @@
 /strategic-portfolio-management/ /strategic-portfolio-management.html 301
 /technical /technical.html 301
 /technical/ /technical.html 301
-/vendor-management /vendor-management.html 301
-/vendor-management/ /vendor-management.html 301
+/vendor-management /records-processing.html 301
+/vendor-management/ /records-processing.html 301
 /index /  301
 /home /  301
 
@@ -96,6 +96,18 @@
 /healthcare.html /smartsourcing.html 301
 /revenue-cycle-management.html /smartsourcing.html 301
 /claims-processing.html /smartsourcing.html 301
+
+# Hidden services (property preservation) -> Records Processing
+/property-preservation.html /records-processing.html 301
+/inspection-services.html /records-processing.html 301
+/vendor-management.html /records-processing.html 301
+/bid-processing.html /records-processing.html 301
+
+# Nonprofits (incl. the previous site's address)
+/nonprofits /servicenow-nonprofits.html 301
+/nonprofits/ /servicenow-nonprofits.html 301
+/servicenow/nonprofits /servicenow-nonprofits.html 301
+/servicenow/nonprofits/ /servicenow-nonprofits.html 301
 
 # 2) Common addresses from the previous exterprise.us site -> the matching new page
 #    (anything not listed still reaches the right page through 404.html)
@@ -165,8 +177,8 @@
 /data-capture/ /data-capture-services.html 301
 /county-government /county-government-services.html 301
 /county-government/ /county-government-services.html 301
-/property-preservation-services /property-preservation.html 301
-/property-preservation-services/ /property-preservation.html 301
+/property-preservation-services /records-processing.html 301
+/property-preservation-services/ /records-processing.html 301
 /sap /enterprise-solutions.html 301
 /sap/ /enterprise-solutions.html 301
 /snowflake /enterprise-solutions.html 301

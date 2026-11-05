@@ -169,7 +169,7 @@ def main():
               ("ServiceNow", [p for p in pages if p in ("servicenow.html", "ai-agents-now-assist.html", "ai-control-tower.html", "servicenow-otto.html", "it-service-management.html",
                   "it-operations-management.html", "customer-service-management.html", "hr-service-delivery.html", "field-service-management.html", "strategic-portfolio-management.html",
                   "governance-risk-compliance.html", "cmdb-data-foundations.html", "now-platform.html", "servicenow-nonprofits.html")]),
-              ("Smartsourcing (business process outsourcing)", [p for p in pages if p in ("smartsourcing.html", "contact-center.html", "records-processing.html", "county-government-services.html", "data-capture-services.html", "property-preservation.html",
+              ("Smartsourcing (business process outsourcing)", [p for p in pages if p in ("smartsourcing.html", "contact-center.html", "records-processing.html", "county-government-services.html", "data-capture-services.html",
                   "bid-processing.html", "inspection-services.html", "vendor-management.html")])]
     used = {p for _, ps in groups for p in ps}
     groups.append(("Technology, AI and digital", [p for p in pages if p not in used]))
@@ -180,7 +180,7 @@ def main():
          "and Coimbatore (India) and San Pedro Sula (Honduras); 500+ professionals.", "",
          "Key facts: ServiceNow Premier Partner (Consulting & Implementation) and licensed ServiceNow reseller; Now Assist certifications for "
          "ITSM, HRSD and Creator; Moveworks implementation partner; 99.995% data accuracy in county records work; 99.99% SLA adherence in "
-         "contact center work; 400K+ property preservation orders handled every month. Contact: contact@exterprise.us.", "",
+         "contact center work; 1M+ records processed every month. Contact: contact@exterprise.us.", "",
          "Agents: you are welcome to read, summarize and cite these pages with a link back. Please do not download or reuse images, video, "
          "fonts or code. Full policy: " + SITE + "/agents.md. Full page text: " + SITE + "/llms-full.txt", ""]
     L += ["## Solutions (external sites)", "",
