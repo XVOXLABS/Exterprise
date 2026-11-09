@@ -10,7 +10,7 @@
 | **Domain and DNS** | `exterprise.us`, with DNS on Cloudflare. `www.exterprise.us` is the main address; `exterprise.us` redirects to it. |
 | **Build** | `tools/build.sh` copies the public files to `dist/` and stamps CSS/JS versions. It runs automatically. |
 | **Backup copy** | GitHub Pages: https://xvoxlabs.github.io/Exterprise/ (same repository, optional) |
-| **Contact form** | No backend. It opens the visitor's email app addressed to contact@exterprise.us (see section 8). |
+| **Contact forms** | The pop-up and the Contact page form send submissions through FormSubmit (formsubmit.co) to contact@exterprise.us (see section 8). |
 | **Cost** | $0, apart from the domain renewal. |
 
 ---
@@ -201,16 +201,23 @@ automatically.
 | Yearly | Confirm the domain auto-renews and the payment card is valid; review who has access to GitHub and Cloudflare |
 | When needed | Update `vendor/` libraries only deliberately, and test every page afterwards |
 
-**Contact form.** The form currently opens the visitor's own email app with the message filled in, because the
-site has no backend. To receive submissions directly:
+**Contact forms.** Both forms (the "Let's Talk" pop-up and the Contact page form) post to FormSubmit
+(formsubmit.co), which emails every submission to **contact@exterprise.us**. The code is the `v86` block at the
+top of `site.js` (`window.__xtSend`); the inbox is `window.XT_INBOX`.
 
-1. Create a form endpoint, for example Formspree, HubSpot Forms, or a Cloudflare Worker that emails or stores
-   the submission.
-2. Set it on every page, before `site.js` loads:
-   ```html
-   <script>window.XT_FORM_ENDPOINT = "https://…"</script>
-   ```
-3. Test a submission.
+- **One-time activation:** the first submission after launch makes FormSubmit send an "Activate form" email to
+  contact@exterprise.us. Click its button once. Until then, submissions are not delivered.
+- **Reply:** each email arrives as a table (name, email, company, phone, topics, message, page). Hitting Reply
+  answers the visitor directly.
+- **Spam:** a hidden field catches simple bots. If spam grows, add FormSubmit's captcha or move to another service.
+- **If sending fails** the visitor sees an error with the email address and keeps what they typed; the form
+  never claims success unless the message was accepted.
+- **Switching service** (Formspree, HubSpot, a ServiceNow endpoint): set it on every page before `site.js` loads.
+  The endpoint must accept JSON and answer with a 2xx status:
+  ```html
+  <script>window.XT_FORM_ENDPOINT = "https://…"</script>
+  ```
+- **After any change:** submit a test from the live site and confirm the email arrives.
 
 **Limits to keep in mind (Cloudflare free plan):**
 

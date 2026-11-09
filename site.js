@@ -1,6 +1,25 @@
 (() => {
   // Motion switch: false = full motion for everyone (designer review). Set to matchMedia('(prefers-reduced-motion: reduce)').matches to honour the OS setting.
   window.__CALM = false;
+  /* ===================== v86 form delivery: every contact form posts here and the message is emailed to contact@exterprise.us ===================== */
+  // FormSubmit (formsubmit.co) relays each submission to the inbox below. The very first submission sends a one-time
+  // "Activate form" email to that inbox; click it once and every later submission is delivered. To switch to another
+  // service (Formspree, HubSpot, ServiceNow...), set window.XT_FORM_ENDPOINT to its JSON endpoint before site.js loads.
+  window.XT_INBOX = 'contact@exterprise.us';
+  window.__xtSend = async (fields) => {
+    const ep = window.XT_FORM_ENDPOINT || 'https://formsubmit.co/ajax/' + window.XT_INBOX;
+    const body = Object.assign({
+      _subject: 'Website enquiry from ' + [fields.Name, fields.Company].filter(v => v && v !== '-').join(', '),
+      _template: 'table', _captcha: 'false', _replyto: fields.Email || ''
+    }, fields);
+    const ctl = new AbortController(); const t = setTimeout(() => ctl.abort(), 20000);
+    try {
+      const r = await fetch(ep, { method: 'POST', headers: { 'Content-Type': 'application/json', Accept: 'application/json' }, body: JSON.stringify(body), signal: ctl.signal });
+      const j = await r.json().catch(() => ({}));
+      if (!r.ok || String(j.success) === 'false') throw new Error(j.message || ('HTTP ' + r.status));
+      return true;
+    } finally { clearTimeout(t); }
+  };
   /* ===================== v7.4 Contact pop-up — every "Talk to Us" / contact CTA opens it ===================== */
   (() => {
     const EMAIL = 'contact@exterprise.us';
@@ -39,6 +58,8 @@
             </fieldset>
             <label class="xm-f xm-ta"><textarea name="message" rows="4" placeholder=" "></textarea><span>Tell us a little about your project</span></label>
             <input type="hidden" name="source">
+            <input class="xm-hp" type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true">
+            <p class="xm-err" role="alert" hidden>We couldn't send your message just now. Please try again, or email us at <a href="mailto:${EMAIL}">${EMAIL}</a>.</p>
             <div class="xm-foot">
               <p class="xm-note">We reply within one business day.</p>
               <button class="neo neo-btn neo-white xm-send" type="submit"><span class="neo-t">Send Message</span><span class="neo-ic">${ARW}</span></button>
@@ -91,16 +112,13 @@
         if (!ok) return;
         const d = new FormData(form); const topics = d.getAll('topic').join(', ');
         form.classList.add('sending');
-        const ep = window.XT_FORM_ENDPOINT;   // set to a Formspree / HubSpot / ServiceNow endpoint before launch
+        const err = form.querySelector('.xm-err'); err.hidden = true;
+        if (d.get('_honey')) { form.classList.remove('sending'); return; }          // bots fill the hidden field
         try {
-          if (ep) { await fetch(ep, { method: 'POST', headers: { Accept: 'application/json' }, body: d }); }
-          else {
-            const body = `Name: ${d.get('name')}\nEmail: ${d.get('email')}\nCompany: ${d.get('company') || '-'}\nPhone: ${d.get('phone') || '-'}\nTopics: ${topics || '-'}\nPage: ${d.get('source')}\n\n${d.get('message') || ''}`;
-            const a = document.createElement('a'); a.href = `mailto:${EMAIL}?subject=${encodeURIComponent('Website enquiry from ' + (d.get('company') || d.get('name')))}&body=${encodeURIComponent(body)}`;
-            if (!window.__PREVIEW) a.click();
-            await new Promise(r => setTimeout(r, 700));
-          }
-        } catch (err) {}
+          if (window.__PREVIEW) throw new Error('preview');
+          await window.__xtSend({ Name: d.get('name'), Email: d.get('email'), Company: d.get('company') || '-', Phone: d.get('phone') || '-',
+            Topics: topics || '-', Message: d.get('message') || '-', Page: d.get('source') || document.title, URL: location.href });
+        } catch (x) { form.classList.remove('sending'); err.hidden = false; return; }
         m.querySelector('.xm-who').textContent = d.get('name') ? ', ' + String(d.get('name')).trim().split(/\s+/)[0] : '';
         form.classList.remove('sending'); form.classList.add('sent');
         setTimeout(() => m.querySelector('.xm-done [data-xm-close]').focus({ preventScroll: true }), 500);
@@ -1136,7 +1154,7 @@ void main(){vec2 uv=gl_FragCoord.xy/R;vec2 q=uv;q.y=1.-q.y;
   });
 })();
 
-/* ===================== v25 contact form: posts to window.XT_FORM_ENDPOINT, falls back to an email draft ===================== */
+/* ===================== v25 contact page form: sends through window.__xtSend (see v86 at the top) ===================== */
 (() => {
   document.querySelectorAll('[data-xt-form]').forEach(f => {
     const st = f.querySelector('.xp-fs');
@@ -1144,14 +1162,16 @@ void main(){vec2 uv=gl_FragCoord.xy/R;vec2 q=uv;q.y=1.-q.y;
       let ok = true; f.querySelectorAll('[required]').forEach(i => { const bad = !i.value.trim() || (i.type === 'email' && !/^\S+@\S+\.\S+$/.test(i.value)); i.setAttribute('aria-invalid', bad); if (bad) ok = false; });
       if (!ok) { st.textContent = 'Please fill in your name, a valid email and a message.'; return; }
       const data = Object.fromEntries(new FormData(f).entries());
-      if (window.XT_FORM_ENDPOINT) {
-        st.textContent = 'Sending…';
-        try { const r = await fetch(window.XT_FORM_ENDPOINT, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(data) });
-          if (!r.ok) throw 0; f.reset(); st.textContent = 'We have received your message. Someone from our team will be in touch with you soon. Have a great day!'; return; } catch (e) { st.textContent = 'Could not send right now, opening your email instead.'; }
-      }
-      const body = `Name: ${data.name}\nEmail: ${data.email}\nCompany: ${data.company || ''}\nPhone: ${data.phone || ''}\nInterested in: ${data.interest}\n\n${data.message}`;
-      location.href = 'mailto:contact@exterprise.us?subject=' + encodeURIComponent('Enquiry: ' + data.interest) + '&body=' + encodeURIComponent(body);
-      st.textContent = 'Your email app should open with the message ready to send.';
+      if (data._honey) return;                                                     // bots fill the hidden field
+      const btn = f.querySelector('[type=submit]'); btn.disabled = true; st.classList.remove('err'); st.textContent = 'Sending…';
+      try {
+        await window.__xtSend({ Name: data.name, Email: data.email, Company: data.company || '-', Phone: data.phone || '-',
+          'Interested in': data.interest || '-', Message: data.message, Page: document.title, URL: location.href });
+        f.reset(); st.textContent = 'Thank you! We have received your message and someone from our team will be in touch soon.';
+      } catch (e) {
+        st.classList.add('err');
+        st.innerHTML = 'We couldn\u2019t send your message just now. Please try again, or email us at <a href="mailto:contact@exterprise.us">contact@exterprise.us</a>.';
+      } finally { btn.disabled = false; }
     });
   });
 })();

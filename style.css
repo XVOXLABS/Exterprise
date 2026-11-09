@@ -4135,3 +4135,10 @@ html body .lx-hero .lx-logos-h{font-size:15px!important;max-width:130px}
 }
 @media (min-width:701px) and (max-width:1000px){html body .lx-hero .lx-logos-row{grid-template-columns:repeat(3,minmax(0,1fr))!important}}
 /* <<< v85 */
+
+/* >>> v86 contact forms: hidden spam trap, error message */
+.xm-hp{position:absolute!important;left:-9999px!important;width:1px!important;height:1px!important;opacity:0!important;pointer-events:none}
+.xm-err{margin:12px 0 0;padding:10px 14px;border-radius:12px;font-size:14.5px;line-height:1.5;color:#FFD9D4;background:rgba(228,24,42,.12);box-shadow:inset 0 0 0 1px rgba(228,24,42,.4)}
+.xm-err a,.xp-fs.err a{color:#fff;text-decoration:underline}
+html:root body .xp-fs.err{color:#FFB4AA!important}
+/* <<< v86 */
